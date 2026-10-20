@@ -1,0 +1,1848 @@
+[
+ {
+  "id": "P001",
+  "origin": [
+   "PR1-1"
+  ],
+  "topic": "Grundprinzipien",
+  "ref": "P2-7_PRCT_1.1.f",
+  "scenario": "Das Projekt befindet sich im Prozess „Vorbereiten eines Projekts“. Der Vorsitzende der Benutzergruppe hat darauf hingewiesen, dass nicht alle von Diskriminierung betroffenen Gruppen Zugang zu digitalen Medien haben. Damit alle Obdachlosen wissen, wie sie Fälle von Diskriminierung melden können, hat die externe Projektleiterin empfohlen, auch nicht-digitale Kommunikationsmethoden ebenfalls als Teil des Projekts einzubeziehen.",
+  "question": "Welches Grundprinzip wird hier angewendet und warum?",
+  "items": [],
+  "opts": {
+   "A": "„Produktorientierung“, denn die externe Projektleiterin sollte die Produkte identifizieren, die für die erfolgreiche Durchführung der Kampagne erforderlich sind",
+   "B": "„Produktorientierung“, denn die externe Projektleiterin sollte den Aufwand für die Bereitstellung der nicht-digitalen Kommunikation schätzen",
+   "C": "„Steuern nach dem Ausnahmeprinzip“, da das Projekt eine Reihe verschiedener Kommunikationskanäle nutzen sollte, um die Kampagne zu liefern",
+   "D": "„Steuern nach dem Ausnahmeprinzip“, denn die externe Projektleiterin sollte befähigt sein, Entscheidungen über die Einzelheiten der Arbeit zu treffen"
+  },
+  "answer": "A",
+  "expl": {
+   "A": "Im Rahmen des Grundprinzips „Produktorientierung“ gilt: „Projekte, die sich auf das konzentrieren, was das Projekt produzieren muss, sind mit größerer Wahrscheinlichkeit effizient und vermeiden eher Verschwendung als Projekte, die sich hauptsächlich auf die Arbeitsaktivitäten konzentrieren“ Im Rahmen des Grundprinzips „Fokusorientierung“: PRINCE2 Projektmanagement erfordert, dass Projekte eher Output- bzw. ergebnisorientiert statt arbeitsorientiert sind. PRINCE2 Projektmanagement nennt diese Outputs „Produkte“. Zum Verständnis des Umfangs des Projekts gehört auch das Verständnis für den Bedarf an nicht-digitaler Kommunikation. Siehe 2.6",
+   "B": "Gemäß dem Grundprinzip „Produktorientierung“ „erfordert PRINCE2 Projektmanagement, dass Projekte Output-orientiert statt arbeitsorientiert sind. PRINCE2 Projektmanagement nennt diese Outputs „Produkte“. Zwar ist es richtig, dass der Aufwand für die Bereitstellung der nicht-digitalen Kommunikation geschätzt werden sollte, jedoch erklärt dies nicht, warum der Projektumfang identifiziert werden muss. Siehe 2.6",
+   "C": "Im Rahmen des Grundprinzips „Steuern nach dem Ausnahmeprinzip“ gilt: „Die sieben Leistungsaspekte eines Plans, für die Toleranzen definiert werden müssen, sind: [...] Umfang: zulässige Variation der Produkte des Plans [...]“. Das Definieren eines Bereichs verschiedener Kommunikationskanäle wäre eine Umfangstoleranz, wenn der Bereich klar definiert wäre. Dies erklärt jedoch nicht, warum der Projektumfang bestimmt werden muss. Siehe 2.5",
+   "D": "Im Rahmen des Grundprinzips „Steuern nach dem Ausnahmeprinzip“ gilt: „Die Umsetzung des „Steuern nach dem Ausnahmeprinzip“ sorgt für einen effizienten Einsatz der Arbeitszeit der Führungskräfte. Führungskräfte werden zeitlich entlastet, ohne dabei die Kontrolle über das Projekt aus den Händen zu geben. Dadurch wird sichergestellt, dass Entscheidungen auf der richtigen Ebene in der Organisation getroffen werden“. Daher sollte die externe Projektleiterin auch die Entscheidungsbefugnis haben. Dies erklärt jedoch nicht, warum der Projektumfang bestimmt werden muss. Siehe 2.5"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P002",
+  "origin": [
+   "PR1-2"
+  ],
+  "topic": "Grundprinzipien",
+  "ref": "P2-7_PRCT_1.1.g",
+  "scenario": "Der Projektauftraggeber hat die externe Projektleiterin gebeten, die ausgewählte Option in Phase 3 unter Verwendung eines iterativ-inkrementellen Lieferansatzes zu implementieren. Dieser Ansatz ermöglicht es, Feedback einzuholen, während die Kampagne ausgebaut und umgesetzt wird. Dies wird eine neue Arbeitsweise für NowByou sein. Daher wird die externe Projektleiterin während der Phase die Rolle eines agilen Coaches übernehmen, um bei der Nutzung von Versuchen und Fokusgruppen zu helfen.",
+  "question": "Wie gut wird hier die Anwendung der Rollen gemäß dem Grundprinzip „Anpassen an das Projekt“ umgesetzt, und warum?",
+  "items": [],
+  "opts": {
+   "A": "Es wird gut angewendet, denn es sollte die zusätzliche Rolle eines agilen Coaches eingeführt werden, der berät, wie PRINCE2 Projektmanagement in Kombination mit agilen Techniken eingesetzt werden kann",
+   "B": "Es wird gut angewendet, denn die für das Projekt verwendete Projektmanagementmethode sollte auf die Business-Prozesse von NowByou ausgerichtet sein",
+   "C": "Es wird schlecht angewendet, denn die externe Projektleiterin sollte die Mitglieder des Projektteams in einem separaten Projekt coachen",
+   "D": "Es wird schlecht angewendet, denn die Rolle des Coaches gehört nicht zu den drei wichtigsten Stakeholdern, deren Interessen vertreten werden sollten"
+  },
+  "answer": "A",
+  "expl": {
+   "A": "Im Rahmen des Grundprinzips „Anpassen an das Projekt“ können Rollen angepasst werden. „Beispielsweise könnte ein Lieferant sein internes Produktentwicklungs-Framework nutzen wollen, das auf einer iterativ-inkrementellen Liefermethode mit agilen Management-Ansätzen basiert. Um eine mögliche Verwirrung zu vermeiden, könnte ein Projektmanager vorschlagen [...] einen Coach hinzuziehen, der die Teams dabei unterstützt, effektiv in der Kombination aus PRINCE2 Projektmanagement und der internen agilen Methode des Lieferanten zu arbeiten“. Hier ist es NowByou, das diese agilen Techniken im Rahmen der Implementierung der Kampagne einsetzen möchte. Siehe 2.7",
+   "B": "Gemäß dem Grundprinzip „Anpassen an das Projekt“ ist es zutreffend, dass „die jeweilige Projektmanagementmethode eignet sich für das Projekt (z.B. durch die Abstimmung der Methode mit den Geschäftsprozessen, die das Projekt steuern und unterstützen, wie Personalwesen, Finanzen und Beschaffung) [...]“ Die Anpassung wird jedoch zur Ausrichtung auf den Lieferansatz und nicht auf die Business-Prozesse vorgenommen. Siehe 2.7",
+   "C": "Dem Szenario zufolge besteht ein Teil der Rolle der externen Projektleiterin darin, „Beratung und Coaching des NowByou-Kampagnenleiters“ und „Mentoring des Mitarbeitenden des zukünftigen Projektmanagers“. Dies sollte kein separates Projekt sein. Siehe 1.7 Szenario 4: NowByou",
+   "D": "Gemäß dem Grundprinzip „Rollen, Verantwortlichkeiten und Beziehungen definieren“ gilt: „Alle Projekte haben die folgenden primären Stakeholder: das Business, die Benutzer und die Lieferanten [...]. Alle drei Stakeholder-Interessen müssen im Projektmanagement-Team effektiv vertreten werden [...]“. Das bedeutet jedoch nicht, dass nicht auch andere Rollen besetzt werden sollten, falls dies erforderlich ist. Siehe 2.3"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P003",
+  "origin": [
+   "PR1-3"
+  ],
+  "topic": "Grundprinzipien",
+  "ref": "P2-7_PRCT_1.1.g",
+  "scenario": "Die Reife des Projektmanagements von NowByou ist sehr gering, denn es gibt keine standardisierten Prozesse oder Vorlagen. Frühere Projekte haben sich stark auf das Fachwissen von CharityM verlassen, das im Auftrag von NowByou Werbekampagnen liefert. CharityM folgt jedoch keiner anerkannten Projektmanagementmethode. Daher wurde die externe Projektleiterin gebeten, die Rolle des Coaches für den neu ernannten Projektmanager von Beginn der Phase 2 an für die gesamte Projektdauer zu übernehmen.",
+  "question": "Ist dies eine angemessene Anwendung des Grundprinzips „Anpassen an das Projekt“ und warum?",
+  "items": [],
+  "opts": {
+   "A": "Ja, denn die externe Projektleiterin sollte diese Rolle übernehmen, um ihr Wissen an das Projektteam weiterzugeben – zum Nutzen dieses und künftiger Projekte",
+   "B": "Ja, denn CharityM verwendet bei der Lieferung der Werbekampagnen im Auftrag von NowByou andere Prozesse und Terminologie",
+   "C": "Nein, denn es ist unwahrscheinlich, dass die externe Projektleiterin während der gesamten Lieferung der Werbekampagne in Vollzeit zur Verfügung steht",
+   "D": "Nein, denn der Projektmanager sollte die Beziehung zu CharityM managen, um die Werbekampagne durchzuführen"
+  },
+  "answer": "A",
+  "expl": {
+   "A": "Gemäß dem Grundprinzip „Anpassen an das Projekt“ gilt: „Durch Anpassung soll Folgendes bezweckt werden: die jeweilige Projektmanagementmethode eignet sich für das Projekt [...]; Die Projektsteuerungsmittel werden dem Umfang, der Komplexität, der Bedeutung, der Liefermethode, der Teamfähigkeit und den Risiken eines Projekts gerecht [...]“. Dies kann z. B. eine Änderung der Terminologie oder die Ernennung zusätzlicher Rollen beinhalten. Siehe 2.7",
+   "B": "Es stimmt, dass CharityM unterschiedliche Prozesse und Terminologie verwendet. Bei der Anwendung des Grundprinzips „Anpassen an das Projekt“ gibt es viele Einflüsse, die Anlass zum Anpassen der Methode geben, z. B. „wenn das Projekt mit einer kommerziellen Kunden-Lieferanten-Beziehung hat“. Dies erklärt jedoch nicht, warum die zusätzliche Rolle des Coaches ernannt werden sollte. Siehe 2.7",
+   "C": "Den zusätzlichen Informationen zufolge sieht der Vertrag mit der externen Projektleiterin „zunächst 50 % ihrer Zeit vor, die jedoch nach den ersten drei Monaten auf 25 % sinken soll“. Die Rolle des Projektmanagers kann nicht geteilt werden, da „ein einziger Schwerpunkt bedeutet, dass diese Rolle weder geteilt noch mit anderen Rollen kombiniert werden sollte [...]“. Das bedeutet jedoch nicht, dass sie nicht als Coach für den neu ernannten Projektmanager fungieren kann. Siehe zusätzliche Informationen, 6.2.4.5",
+   "D": "Es stimmt, dass der Projektmanager gemäß der Practice „Organisation“ für das „Managen der Beziehungen innerhalb des Projektökosystems, einschließlich der Rollen der Projektsicherung und des Lenkungsausschusses“ und dazu gehört auch das Management der Beziehung zu CharityM. Dies erklärt jedoch nicht, warum die zusätzliche Rolle des Coaches ernannt werden sollte. Siehe 6.2.4.5"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P004",
+  "origin": [
+   "PR1-4"
+  ],
+  "topic": "Grundprinzipien",
+  "ref": "P2-7_PRCT_1.1.a",
+  "scenario": "Der Chief Finance Officer (CFO) veranstaltet im Vorfeld des Projekts einen Workshop mit einer Reihe von Personen aus dem Projektökosystem, darunter dem Vorsitzenden der Benutzergruppe, dem Kampagnenleiter und dem Verbindungsbeamten der Polizei sowie der Leiterin der Marketingagentur. Zweck dieses Workshops ist es, zu verstehen, wie das Projekt zur Erreichung der Ziele aller Beteiligten beitragen kann, die an der Analyse von Optionen und der Umsetzung der ausgewählten Option für die Kampagne beteiligt sind.",
+  "question": "Warum ist dies eine gute Anwendung des Grundprinzips „Fortlaufende geschäftliche Rechtfertigung sicherstellen“?",
+  "items": [],
+  "opts": {
+   "A": "Weil die an der Durchführung der Kampagne beteiligten Parteien den Projektbeitrag zu den Zielen gegenüber den Kosten und Risiken bereits zu Beginn des Projekts abwägen sollten",
+   "B": "Weil der Chief Finance Officer (CFO) die wichtigsten Stakeholder des Business, die Benutzer und Lieferanten in den Workshop einbeziehen sollte, um ihre Bereitschaft und ihr Engagement für seine jeweiligen Rollen zu sichern",
+   "C": "Weil der Chief Finance Officer (CFO) über Organisationsgrenzen hinweg die Einbeziehung von Personen anstreben sollte, die von dem Projekt betroffen sind, aber nicht zum definierten Projektteam gehören",
+   "D": "Weil die an der Durchführung der Kampagne beteiligten Parteien sicherstellen sollten, dass ihre geschäftliche Rechtfertigung auch dann bestehen bleibt, wenn das Projekt mit der Implementierung der gewählten Option voranschreitet"
+  },
+  "answer": "A",
+  "expl": {
+   "A": "Gemäß dem Grundprinzip „Fortlaufende geschäftliche Rechtfertigung sicherstellen“ erfordert PRINCE2 Projektmanagement, dass es einen „berechtigten Grund für den Start eines Projekts [...]“ gibt. Darüber hinaus ist bei Anwendung des Grundprinzips „Fortlaufende geschäftliche Rechtfertigung sicherstellen“ Folgendes wichtig: „Alle am Projekt beteiligten Parteien benötigen ein ausgewogenes Verhältnis zwischen erwarteten Nutzen, Kosten und Risiken, um eine geschäftliche Rechtfertigung für ihre Beteiligung zu haben“. Dazu gehören auch diejenigen Personen aus dem Projektökosystem, die an der Analyse der Optionen und der Bereitstellung der Anforderungen vor Beginn des Projekts beteiligt sind. Siehe 2.1",
+   "B": "Dies ist das Grundprinzip „Rollen, Verantwortlichkeiten und Beziehungen definieren“ und nicht das Grundprinzip „Fortlaufende geschäftliche Rechtfertigung sicherstellen“. „Alle Projekte haben die folgenden primären Stakeholder: das Business, die Benutzer und die Lieferanten [...] Alle drei Stakeholder-Interessen müssen im Projektmanagement-Team effektiv vertreten werden. Dies spiegelt sich in der Gestaltung eines PRINCE2 Projektmanagement-Lenkungsausschusses wider [...]“. Siehe 2.3",
+   "C": "Im Rahmen des Elements „Menschen“ sollten die Projektverantwortlichen „über organisatorische Boundaries hinweg führen“: „Zusätzlich zu den Personen, die einem Projekt formal zugeordnet sind, gibt es Personen innerhalb des Business, die von dem Projekt betroffen sind, aber nicht innerhalb des definierten Projektteams arbeiten“. Dies bezieht sich nicht auf das Grundprinzip „Fortlaufende geschäftliche Rechtfertigung sicherstellen“. Siehe 3.3.1",
+   "D": "Gemäß dem Grundprinzip „Fortlaufende geschäftliche Rechtfertigung sicherstellen“ ist bei Anwendung des Grundprinzips „Fortlaufende geschäftliche Rechtfertigung sicherstellen“ Folgendes wichtig: „Alle am Projekt beteiligten Parteien benötigen ein ausgewogenes Verhältnis zwischen erwarteten Nutzen, Kosten und Risiken, um eine geschäftliche Rechtfertigung für ihre Beteiligung zu haben“. Der Workshop vor dem Projekt bezieht sich jedoch auf die anfängliche Rechtfertigung des Projekts während des Prozesses ‚Vorbereiten eines Projekts‘, nicht auf die fortlaufende Rechtfertigung. Siehe 2.1"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P005",
+  "origin": [
+   "PR1-5"
+  ],
+  "topic": "Grundprinzipien",
+  "ref": "P2-7_PRCT_1.1.b",
+  "scenario": "Das Projekt befindet sich im Prozess „Vorbereiten eines Projekts“. Die externe Projektleiterin hat festgestellt, dass das Projekt „Kampagne gegen Diskriminierung“ einen kurzen Zeithorizont hat und in drei Phasen durchgeführt wird. Basierend auf der Arbeit der externen Projektleiterin am ihrem letzten Projekt für eine andere NGO hat sie empfohlen, die Analyse der Optionen bereits in der Initiierungsphase und nicht erst in Phase 2 zu starten. Sie ist der Ansicht, dass dies dem Projekt Zeit spart.",
+  "question": "Ist dies eine angemessene Anwendung des Grundprinzips „Lernen aus Erfahrung“ und warum?",
+  "items": [],
+  "opts": {
+   "A": "Nein, denn das Projekt sollte zwei Phasen haben, darunter eine Initiierungsphase",
+   "B": "Nein, denn das Projekt sollte ordnungsgemäß initiiert werden, bevor mit der Analyse der Optionen begonnen wird",
+   "C": "Ja, denn beim „Vorbereiten eines Projekts“ sollten die Erfahrungen aus früheren Projekten überprüft werden",
+   "D": "Ja, denn Projekte sind einzigartig und das Projektteam sollte in jeder der drei Phasen weiter lernen"
+  },
+  "answer": "C",
+  "expl": {
+   "A": "Gemäß dem Grundprinzip „Steuern über Managementphasen“ gilt: „Jedes PRINCE2 Projektmanagement-Projekt sollte mindestens zwei Phasen haben“, wobei die erste Phase immer die Initiierung ist. Das bedeutet jedoch nicht, dass es nicht noch weitere Phasen geben kann. Es erklärt auch nicht, warum das Projekt aus früheren Erfahrungen lernen sollte. Siehe 2.4",
+   "B": "Es stimmt, dass „durch das Steuern über Managementphasen wird sichergestellt, dass das Projekt ordnungsgemäß initiiert wird, bevor die Arbeit an den Projektoutputs beginnt“. Dies erklärt jedoch nicht, warum das Projekt aus früheren Erfahrungen lernen sollte. Siehe 2.4",
+   "C": "Gemäß dem Grundprinzip „Lernen aus Erfahrung“ gilt: „Frühere oder ähnliche Projekte sollten auf eventuell übertragbare Erfahrungswerte überprüft werden. Wenn das Projekt eine „Premiere“ für die Menschen im Business ist oder wenn es neue oder neuartige Inhalte gibt, ist es umso wichtiger, von anderen zu lernen. Dazu können Projekte gehören, die von Personen oder Organisationen außerhalb des Businesses durchgeführt werden und aus denen relevante Lehren gezogen werden können“. Siehe 2.2",
+   "D": "Gemäß dem Grundprinzip „Lernen aus Erfahrung“ gilt: „Im Verlauf des Projekts sollte das Projektteam kontinuierlich weiterlernen. Erfahrungswerte sollten in relevanten Berichten, Reviews und am Ende jeder Phase enthalten sein“. Dies erklärt jedoch nicht, warum das Projekt aus früheren Erfahrungen der externen Projektleiterin lernen sollte. Siehe 2.2"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P006",
+  "origin": [
+   "PR1-6"
+  ],
+  "topic": "Grundprinzipien",
+  "ref": "P2-7_PRCT_1.1.c",
+  "scenario": "Das Projekt nähert sich dem Ende des Prozesses „Initiierens eines Projekts“, und der Chief Finance Officer hat die Finanzierung des Projekts durch einige Großspender gesichert. Der Chief Finance Officer wird während der gesamten Projektlaufzeit weiterhin persönlichen Kontakt zu diesen Großspendern pflegen, um sie über die Fortschritte zu informieren und aufzuzeigen, wie die gewählte Option der Kampagne die Ziele von NowByou unterstützt.",
+  "question": "Welches Grundprinzip wendet der Chief Finance Officer bei den regelmäßigen Treffen mit den Spendern an und warum?",
+  "items": [],
+  "opts": {
+   "A": "„Rollen, Verantwortlichkeiten und Beziehungen definieren“, denn der Chief Finance Officer sollte während des gesamten Projekts Beziehungen zu diesen wichtigen Geldgebern aufbauen",
+   "B": "„Rollen, Verantwortlichkeiten und Beziehungen definieren“, denn die wichtigen Geldgeber sind Business-Stakeholder, deren Interessen im Projektteam vertreten sein sollten",
+   "C": "„Fortlaufende geschäftliche Rechtfertigung sicherstellen“, denn der Chief Finance Officer sollte das Projekt gegenüber den wichtigsten Geldgebern rechtfertigen, um die Finanzierung sicherzustellen",
+   "D": "„Fortlaufende geschäftliche Rechtfertigung sicherstellen“, denn die gewählte Kampagnenoption sollte die Business-Ziele von NowByou unterstützen"
+  },
+  "answer": "A",
+  "expl": {
+   "A": "Gemäß dem Grundprinzip „Rollen, Verantwortlichkeiten und Beziehungen definieren“ gilt: „Darüber hinaus initiiert und baut ein PRINCE2 Projektmanagement-Team Beziehungen zu und zwischen internen und externen Stakeholdern auf“. Dazu gehört auch der Aufbau effektiver Beziehungen zu den Großspendern. Siehe 2.3",
+   "B": "Gemäß dem Grundprinzip „Rollen, Verantwortlichkeiten und Beziehungen definieren“ gilt: „Alle Projekte haben die folgenden primären Stakeholder: das Business, die Benutzer und die Lieferanten [...]. Alle drei Stakeholder-Interessen müssen im Projektmanagement-Team effektiv vertreten werden. Dies spiegelt sich in der Gestaltung eines PRINCE2 Projektmanagement-Lenkungsausschusses wider [...]“. Die Großgeldgeber sind zwar Stakeholder, aber keine Business-Stakeholder. Siehe 2.3",
+   "C": "Gemäß dem Grundprinzip „Fortlaufende geschäftliche Rechtfertigung sicherstellen“ ist es wahr, dass PRINCE2 Projektmanagement Folgendes erfordert: „Es muss einen berechtigten Grund für den Start eines Projekts geben und diese Rechtfertigung muss während des gesamten Projektlebenszyklus gültig bleiben und regelmäßig überprüft werden“. Dies ist jedoch nicht der Grund, warum der Chief Finance Officer während des gesamten Projekts mit den Spendern in Kontakt bleiben sollte. Siehe 2.1",
+   "D": "Gemäß dem Grundprinzip „Fortlaufende geschäftliche Rechtfertigung sicherstellen“ ist es wahr, dass „die geschäftliche Rechtfertigung als Grundlage für die Entscheidungsfindung dient, um sicherzustellen, dass das Projekt auf die angestrebten Nutzen, die zu den Business-Zielen beitragen, ausgerichtet ist und bleibt. Organisationen, die bei der geschäftlichen Rechtfertigung nicht mit der notwendigen Sorgfalt vorgehen, riskieren, Projekte zu realisieren, die nur einen begrenzten Nutzen bieten oder lediglich eine schwache Verbindung zur Geschäftsstrategie aufweisen“. Dies ist jedoch nicht der Grund, warum der Chief Finance Officer während des gesamten Projekts mit den Spendern in Kontakt bleiben sollte. Siehe 2.1"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P007",
+  "origin": [
+   "PR1-7"
+  ],
+  "topic": "Grundprinzipien",
+  "ref": "P2-7_PRCT_1.1.d",
+  "scenario": "NowByou führt aufeinanderfolgende Kampagnen für die Spendenbeschaffung durch, die jeweils etwa acht Wochen dauern. Der Erfolg dieser Kampagnen bestimmt die Mittel, die der Organisation in den kommenden Monaten zur Verfügung stehen. Während des Prozesses „Initiieren eines Projekts“ bereitet der Projektmanager den Projektplan für das Projekt „Kampagne gegen Diskriminierung“ vor. Der Projektmanager hat den Chief Finance Officer konsultiert, der empfohlen hat, dass die Phasenenden mit dem Ende dieser NowByou-Kampagnen für das Fundraising zusammenfallen sollten. Auf diese Weise kann die Finanzierung des Projekts auf der Basis der Spenden überprüft werden, die NowByou im vorangegangenen Kampagnenzeitraum erhalten hat.",
+  "question": "Ist dies eine angemessene Anwendung des Grundprinzips „Steuern über Managementphasen“ und warum?",
+  "items": [],
+  "opts": {
+   "A": "Ja, denn der Chief Finance Officer sollte dem Projektmanager Befugnisse für das Management der einzelnen Phasen auf Grundlage der definierten Phasenenden delegieren",
+   "B": "Ja, denn der Projektmanager sollte die Phasenenden so planen, dass der Einfluss der Spendenkampagnen auf die Projektfinanzen berücksichtigt wird",
+   "C": "Nein, denn der Chief Finance Officer sollte die Machbarkeit des Projekts häufiger überprüfen, um die Kontrolle über das Projekt zu behalten",
+   "D": "Nein, denn der Projektmanager sollte das Projekt in kürzere Phasen unterteilen, da die Reife des Projektmanagements bei NowByou gering ist"
+  },
+  "answer": "B",
+  "expl": {
+   "A": "Es stimmt, dass das Grundprinzip „Steuern über Managementphasen“ das Grundprinzip „Steuern nach dem Ausnahmeprinzip“ ermöglicht, indem „Befugnisse phasenweise an den Projektmanager delegiert werden“. Dies erklärt jedoch nicht, warum die Phasenenden mit dem Ende der Fundraising-Kampagnen zusammenfallen sollten. Siehe 2.4",
+   "B": "Das Grundprinzip „Steuern über Managementphasen“ „ermöglicht eine Klärung der Auswirkungen eines identifizierten externen Einflusses, wie beispielsweise des organisatorischen Budgetierungsprozesses [...]“. Das Ende einer Fundraising-Kampagne legt das Budget von NowByou für die kommenden Monate fest. Siehe 2.4",
+   "C": "Es stimmt, dass das Grundprinzip „Steuern über Managementphasen“ „Prüf- und Entscheidungspunkte bereitstellt, die dem Lenkungsausschuss die Möglichkeit geben, die Durchführbarkeit des Projekts in festgelegten Abständen zu bewerten, anstatt es unkontrolliert fortlaufen zu lassen“. Achtwöchige Phasen sind jedoch recht kurz, und häufigere, kürzere Phasen würden bedeuten, dass das Grundprinzip „Steuern nach dem Ausnahmeprinzip“ nicht effektiv funktioniert. Siehe 2.4",
+   "D": "Es stimmt, dass das Grundprinzip „Steuern über Managementphasen“ Folgendes berücksichtigen sollte: „die Größe und Komplexität des Projekts (kürzere Managementphasen bieten eine engere Steuerung, während längere Phasen das Unternehmensmanagement entlasten)“. Da es sich jedoch um ein kleines und relativ einfaches Projekt handelt, sind kürzere Phasen (weniger als acht Wochen) nicht erforderlich. Der Lenkungsausschuss kann häufigere Projektstatusberichte oder mehr Projektsicherung verlangen, um der geringen Reife Rechnung zu tragen, doch kürzere Phasen sind in diesem Fall wahrscheinlich nicht hilfreich. Siehe 2.4"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P008",
+  "origin": [
+   "PR1-8"
+  ],
+  "topic": "Menschen",
+  "ref": "P2-7_PRCT_2.1",
+  "scenario": "Das Projekt befindet sich im Prozess „Vorbereiten eines Projekts“, und der neue Projektmanager ist inzwischen ernannt worden. Man hat einen Trainee gebeten, die wichtigsten Anforderungen zu erfassen, da dieser gerade PRINCE2® Projektmanagement-Practitioner geworden ist. Der Projektmanager möchte, dass der Trainee praktische Erfahrungen sammelt, und zudem er ist das einzige Mitglied des Projektteams, das für diese Aufgabe zur Verfügung steht. Aufgrund der Unerfahrenheit des Trainees ist bei dieser Aufgabe jedoch kein Fortschritt erzielt worden. Der Projektmanager hat die externe Projektleiterin gebeten, dass sie diese Aufgabe stattdessen übernimmt, wobei der Trainee sie begleitet, um Erfahrung zu sammeln.",
+  "question": "Ist dies eine angemessene Anwendung von „Erfolgreiche Teams führen“, wenn man das Element „Menschen“ berücksichtigt, und warum?",
+  "items": [],
+  "opts": {
+   "A": "Ja, denn die Erhebung der Anforderungen sollte von der externen Projektleiterin abgeschlossen werden, die keinen Interessenkonflikt in Bezug auf das Ergebnis hat",
+   "B": "Ja, denn die Kompetenzlücke des Trainees kann durch die Übertragung der Verantwortung auf die externe Projektleiterin geschlossen werden, während der Trainee weiterqualifiziert wird.",
+   "C": "Nein, denn der neue Projektmanager hätte von Anfang an ein Teammitglied mit entsprechender Kompetenz und Fähigkeit auswählen sollen",
+   "D": "Nein, denn der Trainee ist ein PRINCE2 Projektmanagement-Practitioner und sollte daher in der Lage sein, diese Aufgabe ohne Hilfe abzuschließen"
+  },
+  "answer": "B",
+  "expl": {
+   "A": "Diese Frage bezieht sich auf die Lücke bei den Kompetenzen und Fähigkeiten, nicht auf die Notwendigkeit, dass die Erfassung der Anforderungen von jemandem durchgeführt wird, der keinen Interessenkonflikt hat. Gemäß dem Element „Menschen“ ist Folgendes wichtig: „die Kompetenzen und Fähigkeiten der Personen, die für ein Projekt rekrutiert oder zugewiesen werden, zu verstehen und sicherzustellen, dass etwaige Lücken identifiziert und Maßnahmen ergriffen werden, um diese zu schließen, beispielsweise durch Schulungen oder die Übertragung bestimmter Aufgaben auf geeignetere Personen“. Siehe 3.3.2",
+   "B": "„Es ist wichtig, die Kompetenzen und Fähigkeiten der Personen, die für ein Projekt rekrutiert oder zugewiesen werden, zu verstehen und sicherzustellen, dass etwaige Lücken identifiziert und Maßnahmen ergriffen werden, um diese zu schließen, beispielsweise durch Schulungen oder die Übertragung bestimmter Aufgaben auf geeignetere Personen“. Siehe 3.3.2",
+   "C": "Diese Aussage mag zwar zutreffen, wenn mehr qualifizierte Ressourcen zur Verfügung stünden (was jedoch nicht der Fall ist!), aber sie ändert nichts an der Kompetenz- und Fähigkeitslücke, die jetzt entstanden ist. „Es ist wichtig, die Kompetenzen und Fähigkeiten der Personen, die für ein Projekt rekrutiert oder zugewiesen werden, zu verstehen und sicherzustellen, dass etwaige Lücken identifiziert und Maßnahmen ergriffen werden, um diese zu schließen, beispielsweise durch Schulungen oder die Übertragung bestimmter Aufgaben auf geeignetere Personen“. Siehe 3.3.2",
+   "D": "Eine PRINCE2® Projektmanagement-Qualifikation garantiert nicht die Kompetenz und Fähigkeit zur Erfassung von Anforderungen, die oft erst durch Erfahrung entwickelt wird. „Es ist wichtig, die Kompetenzen und Fähigkeiten der Personen, die für ein Projekt rekrutiert oder zugewiesen werden, zu verstehen und sicherzustellen, dass etwaige Lücken identifiziert und Maßnahmen ergriffen werden, um diese zu schließen, beispielsweise durch Schulungen oder die Übertragung bestimmter Aufgaben auf geeignetere Personen“. Siehe 3.3.2"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P009",
+  "origin": [
+   "PR1-9"
+  ],
+  "topic": "Menschen",
+  "ref": "P2-7_PRCT_2.1",
+  "scenario": "Einige Mitglieder des Projektteams sind in der Hauptgeschäftsstelle tätig, aber die meisten arbeiten zumindest an einigen Tagen pro Woche von zu Hause aus, entsprechend den Arbeitspraktiken von NowByou. Der Projektmanager hat einen eigenen Raum für Projektbesprechungen organisiert und die Teammitglieder gebeten, jeden Tag ins Büro zu kommen, um den sozialen Zusammenhalt und den Informationsaustausch zu fördern. Dies ist auf Widerstand gestoßen. Ein Mitglied des Projektteams hat sich sogar bei der CEO von NowByou beschwert.",
+  "question": "Ist die Entscheidung des Projektmanagers eine angemessene Anwendung von „Erfolgreiche Teams führen“, im Rahmen des Elements „Menschen“, und warum?",
+  "items": [],
+  "opts": {
+   "A": "Ja, denn der gemeinsame Arbeitsort des Teams sollte den Informationsaustausch organisch über informelle Netzwerke fördern",
+   "B": "Ja, denn der Projektmanager sollte entscheiden, wie das Team zusammenarbeiten sollte, um die Teamarbeit zu fördern",
+   "C": "Nein, denn die Organisation von speziellen Präsenztagen für die remote arbeitenden Teammitglieder sollte helfen, um Beziehungen aufzubauen",
+   "D": "Nein, denn der Projektmanager hätte den Projektauftraggeber konsultieren müssen, bevor er eine Änderung der Arbeitspraktiken von NowByou implementiert"
+  },
+  "answer": "C",
+  "expl": {
+   "A": "Es stimmt zwar, dass in einem Team, das an einem gemeinsamen Standort arbeitet, „Informationen tendenziell ... sowohl über formelle als auch informelle Netzwerke organisch ausgetauscht“ werden, doch es handelt sich derzeit nicht um ein Team, das an einem gemeinsamen Standort arbeitet. „Wenn Teams virtuell, weit voneinander entfernt oder hybrid sind, kann der Aufbau des sozialen Zusammenhalts zusätzliche Aktivitäten erfordern, wie z.B.: Abstimmung gemeinsamer Präsenztage für wichtige Personen und Teams mit dem Schwerpunkt auf dem Aufbau zentraler Beziehungen [...]“. Siehe 3.4, 3.3.3",
+   "B": "Diese Maßnahme dürfte sich negativ auf die Arbeitsmoral und Motivation auswirken. „Das gemeinsame Erarbeiten (Ko-Kreation) von Arbeitsweisen durch die Mitglieder des Projektteams (und Stakeholder) verbessert die Bereitschaft von Menschen erheblich, im Einklang mit diesen gemanagt zu werden.“ Außerdem handelt es sich nicht um ein Team, das an einem gemeinsamen Standort arbeitet. „Wenn Teams virtuell, weit voneinander entfernt oder hybrid sind, kann der Aufbau des sozialen Zusammenhalts zusätzliche Aktivitäten erfordern, wie z.B.: Abstimmung gemeinsamer Präsenztage für wichtige Personen und Teams mit dem Schwerpunkt auf dem Aufbau zentraler Beziehungen [...]“. Siehe 3.3, 3.3.3",
+   "C": "„Wenn Teams virtuell, weit voneinander entfernt oder hybrid sind, kann der Aufbau des sozialen Zusammenhalts zusätzliche Aktivitäten erfordern, wie z.B.: Abstimmung gemeinsamer Präsenztage für wichtige Personen und Teams mit dem Schwerpunkt auf dem Aufbau zentraler Beziehungen [...]“. Siehe 3.3.3",
+   "D": "Es mag stimmen, dass jede Änderung organisationsweiter Praktiken von der CEO genehmigt werden sollte. In einem Team werden „Informationen ... tendenziell sowohl über formelle als auch informelle Netzwerke organisch ausgetauscht“, doch es handelt sich derzeit nicht um ein Team, das an einem gemeinsamen Standort arbeitet. Jedoch, „wenn Teams virtuell, weit voneinander entfernt oder hybrid sind, kann der Aufbau des sozialen Zusammenhalts zusätzliche Aktivitäten erfordern, wie z. B.: Abstimmung gemeinsamer Präsenztage für wichtige Personen und Teams mit dem Schwerpunkt auf dem Aufbau zentraler Beziehungen [...]“. Siehe 3.4, 3.3.3"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P010",
+  "origin": [
+   "PR1-10"
+  ],
+  "topic": "Menschen",
+  "ref": "P2-7_PRCT_2.2",
+  "scenario": "Das Projekt befindet sich im Prozess „Initiieren eines Projekts“. Der Projektmanager hat mit dem Projektteam einen Workshop zur Stakeholder-Analyse durchgeführt, um den Kommunikationsmanagement-Ansatz zu erstellen. Auf dem Workshop wurden alle Mitglieder des Projektteams als Stakeholder identifiziert, und ihre Kommunikationsbedürfnisse wurden erörtert. Es wurden keine weiteren Stakeholder identifiziert, aber der Projektmanager erwartet, dass sie sich im Verlauf des Projekts zu erkennen geben werden. Der Projektmanager hat den Kommunikationsmanagement-Ansatz ausgearbeitet, der dem Lenkungsausschuss vorgelegt werden soll.",
+  "question": "Ist dies eine angemessene Anwendung von „Erfolgreichen Change managen“, wenn man das Element „Menschen“ berücksichtigt, und warum?",
+  "items": [],
+  "opts": {
+   "A": "Ja, denn der Projektmanager sollte die Identifizierung und Analyse der Stakeholder während des gesamten Projektlebenszyklus wiederholen, um weitere Stakeholder zu identifizieren",
+   "B": "Ja, denn das Projektteam sollte für neue Stakeholder, die im Laufe des Projektfortschritts identifiziert werden, unterschiedliche Kommunikationshäufigkeiten und -kanäle nutzen",
+   "C": "Nein, denn der Projektmanager hätte die Projektsicherung konsultieren müssen, als er entschied, wen er zum Stakeholder-Analyse-Workshop einladen will",
+   "D": "Nein, denn der Projektmanager sollte zusätzliche Stakeholder, einschließlich Unterstützungsgruppen, identifiziert haben, die die Anforderungen und Optionen der Kampagne beeinflussen"
+  },
+  "answer": "D",
+  "expl": {
+   "A": "Es stimmt zwar, dass Stakeholder identifiziert werden sollten oder „[...] sich im Laufe der Zeit ändern [...]“ können, aber der Projektmanager hätte mehr Anstrengungen unternehmen sollen, die „[...] zentrale Personen, die entweder vom Projekt betroffen sind oder entscheidend für dessen Erfolg sind (auch wenn sie keine formelle Rolle innehaben)“ zu identifizieren. Siehe 3.2.2",
+   "B": "Es stimmt zwar, dass mit einigen Stakeholdern auf andere Weise kommuniziert werden sollte, aber das ist nicht der Kern der Frage. Der Projektmanager hätte mehr Anstrengungen unternehmen sollen, die „[...] zentrale[n] Personen, die entweder vom Projekt betroffen sind oder entscheidend für dessen Erfolg sind (auch wenn sie keine formelle Rolle innehaben)“ zu identifizieren. Siehe 3.2.2",
+   "C": "Es stimmt zwar, dass der Projektmanager bei der Erstellung der Stakeholder-Analyse die Projektsicherung hinzuziehen kann, aber das ist nicht der Kern der Frage. Der Projektmanager hätte mehr Anstrengungen unternehmen sollen, die „[...] zentrale[n] Personen, die entweder vom Projekt betroffen sind oder entscheidend für dessen Erfolg sind (auch wenn sie keine formelle Rolle innehaben)“ zu identifizieren. Siehe 3.2.2",
+   "D": "Der Projektmanager hätte mehr Anstrengungen unternehmen sollen, die „[...] zentrale[n] Person/en, die entweder vom Projekt betroffen sind oder entscheidend für dessen Erfolg sind (auch wenn sie keine formelle Rolle innehaben)“ zu identifizieren. Siehe 3.2.2"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P011",
+  "origin": [
+   "PR1-11"
+  ],
+  "topic": "Menschen",
+  "ref": "P2-7_PRCT_2.2",
+  "scenario": "Das Projekt befindet sich in Phase 3. Der Issuemanagement-Ansatz sieht vor, dass ein „Formular für neue Issues“ ausgefüllt werden muss, um dem Projektmanager ein Issue zu melden. In vielen Fällen haben die Teammitglieder das Formular für neue Issues nicht verwendet und stattdessen eine E-Mail an den Projektmanager geschickt, da dies einfacher ist. Aus dem Feedback der Projektteammitglieder geht hervor, dass sie das Formular schwer auszufüllen finden, da zu viele Details verlangt werden. Der Projektmanager hat das Formular vereinfacht und auch zugestimmt, dass die Projektunterstützung das Formular basierend auf einer E-Mail ausfüllt, falls erforderlich.",
+  "question": "Ist dies eine angemessene Anwendung von „Erfolgreichen Change managen“, wenn man das Element „Menschen“ berücksichtigt, und warum?",
+  "items": [],
+  "opts": {
+   "A": "Ja, denn der Projektmanager sollte seine Arbeitsweise auf Basis des Feedbacks des Projektteams an die sich entwickelnde Projektkultur anpassen",
+   "B": "Ja, denn das Projektteam sollte keine Zeit mit unnötigen administrativen Aufgaben verschwenden, wenn die Projektunterstützung diese übernehmen kann.",
+   "C": "Nein, denn die Art und Weise, wie Issues gehandhabt werden, sollte nicht geändert werden, wenn sie einmal vereinbart und als Baseline festgelegt wurde",
+   "D": "Nein, denn die Kommunikation mit dem Projektteam sollte verbessert werden, um die zukünftige Compliance des genehmigten Issuemanagement-Ansatzes sicherzustellen"
+  },
+  "answer": "A",
+  "expl": {
+   "A": "Feedback sollte umgesetzt werden, um Folgendes sicherzustellen: „Definierte Arbeitsweisen sollten sich an der tatsächlichen Arbeitsweise der Menschen ausrichten. Anhaltende Compliance-Verstöße von Projektprozessen sind oft ein Frühindikator dafür, dass die vereinbarten Arbeitsweisen nicht mehr zur sich entwickelnden Projektkultur passen“. Siehe 3.2.3",
+   "B": "Obwohl es gemäß der Practice „Organisation“ wahr ist, dass „die Projektunterstützung verantwortlich für die Bereitstellung von Dienstleistungen wie administrativer Unterstützung ist [...]“, erklärt dies nicht, warum gemäß dem Element „Menschen“ Feedback umgesetzt werden sollte, um Folgendes sicherzustellen: „[...] definierte Arbeitsweisen sollten sich an der tatsächlichen Arbeitsweise der Menschen ausrichten. Anhaltende Compliance-Verstöße von Projektprozessen sind oft ein Frühindikator dafür, dass die vereinbarten Arbeitsweisen nicht mehr zur sich entwickelnden Projektkultur passen“. Siehe 6.2.4.8, 3.2.3",
+   "C": "Gemäß der Practice „Issues“ beschreibt der Issuemanagement-Ansatz, „wie Issues erfasst und gemeldet werden, und erklärt, wie Änderungen an der Projekt-Baseline bewertet und gesteuert werden“ und „ist Teil der Projektleitdokumentation“ und „die Projektleitdokumentation ist ein lebendiges Produkt [...] Die einzelnen Produkte müssen am Ende jeder Phase aktualisiert und bei Bedarf mit einer neuen Baseline versehen werden, um den aktuellen Status ihrer Bestandteile widerzuspiegeln“. Darüber hinaus erklärt dies nicht, warum gemäß dem Element „Menschen“ Feedback umgesetzt werden sollte. Siehe 10.5, 4.3.1",
+   "D": "Die Tatsache, dass Teammitglieder berichten, das Formular sei schwer auszufüllen, lässt darauf schließen, dass sie sich des Prozesses bewusst waren. Bei dieser Frage geht es darum, warum die Änderung vorgenommen wurde. Feedback sollte umgesetzt werden, um Folgendes sicherzustellen: „[...] Definierte Arbeitsweisen sollten sich an der tatsächlichen Arbeitsweise der Menschen ausrichten. Anhaltende Compliance-Verstöße von Projektprozessen sind oft ein Frühindikator dafür, dass die vereinbarten Arbeitsweisen nicht mehr zur sich entwickelnden Projektkultur passen“. Siehe 3.2.3"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P012",
+  "origin": [
+   "PR1-12"
+  ],
+  "topic": "Menschen",
+  "ref": "P2-7_PRCT_2.3",
+  "scenario": "In der Initiierungsphase wurde einer der Trainees zum Projektmanager ernannt. Zu Beginn des Projekts berichtete der neue Projektmanager dem Lenkungsausschuss jede Woche über den Fortschritt. Das Projekt befindet sich nun jedoch in Phase 2; die Erhebung der Anforderungen wurde rechtzeitig und im Rahmen des Budgets abgeschlossen, und die Analyse der Optionen verläuft erfolgreich. Daher hat der Lenkungsausschuss beschlossen, dass alle zwei Wochen Projektstatusberichte erstellt werden sollen, und die Kosten- und Zeittoleranzen für die Phase wurden gelockert. Dies sollte dem Projektmanager mehr Entscheidungsspielraum geben.",
+  "question": "Welches Grundprinzip wird in diesem Beispiel von „Menschen stehen im Mittelpunkt der PRINCE2 Projektmanagement-Methode“ angewendet?",
+  "items": [],
+  "opts": {
+   "A": "Lernen aus Erfahrung",
+   "B": "Steuern nach dem Ausnahmeprinzip",
+   "C": "Steuern über Managementphasen",
+   "D": "Produktorientierung"
+  },
+  "answer": "B",
+  "expl": {
+   "A": "Das Element „Menschen“ sollte das Grundprinzip „Lernen aus Erfahrung“ anwenden, indem es Folgendes anerkennt: „Es ist äußerst wertvoll, aus sichtbarem Wissen zu lernen, wie etwa aus Business-Büchern und dokumentierten Erkenntnissen, doch auch im Projektökosystem schlummert bedeutendes Wissen. Dies erfordert eine kollaborative Umgebung, die den Wissensaustausch während der gesamten Laufzeit eines Projekts fördert“. Der Projektmanager hat vielleicht viele persönliche Erfahrungen gemacht, aber diese wurden nicht mit anderen geteilt oder von anderen übernommen. Siehe 3.5.1",
+   "B": "Das Element „Menschen“ sollte das Grundprinzip „Steuern nach dem Ausnahmeprinzip“ anwenden, indem es zulässt, dass „Entscheidungen... auf der niedrigsten Ebene getroffen\" werden sollten, \"auf der das erforderliche Wissen vorhanden ist, um diese Entscheidungen zu verantworten. Entscheidungen sollten nach oben getragen werden, wenn sie potenziell Auswirkungen auf andere Bereiche des Projekts haben könnten. Daher müssen unterschiedliche Perspektiven berücksichtigt werden [...] Der Grad der Delegation hängt oft von dem Grad des Vertrauens ab, das in wichtigen Beziehungen besteht, und passt sich im Laufe eines Projekts an die Kompetenzen und Fertigkeiten des Einzelnen an“. Siehe 3.5.1",
+   "C": "Das Element „Menschen“ sollte das Grundprinzip „Steuern über Managementphasen“ anwenden, indem das Projekt in Phasen unterteilt wird. „Die Phasen eines Projekts markieren oft einen Wandel bei den Einflussnehmern und den zentralen Beziehungen. Sie sind geeignete Zeitpunkte, um zu überprüfen, wie das Projekt geplant ist, um sicherzustellen, dass es weiterhin mit der Art und Weise übereinstimmt, wie Menschen miteinander und mit dem weiteren organisatorischen Ökosystem interagieren.“ Es wurden jedoch keine Phasen besprochen. Siehe 3.5.1",
+   "D": "Das Element „Menschen“ wendet das Grundprinzip „Produktorientierung“ auf folgende Weise an: „Die Ko-Kreation von Produkten mit vereinbarten Produktbeschreibungen mit den Business-, Benutzer- und Lieferanten-Communities vereint deren unterschiedliche Perspektiven. Dies verbessert die Entwicklung und Umsetzung der Produkte im Business, reduziert Übergaberisiken und stellt sicher, dass Betriebs- und Wartungs-Issues vollständig berücksichtigt werden“. Von Produkten ist hier jedoch nicht die Rede. Siehe 3.5.1"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P013",
+  "origin": [
+   "PR1-13"
+  ],
+  "topic": "Menschen",
+  "ref": "P2-7_PRCT_2.4",
+  "scenario": "Die Diskriminierung marginalisierter Gruppen, insbesondere von Obdachlosen und Flüchtlingen, nimmt mit besorgniserregender Geschwindigkeit zu.",
+  "question": "Unter welcher Überschrift im Change-Management-Ansatz sollte diese Information erfasst werden?",
+  "items": [],
+  "opts": {
+   "A": "Zustandsmerkmale des aktuellen Zustands",
+   "B": "Zustandsmerkmale des Zielzustands",
+   "C": "Unterstützende Aktivitäten vor dem Übergang",
+   "D": "Unterstützende Aktivitäten während des Übergangs"
+  },
+  "answer": "A",
+  "expl": {
+   "A": "Der Change-Management-Ansatz sollte Folgendes umfassen: „Zustandsmerkmale - für jeden Zustand, wobei diejenigen hervorzuheben sind, die sich ändern: z. B. Routinen, Practices, Prozesse, Kultur, Verantwortlichkeiten, Struktur, Fähigkeiten“. Dies ist eine Beschreibung der aktuellen Fähigkeiten und der Kultur, da dies teilweise erklärt, warum das Projekt „Kampagne gegen Diskriminierung“ erforderlich ist. Siehe 3.2.1",
+   "B": "Der Change-Management-Ansatz sollte Folgendes umfassen: „Zustandsmerkmale: für jeden Zustand, wobei diejenigen hervorzuheben sind, die sich ändern: z. B. Routinen, Practices, Prozesse, Kultur, Verantwortlichkeiten, Struktur, Fähigkeiten“. Dies ist eine Beschreibung der aktuellen Fähigkeiten und der Kultur, da dies teilweise erklärt, warum das Projekt „Kampagne gegen Diskriminierung“ erforderlich ist. Jeder Zielzustand sollte beschreiben, wie die Fähigkeiten und die Kultur nach der Umsetzung der Kampagne voraussichtlich aussehen werden. Siehe 3.2.1",
+   "C": "Der Change-Management-Ansatz sollte Folgendes umfassen: „Unterstützende Aktivitäten: vor, während und nach der Überführung; z.B.Konsultation, Tests, Schulungen und Notruf-Telefonnummern“. Hier werden nicht die Aktivitäten beschrieben, die eine Änderung der Fähigkeiten oder der Kultur vor der Überführung ermöglichen. Siehe 3.2.1",
+   "D": "Der Change-Management-Ansatz sollte Folgendes umfassen: „Unterstützende Aktivitäten: vor, während und nach der Überführung; z.B.Konsultation, Tests, Schulungen und Notruf-Telefonnummern“. Hier werden nicht die Aktivitäten beschrieben, die eine Änderung der Fähigkeiten oder der Kultur während der Überführung ermöglichen. Siehe 3.2.1"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P014",
+  "origin": [
+   "PR1-14"
+  ],
+  "topic": "Practice: Business Case",
+  "ref": "P2-7_PRCT_3.1.1.a",
+  "group": "PR1-G14",
+  "groupIntro": "Im Folgenden sind drei Aussagen in Bezug auf den Business Case des Projekts aufgeführt.\n\nUnter welcher Business Case-Überschrift (A–E) sollten sie erfasst werden? Wählen Sie nur EINE Überschrift für jede Aussage aus. Jede Überschrift kann einmal, mehrmals oder gar nicht verwendet werden.",
+  "scenario": "",
+  "question": "Das Projekt befindet sich am Ende von Phase 2 und nach einer Überprüfung ist nun mit einer einmonatigen Verzögerung zu rechnen. Das Projekt wird nun weitere sieben Monate bis zur Fertigstellung benötigen.",
+  "items": [],
+  "opts": {
+   "A": "Gründe",
+   "B": "Business-Optionen",
+   "C": "Zeit",
+   "D": "Kosten",
+   "E": "Hauptrisiken"
+  },
+  "answer": "C",
+  "expl": {
+   "A": "Siehe 5.5",
+   "B": "Siehe 5.5",
+   "C": "Der Business Case sollte Folgendes umfassen: „Zeit: Der Zeitraum, über den das Projekt läuft, und der Zeitraum, über den die Nutzen realisiert werden“. Die Fertigstellung des Projekts wird nun sieben Monate in Anspruch nehmen, was den Zeitraum angibt, über den das Projekt laufen wird. Siehe 5.5",
+   "D": "Siehe 5.5",
+   "E": "Siehe 5.5"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P015",
+  "origin": [
+   "PR1-15"
+  ],
+  "topic": "Practice: Business Case",
+  "ref": "P2-7_PRCT_3.1.1.a",
+  "group": "PR1-G14",
+  "groupIntro": "Im Folgenden sind drei Aussagen in Bezug auf den Business Case des Projekts aufgeführt.\n\nUnter welcher Business Case-Überschrift (A–E) sollten sie erfasst werden? Wählen Sie nur EINE Überschrift für jede Aussage aus. Jede Überschrift kann einmal, mehrmals oder gar nicht verwendet werden.",
+  "scenario": "",
+  "question": "Die Anzahl an Berichten über Diskriminierung von Flüchtlingen und Obdachlosen hat zugenommen.",
+  "items": [],
+  "opts": {
+   "A": "Gründe",
+   "B": "Business-Optionen",
+   "C": "Zeit",
+   "D": "Kosten",
+   "E": "Hauptrisiken"
+  },
+  "answer": "A",
+  "expl": {
+   "A": "Der Business Case sollte Folgendes umfassen: „Gründe: Definition der Gründe für die Durchführung des Projekts und Erläuterung, wie das Projekt auf Business-Ziele einzahlt“. Der Grund für die Notwendigkeit des Projekts ist die steigende Zahl der Berichte über Vorfälle. Siehe 5.5",
+   "B": "Siehe 5.5",
+   "C": "Siehe 5.5",
+   "D": "Siehe 5.5",
+   "E": "Siehe 5.5"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P016",
+  "origin": [
+   "PR1-16"
+  ],
+  "topic": "Practice: Business Case",
+  "ref": "P2-7_PRCT_3.1.1.a",
+  "group": "PR1-G14",
+  "groupIntro": "Im Folgenden sind drei Aussagen in Bezug auf den Business Case des Projekts aufgeführt.\n\nUnter welcher Business Case-Überschrift (A–E) sollten sie erfasst werden? Wählen Sie nur EINE Überschrift für jede Aussage aus. Jede Überschrift kann einmal, mehrmals oder gar nicht verwendet werden.",
+  "scenario": "",
+  "question": "Die Finanzierung erfolgt durch eine Mischung aus Spenden des öffentlichen und des privaten Sektors",
+  "items": [],
+  "opts": {
+   "A": "Gründe",
+   "B": "Business-Optionen",
+   "C": "Zeit",
+   "D": "Kosten",
+   "E": "Hauptrisiken"
+  },
+  "answer": "D",
+  "expl": {
+   "A": "Siehe 5.5",
+   "B": "Siehe 5.5",
+   "C": "Siehe 5.5",
+   "D": "Der Business Case sollte die Kosten umfassen: „Kosten: Eine Zusammenfassung der Projektkosten, der laufenden Betriebs- und Wartungskosten sowie der Vereinbarungen hinsichtlich ihrer Finanzierung“. Daher sollte die Tatsache, dass die Finanzierung aus verschiedenen Quellen stammt, unter Kosten aufgezeichnet werden. Siehe 5.5",
+   "E": "Siehe 5.5"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P017",
+  "origin": [
+   "PR1-17"
+  ],
+  "topic": "Practice: Business Case",
+  "ref": "P2-7_PRCT_3.1.2",
+  "scenario": "Der Projektauftraggeber hat beschlossen, Phase 2 als separates Machbarkeitsprojekt mit eigenem Business Case zu behandeln. Der Output dieses Projekts sind übergreifende Anforderungen und eine empfohlene Option. Der Projektmanager hat den folgenden Nutzen im Business Case für das Projekt „Machbarkeitsstudie“ dokumentiert.\n\n„Eine 10-prozentige Steigerung des Spendenaufkommens von Einzelspendern und Organisationen, die Spender sind.“",
+  "question": "Ist die Dokumentation dieses Nutzens des Projekts zur Machbarkeitsprüfung eine angemessene Anwendung der Practice „Business Case“ und warum?",
+  "items": [],
+  "opts": {
+   "A": "Ja, denn ein Nutzen ist die messbare Verbesserung, die sich aus einem Ergebnis ergibt, das von der investierenden Organisation als vorteilhaft betrachtet wird",
+   "B": "Ja, denn die Nutzen sollten im Business Case identifiziert werden, um die geschäftliche Rechtfertigung zu Beginn des Projekts zu unterstützen",
+   "C": "Nein, denn die geschäftliche Rechtfertigung für das Projekt „Machbarkeitsstudie“ sollte den Wert eines Projekts berücksichtigen, nicht nur die Nutzen",
+   "D": "Nein, denn der Output des Projekts „Machbarkeitsstudie“ wird eine empfohlene Option sein, die nicht zu den erforderlichen Ergebnissen führt, um den angegebenen Nutzen zu realisieren"
+  },
+  "answer": "D",
+  "expl": {
+   "A": "Ein Nutzen ist „die messbare Verbesserung eines Ergebnisses, die von der investierenden Organisation als vorteilhaft betrachtet wird und zu einem oder mehreren Business-Ziel(en) beiträgt“. Der angegebene Nutzen wird jedoch nicht als Resultat eines Ergebnisses erzielt, das aus dem Output des Projekts „Machbarkeitsstudie“ abgeleitet wird. Siehe 5.1",
+   "B": "„Eines der Grundprinzipien von PRINCE2 Projektmanagement lautet, dass Projekte eine fortlaufende geschäftliche Rechtfertigung sicherstellen müssen. Dies erfordert, dass die geschäftliche Rechtfertigung zu Beginn des Projekts festgelegt wird [...]“. Der angegebene Nutzen wird jedoch nicht als Resultat eines Ergebnisses (einer empfohlenen Option) des Projekts „Machbarkeitsstudie“ realisiert. Siehe 5.1",
+   "C": "Es ist wahr, dass bei der geschäftlichen Rechtfertigung sowohl Nutzen als auch Kosten berücksichtigt werden sollten, um den Wert zu verstehen. „Bei der geschäftlichen Rechtfertigung geht es nicht nur um Kosten, sondern auch darum, den Wert eines Projekts zu verstehen. Das sind die wahrgenommenen Nutzen oder die Bedeutung der Ergebnisse im Verhältnis zu den dafür eingesetzten Ressourcen. Darüber hinaus geht es bei der geschäftlichen Rechtfertigung darum, einen Ansatz zu wählen, der den besten Gesamtwert bietet.“ Der angegebene Nutzen wird jedoch nicht als Resultat eines Ergebnisses erzielt, das aus dem Output des Projekts „Machbarkeitsstudie“ abgeleitet wird. Siehe 5.1",
+   "D": "Es ist wahr, dass „PRINCE2 Projektmanagement-Projekte Outputs in Form von Produkten liefern, die dazu dienen, Veränderungen in einer Organisation oder für Organisationen zu ermöglichen. Diese Änderungen erstellen Fähigkeiten, die zu Ergebnissen führen. Mithilfe der Ergebnisse kann die Organisation den Nutzen realisieren, der im Business Case für das Projekt dargelegt ist“. „Damit Nutzen realisiert werden können, müssen Ergebnisse erzielt werden. Das bedeutet, dass die Outputs des Projekts wie vorgesehen genutzt werden, neue Fähigkeiten definiert werden und Hindernisse bei der Nutzung der neuen Fähigkeiten identifiziert werden“. Der angegebene Nutzen wird jedoch nicht als Resultat eines Ergebnisses (einer empfohlenen Option) des Projekts „Machbarkeitsstudie“ realisiert. Siehe 5.1, 5.2.2"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P018",
+  "origin": [
+   "PR1-18"
+  ],
+  "topic": "Practice: Business Case",
+  "ref": "P2-7_PRCT_3.1.2",
+  "scenario": "Während des Prozesses „Vorbereiten eines Projekts“ entschied der Projektauftraggeber, dass es Zeit und Mühe kosten würde, in Phase 1 einen Business Case zu erstellen. Dies liegt daran, dass das Projektteam erst nach Abschluss der Analyse der Optionen in Phase 2 über genügend Informationen verfügt, um zu bestimmen, ob die Multi-Channel-Kampagne wünschenswert, machbar und erreichbar ist.",
+  "question": "Ist dies eine angemessene Anwendung der Practice „Business Case“ und warum?",
+  "items": [],
+  "opts": {
+   "A": "Ja, denn das Projektteam sollte die Kosten und Zeitrahmen für die Kampagne kennen, sobald die zu implementierende(n) Option(en) ausgewählt wurde(n)",
+   "B": "Ja, denn das Projektteam sollte die Zusammenhänge zwischen der gewählten Option, den Ergebnissen und den Nutzen, die aus dieser Option resultieren, sobald die Option ausgewählt wurde, kennen",
+   "C": "Nein, denn die geschäftliche Rechtfertigung für das Projekt „Kampagne gegen Diskriminierung“ sollte in der Initiierungsphase etabliert werden",
+   "D": "Nein, denn NowByou sollte das im Business Case beschriebene erhöhte Bewusstsein für Diskriminierung nach Abschluss des Projekts überprüfen"
+  },
+  "answer": "C",
+  "expl": {
+   "A": "Obwohl das Grundprinzip „Steuern über Managementphasen“ Folgendes unterstützt: „Sicherstellen, dass Entscheidungen, die an Phasenübergängen getroffen werden, auf geschäftliche Rechtfertigung überprüft werden“, ist ein Business Case nach wie vor notwendig, d. h. in PRINCE2 Projektmanagement „alle Projekte brauchen eine geschäftliche Rechtfertigung, die üblicherweise in einem Business Case dokumentiert wird“. Siehe Tabelle 5.2, 5.1",
+   "B": "Obwohl das Grundprinzip „Produktorientierung“ Folgendes unterstützt: „Sicherstellen, dass die hergestellten Produkte zu den gewünschten Ergebnissen und Nutzen führen können“, ist ein Business Case nach wie vor notwendig, d.h. in PRINCE2 Projektmanagement „alle Projekte brauchen eine geschäftliche Rechtfertigung, die üblicherweise in einem Business Case dokumentiert wird“. Siehe Tabelle 5.2, 5.1",
+   "C": "In PRINCE2 Projektmanagement brauchen „alle Projekte eine geschäftliche Rechtfertigung, die üblicherweise in einem Business Case dokumentiert wird“. Darüber hinaus gilt im Schritt „entwickeln“ des Business-Case-Management-Verfahrens Folgendes: „Der Business-Case-Entwurf wird während des Prozesses „Initiieren eines Projekts“ zu einem vollständigen Business Case verfeinert. Der Lenkungsausschuss genehmigt diesen bei der Freigabe des Projekts“. Siehe 5.1, 5.3.1.1",
+   "D": "Es ist wahr, dass Nutzen nach dem Projekt bestätigt werden sollten: „bewerten, ob die beabsichtigten Nutzen realisiert wurden (oder realisiert werden). Die Nutzenbestätigung erfolgt in der Regel nach Abschluss des Projekts, obwohl die Nutzen während des Projekts realisiert werden können, wenn Produkte iterativ geliefert und freigegeben werden“. Dies erklärt jedoch nicht, warum ein Business Case notwendig ist, d.h. in PRINCE2 Projektmanagement „alle Projekte brauchen eine geschäftliche Rechtfertigung, die üblicherweise in einem Business Case dokumentiert wird“. Siehe 5.3.1, 5.1"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P019",
+  "origin": [
+   "PR1-19"
+  ],
+  "topic": "Practice: Organisation",
+  "ref": "P2-7_PRCT_3.2.1.c",
+  "group": "PR1-G19",
+  "groupIntro": "Hier sind drei Rollen in Bezug auf das NowByou-Projekt aufgeführt.\n\nWelche Person (A–F) wäre AM BESTEN geeignet für die jeweilige Rolle gemäß der Practice „Organisation“? Wählen Sie nur EINE Person für jede Rolle aus. Jede Person kann einmal, mehrmals oder gar nicht verwendet werden.",
+  "scenario": "",
+  "question": "Projektunterstützung",
+  "items": [],
+  "opts": {
+   "A": "Vorsitzender des Kuratoriums",
+   "B": "Fundraising-Manager",
+   "C": "Chief Finance Officer",
+   "D": "Leiterin der Marketingagentur",
+   "E": "Personalleiterin (HR)",
+   "F": "Leiterin der IT-Abteilung"
+  },
+  "answer": "B",
+  "expl": {
+   "A": "Siehe 6.2.4.8",
+   "B": "Laut den zusätzlichen Informationen „berichtet der Fundraising-Manager an den Leiter der Abteilung Fundraising“. Zu seinen Verantwortungen gehört es, Kampagnen bei administrativen Aufgaben und der Nutzung von Kollaborationstools zu unterstützen. Laut der Practice „Organisation“ ist die Projektunterstützung „verantwortlich für die Bereitstellung von Dienstleistungen wie administrative Unterstützung, die Moderation von Besprechungen und Workshops, Beratung und Anleitung zu den Projekttools [...]“. Siehe zusätzliche Informationen, Siehe 6.2.4.8",
+   "C": "Siehe 6.2.4.8",
+   "D": "Siehe 6.2.4.8",
+   "E": "Siehe 6.2.4.8",
+   "F": "Siehe 6.2.4.8"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P020",
+  "origin": [
+   "PR1-20"
+  ],
+  "topic": "Practice: Organisation",
+  "ref": "P2-7_PRCT_3.2.1.c",
+  "group": "PR1-G19",
+  "groupIntro": "Hier sind drei Rollen in Bezug auf das NowByou-Projekt aufgeführt.\n\nWelche Person (A–F) wäre AM BESTEN geeignet für die jeweilige Rolle gemäß der Practice „Organisation“? Wählen Sie nur EINE Person für jede Rolle aus. Jede Person kann einmal, mehrmals oder gar nicht verwendet werden.",
+  "scenario": "",
+  "question": "Projektauftraggeber",
+  "items": [],
+  "opts": {
+   "A": "Vorsitzender des Kuratoriums",
+   "B": "Fundraising-Manager",
+   "C": "Chief Finance Officer",
+   "D": "Leiterin der Marketingagentur",
+   "E": "Personalleiterin (HR)",
+   "F": "Leiterin der IT-Abteilung"
+  },
+  "answer": "C",
+  "expl": {
+   "A": "Siehe 6.2.4.1",
+   "B": "Siehe 6.2.4.1",
+   "C": "Laut den zusätzlichen Informationen „wurde der Chief Finance Officer (CFO) von NowByou vor 6 Monaten ernannt und hat sich bei Spendern und Partnern sehr aktiv für die Verbesserung der finanziellen Lage der Organisation eingesetzt. Er war zuvor als leitender Angestellter bei einer großen Bank tätig und möchte Good Practices im Portfolio- und Projektmanagement bei NowByou einführen“. Gemäß der Practice „Organisation“ gilt: „Der Projektauftraggeber wird vom Business als einziger Rechenschaftspflichtiger für das Projekt ernannt und ist letztendlich für den Erfolg des Projekts rechenschaftspflichtig“. Siehe zusätzliche Informationen, 6.2.4.1",
+   "D": "Siehe 6.2.4.1",
+   "E": "Siehe 6.2.4.1",
+   "F": "Siehe 6.2.4.1"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P021",
+  "origin": [
+   "PR1-21"
+  ],
+  "topic": "Practice: Organisation",
+  "ref": "P2-7_PRCT_3.2.1.c",
+  "group": "PR1-G19",
+  "groupIntro": "Hier sind drei Rollen in Bezug auf das NowByou-Projekt aufgeführt.\n\nWelche Person (A–F) wäre AM BESTEN geeignet für die jeweilige Rolle gemäß der Practice „Organisation“? Wählen Sie nur EINE Person für jede Rolle aus. Jede Person kann einmal, mehrmals oder gar nicht verwendet werden.",
+  "scenario": "",
+  "question": "Lieferantenvertreter",
+  "items": [],
+  "opts": {
+   "A": "Vorsitzender des Kuratoriums",
+   "B": "Fundraising-Manager",
+   "C": "Chief Finance Officer",
+   "D": "Leiterin der Marketingagentur",
+   "E": "Personalleiterin (HR)",
+   "F": "Leiterin der IT-Abteilung"
+  },
+  "answer": "D",
+  "expl": {
+   "A": "Siehe 6.2.4.3",
+   "B": "Siehe 6.2.4.3",
+   "C": "Siehe 6.2.4.3",
+   "D": "Laut den zusätzlichen Informationen „arbeitet die Marketingagentur [...] NowByou mit einer kommerziellen Marketingagentur, CharityM, zusammen, die mit dem Leiter für Öffentlichkeitsarbeit und Social Media die Entwicklung und Schaltung von Werbung bei Fernseh- und Radiosendern unterstützt“. Gemäß der Practice „Organisation“ gilt Folgendes: „Der Lieferantenvertreter repräsentiert die Lieferantenorganisation, die an allen Aspekten der Lieferung der Projektprodukte beteiligt ist“. Zusätzliche Informationen 6.2.4.3",
+   "E": "Siehe 6.2.4.3",
+   "F": "Siehe 6.2.4.3"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P022",
+  "origin": [
+   "PR1-22"
+  ],
+  "topic": "Practice: Organisation",
+  "ref": "P2-7_PRCT_3.2.2",
+  "scenario": "NowByou hat soeben die Entscheidung getroffen, die sechsmonatige Kampagne als Projekt durchzuführen. Daher wurde der Chief Finance Officer (CFO) zum Projektauftraggeber ernannt, damit der Prozess „Vorbereiten eines Projekts“ beginnen kann.",
+  "question": "Ist diese Ernennung eine angemessene Anwendung der Practice „Organisation“ und warum?",
+  "items": [],
+  "opts": {
+   "A": "Ja, denn der CFO sollte in der Lage sein sicherzustellen, dass das Projekt zur finanziellen Lage der Organisation beiträgt",
+   "B": "Ja, denn der Projektauftraggeber sollte der einzige Rechenschaftspflichtige für das Projekt „Kampagne gegen Diskriminierung“ sein",
+   "C": "Nein, da der CFO nicht über ausreichende Verfügbarkeit für das Tagesgeschäft des Projekts verfügen wird",
+   "D": "Nein, denn der Leiter für Öffentlichkeitsarbeit und Social Media sollte für das Ergebnis „erhöhtes Bewusstsein für Diskriminierung“ der gelieferten Multi-Channel-Kampagne verantwortlich sein"
+  },
+  "answer": "A",
+  "expl": {
+   "A": "In den zusätzlichen Informationen heißt es: „Der CFO von NowByou wurde vor 6 Monaten ernannt und hat sich bei Spendern und Partnern sehr aktiv für die Verbesserung der finanziellen Lage der Organisation eingesetzt. Er war zuvor als leitender Angestellter bei einer großen Bank tätig und möchte Good Practices im Portfolio- und Projektmanagement bei NowByou einführen“. Und „Der Projektauftraggeber stellt die Finanzierung des Projekts sicher und ist für den Business Case und die fortlaufende geschäftliche Rechtfertigung des Projekts verantwortlich“. Siehe zusätzliche Informationen, 6.2.4.1",
+   "B": "Es ist wahr, dass „der Projektauftraggeber vom Business als einziger Rechenschaftspflichtiger für das Projekt ernannt wird und letztendlich für den Erfolg des Projekts rechenschaftspflichtig ist“. Und „es kann nicht mehr als eine Rolle des Projektauftraggebers geben [...]“. Dies erklärt jedoch nicht, warum der CFO ein geeigneter Kandidat für die Rolle des Projektauftraggebers ist. Siehe 6.2.4.1",
+   "C": "„Der Projektmanager ist befugt, die laufende Abwicklung eines Projekts im Auftrag des Lenkungsausschusses und innerhalb der vereinbarten Projekttoleranzen und Einschränkungen zu übernehmen. Er ist für das tägliche Management eines Projekts verantwortlich [...]“. Und dies erklärt nicht, warum der CFO nicht zum Projektauftraggeber ernannt werden sollte. Siehe 6.2.4.5",
+   "D": "Es stimmt, dass laut Szenario „der Leiter für Öffentlichkeitsarbeit und Social Media dem Kampagnenleiter unterstellt und verantwortlich für Markenführung, Pressemitteilungen und soziale Medien ist“. Daher ist er wahrscheinlich für die Erzielung der Nutzen der Kampagne verantwortlich. Dies liegt jedoch in der Verantwortung des Benutzervertreters, nicht des Projektauftraggebers. Der Benutzervertreter sollte dafür verantwortlich sein, „dem Business zu zeigen, dass der prognostizierte Nutzen im Business Case auf dem richtigen Weg ist, um realisiert zu werden“. Siehe zusätzliche Informationen, 6.2.4.2"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P023",
+  "origin": [
+   "PR1-23"
+  ],
+  "topic": "Practice: Organisation",
+  "ref": "P2-7_PRCT_3.2.2",
+  "scenario": "NowByou hat soeben die Entscheidung getroffen, die sechsmonatige Kampagne als Projekt durchzuführen. Daher hat die Chief Executive Officer (CEO) den Kampagnenleiter zum Projektauftraggeber ernannt, damit der Prozess „Vorbereiten eines Projekts“ beginnen kann. Einer der Trainees wird wahrscheinlich zum Projektmanager ernannt werden.",
+  "question": "Ist die Ernennung des Kampagnenleiters gemäß der Practice „Organisation“ angemessen und warum?",
+  "items": [],
+  "opts": {
+   "A": "Ja, denn die Rolle des Projektauftraggebers sollte von der Rolle des Projektmanagers, die der Trainee ausübt, getrennt sein",
+   "B": "Ja, denn der Kampagnenleiter sollte geeignet sein, als einzige Person mit Rechenschaftspflicht für das Projekt zu fungieren",
+   "C": "Nein, denn die CEO hat mehr Erfahrung im gemeinnützigen Sektor und sollte besser geeignet sein, die Rolle des Projektauftraggebers zu übernehmen",
+   "D": "Nein, denn der Projektauftraggeber sollte dafür sorgen, dass eine verbesserte Markenbekanntheit zu mehr Spenden und finanzieller Unterstützung führt"
+  },
+  "answer": "B",
+  "expl": {
+   "A": "Die Rolle des Projektauftraggebers „[...] kann nicht mit der Rolle des Projektmanagers kombiniert werden“. Dies erklärt jedoch nicht, warum der Kampagnenleiter für die Rolle des Projektauftraggebers geeignet ist. Siehe 6.2.4.1",
+   "B": "Den zusätzlichen Informationen zufolge hat der Kampagnenleiter „die Gesamtverantwortung für alle Kampagnen innerhalb von NowByou“ und ist daher gut aufgestellt, um als einziger Rechenschaftspflichtiger für das Projekt zu fungieren. „Der Projektauftraggeber wird vom Business als einziger Rechenschaftspflichtiger für das Projekt ernannt und ist letztendlich für den Erfolg des Projekts rechenschaftspflichtig. Diese Rechenschaftspflicht kann nicht delegiert werden“. Siehe zusätzliche Informationen, 6.2.4.1",
+   "C": "Es stimmt, dass der CEO laut den zusätzlichen Informationen „sehr erfahren im gemeinnützigen Sektor ist“. Der CEO ist jedoch „Direktor einer Reihe anderer Wohltätigkeitsorganisationen“. Daher ist es wahrscheinlicher, dass der CEO als Mitglied der Geschäftsführung von NowByou als Business-Ebene fungiert und für die „Bereitstellung des Projektmandats, die Identifizierung des Projektauftraggebers [...]“ verantwortlich ist. Außerdem erklärt dies nicht, warum der Kampagnenleiter nicht als Projektauftraggeber geeignet sein sollte. Siehe zusätzliche Informationen, 6.2",
+   "D": "Der Kampagnenleiter könnte in der Tat in der Lage sein, dies zu tun. Für „[...] die fortlaufende Realisierung von Nutzen nach Abschluss des Projekts“ ist jedoch der Benutzervertreter verantwortlich, nicht der Projektauftraggeber. Siehe 6.2.4.2"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P024",
+  "origin": [
+   "PR1-24"
+  ],
+  "topic": "Practice: Pläne",
+  "ref": "P2-7_PRCT_3.3.1.b",
+  "group": "PR1-G24",
+  "groupIntro": "Hier sind drei Maßnahmen in Bezug auf die Entwicklung des Plans für Phase 2.\n\nWelche Rolle (A–F) sollte für jede Maßnahme verantwortlich sein? Wählen Sie pro Maßnahme nur EINE Rolle aus. Jede Rolle kann einmal, mehrmals oder gar nicht verwendet werden.",
+  "scenario": "",
+  "question": "Prüfen des Plans für Phase 2, um sicherzustellen, dass genügend Zeit zur Verfügung steht, um Input und Feedback von der Benutzergruppe zur Sammlung der Haupt-Anforderungen und zur Optionsanalyse einzuholen",
+  "items": [],
+  "opts": {
+   "A": "Business-Ebene",
+   "B": "Projektauftraggeber",
+   "C": "Benutzervertreter",
+   "D": "Lieferantenvertreter",
+   "E": "Projektmanager",
+   "F": "Teammanager"
+  },
+  "answer": "C",
+  "expl": {
+   "A": "Siehe Tabelle 7.1",
+   "B": "Siehe Tabelle 7.1",
+   "C": "Der Benutzervertreter sollte „[...] sicherstellen, dass der Projektplan und Phasenpläne aus Benutzerperspektive konsistent sind“. Dabei sollte auch geprüft werden, ob im Plan genügend Zeit für den Input der Benutzergruppe vorgesehen ist. Siehe Tabelle 7.1",
+   "D": "Siehe Tabelle 7.1",
+   "E": "Siehe Tabelle 7.1",
+   "F": "Siehe Tabelle 7.1"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P025",
+  "origin": [
+   "PR1-25"
+  ],
+  "topic": "Practice: Pläne",
+  "ref": "P2-7_PRCT_3.3.1.b",
+  "group": "PR1-G24",
+  "groupIntro": "Hier sind drei Maßnahmen in Bezug auf die Entwicklung des Plans für Phase 2.\n\nWelche Rolle (A–F) sollte für jede Maßnahme verantwortlich sein? Wählen Sie pro Maßnahme nur EINE Rolle aus. Jede Rolle kann einmal, mehrmals oder gar nicht verwendet werden.",
+  "scenario": "",
+  "question": "Bereitstellen von NowByou-Standards, die auf Basis früherer Projekte erstellt wurden und bei der Erstellung des Plans für Phase 2 verwendet werden könnten",
+  "items": [],
+  "opts": {
+   "A": "Business-Ebene",
+   "B": "Projektauftraggeber",
+   "C": "Benutzervertreter",
+   "D": "Lieferantenvertreter",
+   "E": "Projektmanager",
+   "F": "Teammanager"
+  },
+  "answer": "A",
+  "expl": {
+   "A": "Die Business-Ebene sollte „vom Business geforderten Planungsstandards“ bereitstellen. Dazu gehört auch die Bereitstellung vorhandener Planungsstandards auf der Basis früherer Projekte, da die Reife des Projektmanagements in der Organisation sehr gering ist. Siehe Tabelle 7.1",
+   "B": "Siehe Tabelle 7.1",
+   "C": "Siehe Tabelle 7.1",
+   "D": "Siehe Tabelle 7.1",
+   "E": "Siehe Tabelle 7.1",
+   "F": "Siehe Tabelle 7.1"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P026",
+  "origin": [
+   "PR1-26"
+  ],
+  "topic": "Practice: Pläne",
+  "ref": "P2-7_PRCT_3.3.1.b",
+  "group": "PR1-G24",
+  "groupIntro": "Hier sind drei Maßnahmen in Bezug auf die Entwicklung des Plans für Phase 2.\n\nWelche Rolle (A–F) sollte für jede Maßnahme verantwortlich sein? Wählen Sie pro Maßnahme nur EINE Rolle aus. Jede Rolle kann einmal, mehrmals oder gar nicht verwendet werden.",
+  "scenario": "",
+  "question": "Erstellung des Zeitplans für das Arbeitspaket zur Sammlung der Anforderungen als Input im Plan für Phase 2",
+  "items": [],
+  "opts": {
+   "A": "Business-Ebene",
+   "B": "Projektauftraggeber",
+   "C": "Benutzervertreter",
+   "D": "Lieferantenvertreter",
+   "E": "Projektmanager",
+   "F": "Teammanager"
+  },
+  "answer": "F",
+  "expl": {
+   "A": "Siehe Tabelle 7.1",
+   "B": "Siehe Tabelle 7.1",
+   "C": "Siehe Tabelle 7.1",
+   "D": "Siehe Tabelle 7.1",
+   "E": "Siehe Tabelle 7.1",
+   "F": "Der Teammanager sollte „Zeitpläne für jedes Arbeitspaket vorbereiten“. Siehe Tabelle 7.1"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P027",
+  "origin": [
+   "PR1-27"
+  ],
+  "topic": "Practice: Pläne",
+  "ref": "P2-7_PRCT_3.3.1.a",
+  "scenario": "Das Projekt befindet sich in Phase 1, und der Leiter für Öffentlichkeitsarbeit und Social Media hat die Einhaltung der Verfahren von NowByou zum Datenschutz und zur Vertraulichkeit im Projekt verlangt. Diese Anforderung wurde in der Projektleitdokumentation dokumentiert. Die Multi-Channel-Kampagne wird in Phase 3 von einer externen Marketingagentur umgesetzt. Die Teammanager, die diese Kampagne umsetzen sollen, müssen diese Anforderung kennen.",
+  "question": "Wo sollten die Teammanager diese Information gemäß der Practice „Pläne“ finden?",
+  "items": [],
+  "opts": {
+   "A": "Kommerzieller Management-Ansatz",
+   "B": "Projektproduktbeschreibung",
+   "C": "Phasenplan",
+   "D": "Arbeitspaketbeschreibung"
+  },
+  "answer": "D",
+  "expl": {
+   "A": "Der Zweck des kommerziellen Management-Ansatzes besteht darin, „die anzuwendenden Verfahren, Techniken und Standards sowie die Verantwortung für ein effektives kommerzielles Management zu beschreiben. Dies beschreibt den Ansatz zur Sicherung, Abwicklung und Pflege aller kommerziellen Vereinbarungen, die erforderlich sind, damit das Projekt erfolgreich ist. Dies kann Aktivitäten wie Marktengagement, Beschaffung und Vertragsmanagement umfassen“. Dies erklärt jedoch nicht, warum die Teammanager sich auf das Arbeitspaket beziehen sollten, um Anweisungen zur Fertigstellung des Arbeitspakets zu erhalten. Siehe 6.5",
+   "B": "Es ist wahr, dass die Projektproduktbeschreibung Folgendes enthalten sollte: „Qualitätserwartungen des Benutzers: Beschreibung der Qualitätserwartungen, die die Projektprodukte erfüllen müssen, sowie der Standards und Verfahren, die zur Erfüllung der Qualitätserwartungen angewendet werden müssen“. Diese Informationen werden jedoch auf Projektebene gehalten, und das Arbeitspaket enthält alles, was ein Teammanager wissen muss, um die Arbeiten fertigzustellen. Siehe 7.5",
+   "C": "Ein Phasenplan sollte dem Format des „Plans“ folgen und Folgendes enthalten: „Durchzuführende Arbeiten: die Arbeiten im Umfang des Plans, die in Form eines Projektstrukturplans dargestellt werden, und die zugehörige(n) Arbeitspaketbeschreibung(en)“. Die detaillierten Techniken und Einschränkungen werden im Arbeitspaketbeschreibung enthalten sein. Siehe 7.5",
+   "D": "Eine Arbeitspaketbeschreibung enthält alles, was ein Teammanager wissen muss, um die Arbeit fertigzustellen, einschließlich „Techniken und Verfahren: Anforderungen an die Art und Weise, wie die Arbeiten ausgeführt werden sollen [...] Einschränkungen: Vorgaben oder Begrenzungen für die Arbeit, z. B. genehmigte Arbeitszeiten, Sicherheit und Sicherheitsmaßnahmen [...] Verweise: anwendbare Verweise aus übergeordneten Plänen [...]“. Siehe 7.5"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P028",
+  "origin": [
+   "PR1-28"
+  ],
+  "topic": "Practice: Pläne",
+  "ref": "P2-7_PRCT_3.3.2",
+  "scenario": "Das Projekt befindet sich am Ende von Phase 2. Der Projektauftraggeber hat vorgeschlagen, die Phase 3 in zwei separate Phasen zu unterteilen. In der ersten Phase (Phase 3a) würde die ausgewählte Kampagnenoption implementiert, in der zweiten Phase (Phase 3b) würde das Projekt abgeschlossen. Der Projektauftraggeber hat den Projektmanager angewiesen, sowohl Phase 3a als auch Phase 3b am Ende von Phase 2 zu planen, um am Ende der nächsten Phase Zeit zu sparen.",
+  "question": "Ist diese Entscheidung des Projektauftraggebers eine angemessene Anwendung der Practice „Pläne“ und warum?",
+  "items": [],
+  "opts": {
+   "A": "Ja, denn der Prozess „Abschließen eines Projekts“ sollte einen festen Punkt bereitstellen, an dem die Abnahme der gelieferten Multi-Channel-Kampagne bestätigt wird",
+   "B": "Ja, denn das Arbeitspaket zur Implementierung der ausgewählten Kampagnenoption sollte im Plan der Phase 3a und die Arbeiten zum Abschließen des Projekts sollten im Plan der neuen Phase 3b enthalten sein",
+   "C": "Nein, denn die Aktivitäten am Ende des Prozesses „Abschließen eines Projekts“ sollten im Rahmen der letzten Phase geplant werden und nicht als eigene Phase.",
+   "D": "Nein, denn die Aktivitäten am Ende des Prozesses „Abschließen eines Projekts“ sollten gegen Ende der letzten Phase geplant werden"
+  },
+  "answer": "C",
+  "expl": {
+   "A": "Es ist wahr, dass „der Zweck des Prozesses „Abschließen eines Projekts“ darin besteht, einen klar definierten Zeitpunkt festzulegen, an dem die Abnahme des Projektprodukts bestätigt wird. „Der Prozess „Abschließen eines Projekts“ sollte jedoch niemals als separate Phase geplant werden. „Der Phasenplan für die nächste Phase wird zum Ende der aktuellen Phase erstellt. Die Aktivitäten für den Projektabschluss sollten als Teil des Phasenplans für die letzte Phase geplant werden.“ Siehe 19.1, 18.4.1, Abbildung 12.1",
+   "B": "Der Prozess „Abschließen eines Projekts“ sollte nie als separate Phase geplant werden, da dieser Teil der letzten Phase des Projekts ist. Im Rahmen der Aktivität „Nächsten Phasenplan erstellen“ gilt Folgendes: „Der Phasenplan für die nächste Phase wird zum Ende der aktuellen Phase erstellt. Die Aktivitäten für den Projektabschluss sollten als Teil des Phasenplans für die letzte Phase geplant werden“. Siehe 18.4.1, Abbildung 12.1",
+   "C": "Jede Phase sollte am Ende der vorherigen Phase separat geplant werden, da nicht zwei Phasenpläne gleichzeitig erstellt werden dürfen. „Der Phasenplan für „Initiieren eines Projekts“ wird während des Prozesses „Vorbereiten eines Projekts“ erstellt. Nachfolgende Phasenpläne werden gegen Ende der aktuellen Phase erstellt. Mit diesem Ansatz kann der Phasenplan unmittelbar vor dem Zeitpunkt der geplanten Aktivitäten erstellt werden [...]“. Außerdem ist der Prozess „Abschließen eines Projekts“ keine separate Phase, sondern Teil der letzten Phase. „Die Aktivitäten für den Projektabschluss sollten als Teil des Phasenplans für die letzte Phase geplant werden“. Daher sollten die Aktivitäten des Prozesses „Abschließen eines Projekts“ am Ende der Phase 2 geplant werden, nicht als separate Phase. Siehe 7.2.2.2, 18.4.1, Abbildung 12.1",
+   "D": "„Der Phasenplan für „Initiieren eines Projekts“ wird während des Prozesses „Vorbereiten eines Projekts“ erstellt. Nachfolgende Phasenpläne werden gegen Ende der aktuellen Phase erstellt. Mit diesem Ansatz kann der Phasenplan unmittelbar vor dem Zeitpunkt der geplanten Aktivitäten erstellt werden [...]“. Daher sollten die Aktivitäten des Prozesses „Abschließen eines Projekts“ am Ende der Phase 2 geplant werden (es handelt sich dabei um die vorletzte Phase, nicht die letzte Phase). Siehe 7.2.2.2"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P029",
+  "origin": [
+   "PR1-29"
+  ],
+  "topic": "Practice: Pläne",
+  "ref": "P2-7_PRCT_3.3.2",
+  "scenario": "Das Projekt befindet sich in Phase 1 und die externe Projektleiterin erstellt den Projektplan. Die externe Projektleiterin hat vorgeschlagen, für den Rest des Projekts zwei Phasenpläne zu erstellen, einen am Ende von Phase 1 und den anderen am Ende von Phase 2.",
+  "question": "Ist dieser Vorschlag eine angemessene Anwendung der Practice „Pläne“ und warum?",
+  "items": [],
+  "opts": {
+   "A": "Ja, denn der Projektmanager sollte sicherstellen, dass sich der Umfang der Arbeitspakete nicht überschneidet",
+   "B": "Ja, denn der Projektmanager sollte am Ende der vorangegangenen Phase einen Phasenplan für die nächste Phase erstellen",
+   "C": "Nein, denn der Projektmanager sollte alle Aktivitäten zum Abschließen des Projekts in einem Plan für eine eigene Phase einplanen.",
+   "D": "Nein, denn der Projektmanager hätte den Initiierungsphasenplan während des Prozesses „Vorbereiten eines Projekts“ erstellen sollen"
+  },
+  "answer": "B",
+  "expl": {
+   "A": "Es ist wahr, dass der Projektmanager sicherstellen sollte, dass sich der Umfang der Arbeitspakete nicht überschneidet“. Dies erklärt jedoch nicht, warum zwei weitere Phasenpläne erforderlich sind. Siehe 7.3.1.2",
+   "B": "„Ein Phasenplan ist strukturell ähnlich aufgebaut wie ein Projektplan, nur detaillierter“. Das Projekt gliedert sich in drei Phasen. Die erste Phase ist die Initiierungsphase, und der Phasenplan für diese Phase sollte während des Prozesses „Vorbereiten eines Projekts“ erstellt worden sein. „Die Initiierung eines Projekts kostet Zeit und verbraucht Ressourcen. Die Arbeiten sollten geplant und genehmigt werden, damit gewährleistet ist, dass die Initiierung nicht ziellos und unstrukturiert erfolgt“. Daher gibt es noch zwei Phasen (Phase 2 und 3), für die Phasenpläne am Ende der vorangegangenen Phase erstellt werden sollten. Siehe 7.2.2.2, 13.4.7",
+   "C": "Es ist wahr, dass „die Aktivitäten für den Projektabschluss als Teil des Phasenplans für die letzte Phase geplant werden sollten“. Das „Abschließen eines Projekts“ ist jedoch ein PRINCE2 Projektmanagement-Prozess und keine Phase; die letzte Phase ist Phase 3, die den Prozess „Abschließen eines Projekts“ beinhaltet. Siehe 19.1, 19.3",
+   "D": "Es stimmt, dass „Initiierungsphase planen“ eine Aktivität im Rahmen des Prozesses „Vorbereiten eines Projekts“ ist. Dies erklärt, warum für den Rest des Projekts nur zwei weitere Phasenpläne erforderlich sind. Siehe 13.4.7"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P030",
+  "origin": [
+   "PR1-30"
+  ],
+  "topic": "Practice: Qualität",
+  "ref": "P2-7_PRCT_3.4.1.a",
+  "group": "PR1-G30",
+  "groupIntro": "Im Folgenden finden Sie drei Informationen zur Practice „Qualität“.\n\nUnter welcher Überschrift im Qualitätsmanagement-Ansatz (A–F) sollten sie erfasst werden? Wählen Sie nur EINE Option aus. Jede Option kann einmal, mehrmals oder gar nicht verwendet werden.",
+  "scenario": "",
+  "question": "Die Marketingkampagne muss den NowByou-Werbestandards entsprechen",
+  "items": [],
+  "opts": {
+   "A": "Umfang",
+   "B": "Unterstützende Tools und Techniken",
+   "C": "Ressourcen",
+   "D": "Verweise",
+   "E": "Verantwortlichkeiten"
+  },
+  "answer": "D",
+  "expl": {
+   "A": "Siehe 8.5",
+   "B": "Siehe 8.5",
+   "C": "Siehe 8.5",
+   "D": "Der Qualitätsmanagement-Ansatz sollte Folgendes beinhalten: „Verweise: für alle zugehörigen Dokumente oder Produkte, z. B. die Qualitätsmanagement-Systeme des Business oder Lieferanten“. Werbestandards sind ein Beispiel für das Qualitätsmanagement-System eines Business. Siehe 8.5",
+   "E": "Siehe 8.5"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P031",
+  "origin": [
+   "PR1-31"
+  ],
+  "topic": "Practice: Qualität",
+  "ref": "P2-7_PRCT_3.4.1.a",
+  "group": "PR1-G30",
+  "groupIntro": "Im Folgenden finden Sie drei Informationen zur Practice „Qualität“.\n\nUnter welcher Überschrift im Qualitätsmanagement-Ansatz (A–F) sollten sie erfasst werden? Wählen Sie nur EINE Option aus. Jede Option kann einmal, mehrmals oder gar nicht verwendet werden.",
+  "scenario": "",
+  "question": "Der Leiter für Öffentlichkeitsarbeit und Social Media wird in Phase 3 alle Materialien genehmigen, die in die Multi-Channel-Kampagne aufgenommen werden sollen, bevor die Kampagne anläuft",
+  "items": [],
+  "opts": {
+   "A": "Umfang",
+   "B": "Unterstützende Tools und Techniken",
+   "C": "Ressourcen",
+   "D": "Verweise",
+   "E": "Verantwortlichkeiten"
+  },
+  "answer": "E",
+  "expl": {
+   "A": "Siehe 8.5",
+   "B": "Siehe 8.5",
+   "C": "Siehe 8.5",
+   "D": "Siehe 8.5",
+   "E": "Der Qualitätsmanagement-Ansatz sollte Folgendes umfasst: „Verantwortlichkeiten: definiert Verantwortlichkeiten für Qualitätsplanungs- und - steuerungsaktivitäten (dies sollte Verantwortlichkeiten zwischen dem Benutzer, dem Business und den unterstützenden Organisationen für die Projektsicherung umfassen)“. Der Leiter für Öffentlichkeitsarbeit und Social Media ist der Abnahmeberechtigte für die Materialien der Kampagne. Siehe 8.5"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P032",
+  "origin": [
+   "PR1-32"
+  ],
+  "topic": "Practice: Qualität",
+  "ref": "P2-7_PRCT_3.41.a",
+  "group": "PR1-G30",
+  "groupIntro": "Im Folgenden finden Sie drei Informationen zur Practice „Qualität“.\n\nUnter welcher Überschrift im Qualitätsmanagement-Ansatz (A–F) sollten sie erfasst werden? Wählen Sie nur EINE Option aus. Jede Option kann einmal, mehrmals oder gar nicht verwendet werden.",
+  "scenario": "",
+  "question": "Die Marketingkampagne wird auf allen Kanälen mithilfe von Fokusgruppen erprobt, um sicherzustellen, dass die Kampagne von allen Mitgliedern der Gemeinschaft gut angenommen wird",
+  "items": [],
+  "opts": {
+   "A": "Umfang",
+   "B": "Unterstützende Tools und Techniken",
+   "C": "Ressourcen",
+   "D": "Verweise",
+   "E": "Verantwortlichkeiten"
+  },
+  "answer": "B",
+  "expl": {
+   "A": "Siehe 8.5",
+   "B": "Der Qualitätsmanagement-Ansatz sollte Folgendes beinhalten: „unterstützende Tools und Techniken: für die Qualitätsplanung und Steuerungsaktivitäten, einschließlich der zu verwendenden und Systeme und wie sie zu verwenden sind, sowie aller spezifischen Techniken wie Tests, Inspektionen, Prototypen“. Die Erprobung der Materialien für die Kampagne mit einer Vielzahl von Benutzern ist ein Beispiel für eine Technik im Rahmen der Qualitätssteuerung. Siehe 8.5",
+   "C": "Siehe 8.5",
+   "D": "Siehe 8.5",
+   "E": "Siehe 8.5"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P033",
+  "origin": [
+   "PR1-33"
+  ],
+  "topic": "Practice: Qualität",
+  "ref": "P2-7_PRCT_3.4.2",
+  "scenario": "Die externe Projektleiterin erarbeitet den Qualitätsmanagement-Ansatz in Phase 1. Der Kampagnenleiter hat vorgeschlagen, dass das Ziel des Qualitätsmanagements des Projekts darin bestehen sollte, sicherzustellen, dass das Projektteam bis zum Ende des Projekts mit einer Vielzahl von Medien (Fernsehen, Presse und sozialen Netzwerke) vertraut ist und diese effektiv nutzen kann.",
+  "question": "Ist dies eine angemessene Anwendung der Practice „Qualität“ und warum?",
+  "items": [],
+  "opts": {
+   "A": "Ja, denn der Einsatz von Medien durch das Projektteam ist eine Benutzer-Qualitätserwartung, die durch die gelieferte Multi-Channel-Kampagne erreicht werden soll",
+   "B": "Ja, denn der Einsatz von Medien durch das Projektteam ist ein zu erzielendes Abnahmekriterium, das mit der gelieferten Multi-Channel-Kampagne erreicht werden muss",
+   "C": "Nein, denn der Einsatz von Medien durch das Projektteam ist ein Ergebnis, das es zu erreichen gilt, und kein Zweck des Qualitätsmanagements des Projekts",
+   "D": "Nein, denn der Einsatz von Medien durch das Projektteam ist ein Output, der im Rahmen der gelieferten Multi-Channel-Kampagne geliefert werden soll"
+  },
+  "answer": "C",
+  "expl": {
+   "A": "Qualitätserwartungen des Benutzers treffen eine Aussage „über die vom Projektprodukt erwartete Qualität, die in der Projektproduktbeschreibung festgehalten ist“, während es sich hierbei um ein Ergebnis handelt, d. h. „das Ergebnis einer Änderung, das sich normalerweise auf das Verhalten in der Umgebung auswirkt“. Siehe 8.1.1, 5.1",
+   "B": "Abnahmekriterien sind „messbare Definitionen der Attribute, die erforderlich sind, damit die Produkte für die wichtigsten Stakeholder abgenommen sind“, während es sich dabei um ein Ergebnis handelt, d. h. um „das Ergebnis einer Änderung, die sich normalerweise auf das Verhalten in der Realität auswirkt“. Siehe 8.1.1, 5.1",
+   "C": "„Qualitätsmanagement konzentriert sich auf drei Elemente: Qualitätsplanung, Qualitätssteuerung und Qualitätssicherung“. Der Einsatz von Medien durch das Projektteam ist ein Ergebnis, also das „Resultat einer Änderung, das sich normalerweise auf das Verhalten und die Umstände in der realen Welt auswirkt [...]“. Das Erreichen des Ergebnisses ist nicht der Zweck des Qualitätsmanagements von Projekten. Siehe 8.2, 5.1",
+   "D": "Ein Output ist „der materielle oder immaterielle Liefergegenstand einer Aktivität“, wohingegen es sich hier um ein Ergebnis handelt, d. h. „das Ergebnis einer Änderung, die sich normalerweise auf das Verhalten in der Realität auswirkt“. Siehe 5.1"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P034",
+  "origin": [
+   "PR1-34"
+  ],
+  "topic": "Practice: Qualität",
+  "ref": "P2-7_PRCT_3.4.2",
+  "scenario": "Das Projekt befindet sich in Phase 1 und der Projektmanager erstellt den Qualitätsmanagement-Ansatz. Die Personalleiterin hat erklärt, dass alle Partnerorganisationen (Beitragende und Lieferanten) über eine geeignete Gleichstellungs- und Diversitätsrichtlinie verfügen müssen. Darüber hinaus müssen sie einen Nachweis darüber bereitstellen können, dass sie diese Richtlinie einhalten. Der Projektmanager hat diese Anforderung im Qualitätsmanagement-Ansatz dokumentiert, der am Ende der Initiierungsphase als Baseline festgelegt wird.",
+  "question": "Ist das Vorgehen des Projektmanagers eine angemessene Anwendung der Practice „Qualität“ und warum?",
+  "items": [],
+  "opts": {
+   "A": "Ja, denn der Qualitätsmanagement-Ansatz sollte die Qualitätsstandards für das Projekt definieren",
+   "B": "Ja, denn der Qualitätsmanagement-Ansatz sollte am Ende der Initiierungsphase als Baseline festgelegt werden",
+   "C": "Nein, denn diese Anforderung sollte im Qualitätsregister als Teil der Qualitätssteuerung des Projekts dokumentiert werden",
+   "D": "Nein, denn Qualitätstoleranzen sollten definiert werden, um eine Abweichung vom definierten Standard zu ermöglichen"
+  },
+  "answer": "A",
+  "expl": {
+   "A": "„Der Qualitätsmanagement-Ansatz beschreibt die Qualitätsstandards und Verfahren, die befolgt werden sollen [...]“. Daher ist es angebracht, die Notwendigkeit einer solchen Richtlinie für Lieferanten im Qualitätsmanagement-Ansatz zu dokumentieren. Siehe 8.3.1.1.3",
+   "B": "Es ist wahr, dass der Qualitätsmanagement-Ansatz am Ende der Initiierungsphase als Baseline festgelegt werden sollte. Die Projekt-Baseline ist definiert als „die aktuellen genehmigten Versionen der Managementprodukte und Spezialistenprodukte, die der Änderungssteuerung unterliegen“. Dies erklärt jedoch nicht, warum diese Anforderung im Qualitätsmanagement-Ansatz dokumentiert werden sollte. Siehe 10.1",
+   "C": "Das Qualitätsregister dient der „Zusammenfassung aller Qualitätsmanagement-Aktivitäten, die geplant oder eingetreten sind“. Es handelt sich um einen Qualitätsstandard, der im Qualitätsmanagement-Ansatz korrekt beschrieben ist. Siehe 8.5",
+   "D": "Es ist wahr, dass „priorisierte Abnahme- und Qualitätsspezifikationen dann zur Festlegung von Qualitätstoleranzen verwendet werden können [...]“. Dies erklärt jedoch nicht, warum der Qualitätsstandard von Anfang an im Qualitätsmanagement-Ansatz definiert werden sollte. Siehe 8.2.1.2"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P035",
+  "origin": [
+   "PR1-35"
+  ],
+  "topic": "Practice: Risiko",
+  "ref": "P2-7_PRCT_3.5.1.a",
+  "group": "PR1-G35",
+  "groupIntro": "Das folgende Risiko wurde im Risikoregister erfasst:\n\n„Da die Projektmanagement-Reife bei NowByou gering ist, besteht das Risiko, dass sich das Projekt verzögert, wenn die externe Projektleiterin nicht zur Verfügung steht.“\n\nAls Risikomaßnahme soll eine erfahrene Person für die Projektunterstützung gefunden werden, die mit der externen Projektleiterin zusammenarbeitet.\n\nHier sind drei Informationen.\n\nUnter welcher Überschrift des Risikoregisters (A–E) sollte die jeweilige Informationen erfasst werden? Wählen Sie für jede Information nur EINE Überschrift aus. Jede Überschrift kann einmal, mehrmals oder gar nicht verwendet werden.",
+  "scenario": "",
+  "question": "Die externe Projektleiterin wurde gebeten, eine erfahrene Person für die Projektunterstützung zu finden, die administrativ unterstützen kann",
+  "items": [],
+  "opts": {
+   "A": "Eintrittsnähe",
+   "B": "Auswirkung",
+   "C": "Eintrittswahrscheinlichkeit",
+   "D": "Risikobearbeiter",
+   "E": "Risikoeigentümer"
+  },
+  "answer": "D",
+  "expl": {
+   "A": "Siehe 9.5",
+   "B": "Siehe 9.5",
+   "C": "Siehe 9.5",
+   "D": "Diese Informationen sollten daher unter der Überschrift „Risikobearbeiter“ aufgezeichnet werden. Die externe Projektleiterin ist der Risikobearbeiter: „die Person, die benannt wurde und für die Umsetzung einer Risikomaßnahme verantwortlich ist“. Sie ist (vom Risikoeigentümer) aufgefordert worden, die Risikomaßnahmen zu implementieren. Siehe 9.5, 9.2",
+   "E": "Siehe 9.5"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P036",
+  "origin": [
+   "PR1-36"
+  ],
+  "topic": "Practice: Risiko",
+  "ref": "P2-7_PRCT_3.5.1.a",
+  "group": "PR1-G35",
+  "groupIntro": "Das folgende Risiko wurde im Risikoregister erfasst:\n\n„Da die Projektmanagement-Reife bei NowByou gering ist, besteht das Risiko, dass sich das Projekt verzögert, wenn die externe Projektleiterin nicht zur Verfügung steht.“\n\nAls Risikomaßnahme soll eine erfahrene Person für die Projektunterstützung gefunden werden, die mit der externen Projektleiterin zusammenarbeitet.\n\nHier sind drei Informationen.\n\nUnter welcher Überschrift des Risikoregisters (A–E) sollte die jeweilige Informationen erfasst werden? Wählen Sie für jede Information nur EINE Überschrift aus. Jede Überschrift kann einmal, mehrmals oder gar nicht verwendet werden.",
+  "scenario": "",
+  "question": "Die externe Projektleiterin hat mitgeteilt, dass sie mindestens bis zum Ende von Phase 2 verfügbar sein wird",
+  "items": [],
+  "opts": {
+   "A": "Eintrittsnähe",
+   "B": "Auswirkung",
+   "C": "Eintrittswahrscheinlichkeit",
+   "D": "Risikobearbeiter",
+   "E": "Risikoeigentümer"
+  },
+  "answer": "A",
+  "expl": {
+   "A": "„Eintrittsnähe: eine Schätzung, wie schnell ein Risiko eintreten könnte“. Das Risiko wird wahrscheinlich während der Implementierung in Phase 3 auftreten. Siehe 9.5",
+   "B": "Siehe 9.5",
+   "C": "Siehe 9.5",
+   "D": "Siehe 9.5",
+   "E": "Siehe 9.5"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P037",
+  "origin": [
+   "PR1-37"
+  ],
+  "topic": "Practice: Risiko",
+  "ref": "P2-7_PRCT_3.5.1.a",
+  "group": "PR1-G35",
+  "groupIntro": "Das folgende Risiko wurde im Risikoregister erfasst:\n\n„Da die Projektmanagement-Reife bei NowByou gering ist, besteht das Risiko, dass sich das Projekt verzögert, wenn die externe Projektleiterin nicht zur Verfügung steht.“\n\nAls Risikomaßnahme soll eine erfahrene Person für die Projektunterstützung gefunden werden, die mit der externen Projektleiterin zusammenarbeitet.\n\nHier sind drei Informationen.\n\nUnter welcher Überschrift des Risikoregisters (A–E) sollte die jeweilige Informationen erfasst werden? Wählen Sie für jede Information nur EINE Überschrift aus. Jede Überschrift kann einmal, mehrmals oder gar nicht verwendet werden.",
+  "scenario": "",
+  "question": "Wenn keine erfahrene Person für die Projektunterstützung gefunden wird, könnte sich das Projekt über die Zeit- und möglicherweise auch über die Kostentoleranz hinaus verzögern, wodurch die geschäftliche Rechtfertigung des Projekts gefährdet wird",
+  "items": [],
+  "opts": {
+   "A": "Eintrittsnähe",
+   "B": "Auswirkung",
+   "C": "Eintrittswahrscheinlichkeit",
+   "D": "Risikobearbeiter",
+   "E": "Risikoeigentümer"
+  },
+  "answer": "B",
+  "expl": {
+   "A": "Siehe 9.5",
+   "B": "„Auswirkung: Eine Schätzung der Risikoauswirkung“. In diesem Fall besteht die Auswirkung darin, dass die Zeit- und möglicherweise auch die Kostentoleranzen für das Projekt überschritten werden. Siehe 9.5",
+   "C": "Siehe 9.5",
+   "D": "Siehe 9.5",
+   "E": "Siehe 9.5"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P038",
+  "origin": [
+   "PR1-38"
+  ],
+  "topic": "Practice: Risiko",
+  "ref": "P2-7_PRCT_3.5.2",
+  "scenario": "Der folgende Eintrag wurde im Risikoregister erfasst:\n\nRisikobeschreibung: „Die Reife des Projektmanagements der Organisation ist sehr gering“.",
+  "question": "Ist dies ein angemessener Eintrag in ein Risikoregister und warum?",
+  "items": [],
+  "opts": {
+   "A": "Ja, denn die geringe Reife dürfte eine negative Auswirkung auf die Ziele haben",
+   "B": "Ja, denn die geringe Reife könnte die Erreichung der Ziele beeinflussen",
+   "C": "Nein, denn die geringe Reife ist ein Issue und sollte in das Issueregister eingetragen werden",
+   "D": "Nein, denn die Beschreibung enthält nicht die Risikoquelle"
+  },
+  "answer": "C",
+  "expl": {
+   "A": "Während sich eine „Bedrohung“ „negativ auf die Ziele auswirken würde“, ist der Eintrag unangemessen, da es sich um „ein ungeplantes Ereignis handelt, das eingetreten ist und Maßnahmen des Managements erfordert“, d. h. es handelt sich um ein Problem, nicht um ein Risiko. Eine solche Beschreibung kann auf die Risikoursache hinweisen, bei der es sich um „die Quelle des Risikos, wie das Ereignis oder die Situation, die es verursacht“, handelt, aber es handelt sich nicht um die vollständige Beschreibung des Risikos. Siehe 9.1, 10.1, 9.2.1",
+   "B": "Obwohl ein „Risiko“, sollte es eintreten, „das Erreichen der Ziele beeinträchtigen würde“, ist dies bereits eingetreten (Szenario). Eine solche Beschreibung kann auf die Risikoursache hinweisen, bei der es sich um „die Quelle des Risikos, wie das Ereignis oder die Situation, die es verursacht“, handelt, aber es handelt sich nicht um die vollständige Beschreibung des Risikos. Siehe 9.1, 9.2.1",
+   "C": "Ein Risiko ist „ein unsicheres Ereignis bzw. eine Gruppe von Ereignissen mit Auswirkungen auf die Erreichung der Ziele für den Fall des Eintretens“. Die Reife ist jedoch sehr gering, und es handelt sich daher um „ein ungeplantes Ereignis, das eingetreten ist und Maßnahmen des Managements erfordert [...]“, also ein Problem (Issue) und kein Risiko darstellt. Siehe 9.1, 10.1, 9.2.1",
+   "D": "Die Risikoursache ist die Risikoquelle: „das Ereignis bzw. die Situation, das/die es verursacht“. Eine geringe Reife des Managements könnte die Ursache für zahlreiche Risiken im Projekt sein. Es handelt sich um ein Issue, nicht um ein Risiko. Siehe 9.2.1, 10.1"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P039",
+  "origin": [
+   "PR1-39"
+  ],
+  "topic": "Practice: Risiko",
+  "ref": "P2-7_PRCT_3.5.2",
+  "scenario": "Das Projekt befindet sich im Prozess „Initiieren eines Projekts“. Die externe Projektleiterin hat empfohlen, dass der Lenkungsausschuss die Risikobereitschaft definieren sollte, die bei der Festlegung der Risikotoleranz verwendet werden soll. Dies ermöglicht dem Projektmanager, auf Grundlage der Risikotoleranz zu empfehlen, auf welche Risiken aktiv reagiert werden sollte.",
+  "question": "Ist dies eine angemessene Anwendung der Practice „Risiko“ und warum?",
+  "items": [],
+  "opts": {
+   "A": "Ja, denn die Reife des Projektmanagements der Organisation ist sehr niedrig, und die Risikobereitschaft wurde noch nicht definiert",
+   "B": "Ja, denn die Risikotoleranz sollte auf den kombinierten Auswirkungen der einzelnen Risiken auf die Projektziele basieren",
+   "C": "Nein, denn der Lenkungsausschuss sollte in Absprache mit dem Kuratorium Risikotoleranzen auf Projektebene definieren",
+   "D": "Nein, denn die Business-Ebene sollte die Toleranzen auf Projektebene basierend auf ihrer Risikobereitschaft definieren"
+  },
+  "answer": "D",
+  "expl": {
+   "A": "Es stimmt, dass laut Szenario \"NowByou\" „die Projektmanagement-Reife der Organisation sehr gering ist“. Es ist jedoch so, dass „die Business-Ebene basierend auf ihrer Risikobereitschaft die allgemeine Risikotoleranz für das Projekt festlegt, und der Lenkungsausschuss die Risikotoleranz für jede Phase festlegt“. Siehe 1.7 Szenario 4: NowByou, 9.2.1",
+   "B": "Es ist wahr, dass „die kombinierte Wirkung der einzelnen Risiken verstanden werden muss“. Es ist jedoch so, dass „die Business-Ebene basierend auf ihrer Risikobereitschaft die allgemeine Risikotoleranz für das Projekt festlegt, und der Lenkungsausschuss die Risikotoleranz für jede Phase festlegt“. Die Risikotoleranz basiert nicht auf der Risikobelastung, sondern auf der Risikobereitschaft des Business. Siehe 9.3.1.2.2, 9.2.1",
+   "C": "„Basierend auf ihrer Risikobereitschaft legt die Business-Ebene die allgemeine Risikotoleranz für das Projekt fest, und der Lenkungsausschuss legt die Risikotoleranz für jede Phase fest“. Siehe 9.2.1",
+   "D": "„Basierend auf ihrer Risikobereitschaft legt die Business-Ebene die allgemeine Risikotoleranz für das Projekt fest, und der Lenkungsausschuss legt die Risikotoleranz für jede Phase fest“. Siehe 9.2.1"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P040",
+  "origin": [
+   "PR1-40"
+  ],
+  "topic": "Practice: Issues",
+  "ref": "P2-7_PRCT_3.6.1.b",
+  "group": "PR1-G40",
+  "groupIntro": "Das Projektteam hat gute Nachrichten erhalten. Es hat eine große anonyme Spende erhalten. Daher hat es beschlossen, den Projektumfang zu erweitern. Es wurde zugestimmt, dass das Team nun einige Workshops abhalten und aktiv auf große Organisationen zugehen sollte, um Präsentationen zu halten und Werbeartikel zu verteilen. Das Projektteam ist der Ansicht, dass dadurch das Bewusstsein für Diskriminierung deutlich gesteigert wird.\n\nHier sind drei Maßnahmen. Welche Rolle (A–E) sollte für die jeweilige Maßnahme verantwortlich sein? Wählen Sie pro Maßnahme nur EINE Rolle aus. Jede Rolle kann einmal, mehrmals oder gar nicht verwendet werden.",
+  "scenario": "",
+  "question": "Entscheiden, ob das Hinzufügen von Workshops, Präsentationen und Werbeartikel das Bewusstsein für Diskriminierung erhöhen wird",
+  "items": [],
+  "opts": {
+   "A": "Benutzervertreter",
+   "B": "Lieferantenvertreter",
+   "C": "Projektsicherung",
+   "D": "Projektmanager",
+   "E": "Teammanager"
+  },
+  "answer": "A",
+  "expl": {
+   "A": "Der Benutzervertreter sollte „Entscheidungen über eskalierte Issues mit besonderem Fokus auf die Absicherung des erwarteten Nutzens treffen“. Hier liegt der Schwerpunkt auf der Erweiterung des Umfangs, um das Bewusstsein für Diskriminierung zu schärfen (ein Nutzen). Siehe Tabelle 10.2",
+   "B": "Siehe Tabelle 10.2",
+   "C": "Siehe Tabelle 10.2",
+   "D": "Siehe Tabelle 10.2",
+   "E": "Siehe Tabelle 10.2"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P041",
+  "origin": [
+   "PR1-41"
+  ],
+  "topic": "Practice: Issues",
+  "ref": "P2-7_PRCT_3.6.1.b",
+  "group": "PR1-G40",
+  "groupIntro": "Das Projektteam hat gute Nachrichten erhalten. Es hat eine große anonyme Spende erhalten. Daher hat es beschlossen, den Projektumfang zu erweitern. Es wurde zugestimmt, dass das Team nun einige Workshops abhalten und aktiv auf große Organisationen zugehen sollte, um Präsentationen zu halten und Werbeartikel zu verteilen. Das Projektteam ist der Ansicht, dass dadurch das Bewusstsein für Diskriminierung deutlich gesteigert wird.\n\nHier sind drei Maßnahmen. Welche Rolle (A–E) sollte für die jeweilige Maßnahme verantwortlich sein? Wählen Sie pro Maßnahme nur EINE Rolle aus. Jede Rolle kann einmal, mehrmals oder gar nicht verwendet werden.",
+  "scenario": "",
+  "question": "Erstellen von Produktbeschreibungen und zusätzlichen Arbeitspaketen für die Workshops, Präsentationen und Werbeartikel",
+  "items": [],
+  "opts": {
+   "A": "Benutzervertreter",
+   "B": "Lieferantenvertreter",
+   "C": "Projektsicherung",
+   "D": "Projektmanager",
+   "E": "Teammanager"
+  },
+  "answer": "D",
+  "expl": {
+   "A": "Siehe Tabelle 10.2",
+   "B": "Siehe Tabelle 10.2",
+   "C": "Siehe Tabelle 10.2",
+   "D": "Der Projektmanager sollte „Korrekturmaßnahmen implementieren“, indem er die Produktbeschreibungen und Arbeitspakete für den vereinbarten zusätzlichen Umfang erstellt. Gemäß der Practice „Qualität“ sollte der Projektmanager „Produktbeschreibungen für Schlüsselprodukte entwickeln“. Den Projektplan, die Phasenpläne und die Arbeitspaketbeschreibungen erstellen und diese bei Bedarf aktualisieren „Den Projektplan, die Phasenpläne und die Arbeitspaketbeschreibungen erstellen und diese bei Bedarf aktualisieren“. Siehe Tabelle 10.2, Tabelle 8.2, Tabelle 7.1",
+   "E": "Siehe Tabelle 10.2"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P042",
+  "origin": [
+   "PR1-42"
+  ],
+  "topic": "Practice: Issues",
+  "ref": "P2-7_PRCT_3.6.1.b",
+  "group": "PR1-G40",
+  "groupIntro": "Das Projektteam hat gute Nachrichten erhalten. Es hat eine große anonyme Spende erhalten. Daher hat es beschlossen, den Projektumfang zu erweitern. Es wurde zugestimmt, dass das Team nun einige Workshops abhalten und aktiv auf große Organisationen zugehen sollte, um Präsentationen zu halten und Werbeartikel zu verteilen. Das Projektteam ist der Ansicht, dass dadurch das Bewusstsein für Diskriminierung deutlich gesteigert wird.\n\nHier sind drei Maßnahmen. Welche Rolle (A–E) sollte für die jeweilige Maßnahme verantwortlich sein? Wählen Sie pro Maßnahme nur EINE Rolle aus. Jede Rolle kann einmal, mehrmals oder gar nicht verwendet werden.",
+  "scenario": "",
+  "question": "Aktualisieren des Projektlogbuchs, um die Entscheidung zu bestätigen, Workshops, Präsentationen und Werbeartikel in den Projektumfang aufzunehmen",
+  "items": [],
+  "opts": {
+   "A": "Benutzervertreter",
+   "B": "Lieferantenvertreter",
+   "C": "Projektsicherung",
+   "D": "Projektmanager",
+   "E": "Teammanager"
+  },
+  "answer": "D",
+  "expl": {
+   "A": "Siehe Tabelle 10.2",
+   "B": "Siehe Tabelle 10.2",
+   "C": "Siehe Tabelle 10.2",
+   "D": "Der Projektmanager sollte „ die Verfahren zur Steuerung von Issues und Managementtechniken managen, bei Bedarf mithilfe der Projektunterstützung“. Da in der Frage nicht von der Projektunterstützung die Rede ist, muss der Projektmanager dafür zuständig sein. Darüber hinaus gibt es möglicherweise andere Elemente des Projektlogbuchs, die aktualisiert werden müssen, z. B. das Produktregister, um die zusätzlichen Produkte hinzuzufügen. Siehe Tabelle 10.2",
+   "E": "Siehe Tabelle 10.2"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P043",
+  "origin": [
+   "PR1-43"
+  ],
+  "topic": "Practice: Issues",
+  "ref": "P2-7_PRCT_3.6.2",
+  "scenario": "Der neu ernannte Projektmanager hat den folgenden Eintrag im Issueregister aufgezeichnet und anschließend sofort einen Ausnahmebericht erstellt, um dessen Auswirkungen zu bewerten: „Die Reife des Projektmanagements in der Organisation ist äußerst gering, und es fehlen sowohl standardisierte Prozesse als auch Vorlagen.“",
+  "question": "Ist dies eine angemessene Anwendung der Practice „Issues“ und warum?",
+  "items": [],
+  "opts": {
+   "A": "Ja, denn für jedes im Issueregister aufgezeichnete Issue sollte ein Ausnahmebericht erstellt werden",
+   "B": "Ja, denn ein Ausnahmebericht sollte Optionen und Empfehlungen für das weitere Vorgehen bieten",
+   "C": "Nein, denn das Issue sollte in einem Issuebericht erfasst werden, um seine Auswirkungen auf die Projekt-Baseline zu beschreiben",
+   "D": "Nein, denn der Issue-Eigentümer sollte den Ausnahmebericht erstellen, nicht der Projektmanager"
+  },
+  "answer": "C",
+  "expl": {
+   "A": "„[…] bei der Bewertung sollten die Auswirkungen eines Issues oder einer Änderung auf Folgendes berücksichtigt werden: die genehmigten Ziele und Toleranzen, den Business Case des Projekts, andere Produkte oder Arbeitspakete“. Hier gibt es jedoch keine Beschreibung von überschrittenen Toleranzen, daher ist auch kein Ausnahmebericht erforderlich. Ein Ausnahmebericht wird verwendet, „um den Lenkungsausschuss zu informieren, wenn ein Phasenplan oder Projektplan laut Prognose die festgelegten Toleranzgrenzen überschreiten wird, und Optionen und Empfehlungen für die weitere Vorgehensweise anzubieten“. Siehe 10.3.1.2, 11.5",
+   "B": "„[…] bei der Bewertung sollten die Auswirkungen eines Issues oder einer Änderung auf Folgendes berücksichtigt werden: die genehmigten Ziele und Toleranzen, den Business Case des Projekts, andere Produkte oder Arbeitspakete“. Hier gibt es jedoch keine Beschreibung von überschrittenen Toleranzen, daher ist auch kein Ausnahmebericht erforderlich. Ein Ausnahmebericht wird verwendet, „um den Lenkungsausschuss zu informieren, wenn ein Phasenplan oder Projektplan laut Prognose die festgelegten Toleranzgrenzen überschreiten wird, und Optionen und Empfehlungen für die weitere Vorgehensweise anzubieten“. Siehe 10.3.1.2, 11.5",
+   "C": "Hier gibt es keine Beschreibung einer Ausnahme, daher ist auch kein Ausnahmebericht erforderlich. Der Projektmanager sollte zunächst die Auswirkungen des Issues bewerten und prüfen, ob das Issue Auswirkungen auf die Projekt- oder Phasentoleranzen hat. „[...] die Bewertung sollte die Auswirkungen eines Issue oder einer Änderung auf die genehmigten Ziele und Toleranzen, den Business Case des Projekts, andere Produkte oder Arbeitspakete berücksichtigen“. Ein Issuebericht wird verwendet, „um die Auswirkungen des Issues auf die Projekt-Baseline zu beschreiben und Möglichkeiten zur Lösung des Issues oder zur Behebung von Spezifikationsabweichungen zu identifizieren und eine Entscheidung zu empfehlen“. Ein Ausnahmebericht wird verwendet, „um den Lenkungsausschuss zu informieren, wenn ein Phasenplan oder Projektplan laut Prognose die festgelegten Toleranzgrenzen überschreiten wird, und Optionen und Empfehlungen für die weitere Vorgehensweise anzubieten“. Siehe 10.3.1.2, 10.5, 11.5",
+   "D": "Jedem Issue im Issueregister wird eine Issue-Eigentümer zugewiesen: „Issue-Eigentümer: für das Issue“. Es kann daher sein, dass der Issue-Eigentümer am besten geeignet ist, entweder den Issuebericht oder einen Ausnahmebericht zu erstellen. Dies erklärt jedoch nicht, warum ein Issuebericht und nicht ein Ausnahmebericht erstellt werden sollte. Siehe 10.5"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P044",
+  "origin": [
+   "PR1-44"
+  ],
+  "topic": "Practice: Issues",
+  "ref": "P2-7_PRCT_3.6.2",
+  "scenario": "Das folgende Issue wurde von der Portfolio-Office-Managerin angesprochen:\n\n„Der Reifegrad des Projektmanagements in der Organisation ist sehr gering, es gibt keine standardisierten Prozesse oder Vorlagen. Ohne Korrekturmaßnahmen wird das Projekt „Kampagne gegen Diskriminierung“ seine Ziele nicht erreichen“.\n\nDaher wurde die externe Projektleiterin, die eine nachweisliche Erfolgsbilanz bei der Lieferung im gemeinnützigen Sektor vorweisen kann, für die Rolle des Projektmanagers ernannt. Die externe Projektleiterin hat daraufhin das Issue als „geschlossen“ markiert.",
+  "question": "Ist das Abschließen dieses Issues eine angemessene Anwendung der Practice „Issues“ und warum?",
+  "items": [],
+  "opts": {
+   "A": "Ja, denn die externe Projektleiterin sollte für das Issuemanagement-Verfahren verantwortlich sein",
+   "B": "Ja, denn die Auswirkungen des Issues wurden bewertet, eine angemessene Maßnahme wurde gewählt und effektiv implementiert",
+   "C": "Nein, denn für Issues im Issueregister sollte bei Bedarf ein Issuebericht erstellt werden",
+   "D": "Nein, denn die Portfolio-Office-Managerin als Issue-Eigentümer sollte das Issue im Issueregister schließen"
+  },
+  "answer": "B",
+  "expl": {
+   "A": "Es stimmt, dass der Projektmanager „die Verfahren zur Steuerung von Issues und Managementtechniken, bei Bedarf mithilfe der Projektunterstützung, managen sollte“. Dies erklärt jedoch nicht, warum das Issue als „geschlossen“ markiert werden sollte, sobald es gelöst ist. Siehe Tabelle 10.2",
+   "B": "Ein Issue ist „ein ungeplantes Ereignis, das aufgetreten ist und Managementmaßnahmen erfordert“. Darüber hinaus umfasst das PRINCE2 Projektmanagement Verfahren für das Issuemanagement die Schritte „Erfassen von Issues, Bewerten von Issues, Änderungsempfehlung, Entscheiden über Änderungen und Implementieren von Änderungen“. Dieses Issue wurde vom Management geprüft und eine Änderung wurde durch die Ernennung der externen Projektleiterin implementiert, sodass es als „abgeschlossen“ gelten sollte. Siehe 10.1, 10.3.1",
+   "C": "Es stimmt, dass für Issues, die im Issueregister erfasst werden, bei Bedarf ein Issuebericht erstellt werden sollte. Ein Issuebericht wird verwendet, „um die Auswirkungen des Issues auf die Projekt-Baseline zu beschreiben und Möglichkeiten zur Lösung des Issues oder zur Behebung von Spezifikationsabweichungen zu identifizieren und eine Entscheidung zu empfehlen“. Dies erklärt jedoch nicht, warum das Issue in diesem Issueregister geschlossen werden sollte. Siehe 10.5",
+   "D": "Die Portfolio-Office-Managerin kann Issue-Eigentümer(in) sein und daher dafür verantwortlich, sicherzustellen, dass dieses Issue angemessen gemanagt und gelöst wird. Es ist jedoch der Projektmanager, nicht der Issue-Eigentümer, der „die Issue- und Managementtechniken managen soll, bei Bedarf mithilfe der Projektunterstützung“. Siehe Tabelle 10.2"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P045",
+  "origin": [
+   "PR1-45"
+  ],
+  "topic": "Practice: Fortschritt",
+  "ref": "P2-7_PRCT_3.7.1.a",
+  "group": "PR1-G45",
+  "groupIntro": "Nachstehend sind drei Informationen zum Fortschritt des Projekts aufgeführt.\n\nIn welchem Managementprodukt (A–E) sollten sie erfasst werden? Wählen Sie nur EIN Produkt für jede Information aus. Jedes Produkt kann einmal, mehrmals oder gar nicht verwendet werden.",
+  "scenario": "",
+  "question": "Die Zeittoleranz für Phase 2 beträgt +1 Woche. Der Projektmanager prognostiziert, dass eine Verzögerung des Medientrainings zu einer Verzögerung der Phase von 2 Wochen führen wird.",
+  "items": [],
+  "opts": {
+   "A": "Ausnahmebericht",
+   "B": "Projektlogbuch",
+   "C": "Projektstatusbericht",
+   "D": "Teamstatusbericht",
+   "E": "Projektabschlussbericht"
+  },
+  "answer": "A",
+  "expl": {
+   "A": "Es handelt sich um ein Issue, das die Toleranz der Phase um 1 Woche überschreitet. Daher muss ein Ausnahmebericht an den Lenkungsausschuss gesendet werden, „um den Lenkungsausschuss zu informieren, wenn ein Phasenplan oder Projektplan laut Prognose die festgelegten Toleranzgrenzen überschreiten wird, und Optionen und Empfehlungen für die weitere Vorgehensweise anzubieten“. Siehe 11.5",
+   "B": "Siehe 11.5",
+   "C": "Siehe 11.5",
+   "D": "Siehe 11.5",
+   "E": "Siehe 11.5"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P046",
+  "origin": [
+   "PR1-46"
+  ],
+  "topic": "Practice: Fortschritt",
+  "ref": "P2-7_PRCT_3.7.1.a",
+  "group": "PR1-G45",
+  "groupIntro": "Nachstehend sind drei Informationen zum Fortschritt des Projekts aufgeführt.\n\nIn welchem Managementprodukt (A–E) sollten sie erfasst werden? Wählen Sie nur EIN Produkt für jede Information aus. Jedes Produkt kann einmal, mehrmals oder gar nicht verwendet werden.",
+  "scenario": "",
+  "question": "Bei dem Projekt gab es wiederholt Issues, da mehr Mitarbeitende NowByou während des Projekts verließen als ursprünglich erwartet. Dies führte zu einer zusätzlichen Schulung der neuen Mitarbeitenden zum Umgang mit Medien und verursachte Verzögerungen im gesamten Projekt.",
+  "items": [],
+  "opts": {
+   "A": "Ausnahmebericht",
+   "B": "Projektlogbuch",
+   "C": "Projektstatusbericht",
+   "D": "Teamstatusbericht",
+   "E": "Projektabschlussbericht"
+  },
+  "answer": "E",
+  "expl": {
+   "A": "Siehe 11.5",
+   "B": "Siehe 11.5",
+   "C": "Siehe 11.5",
+   "D": "Siehe 11.5",
+   "E": "Dies ist ein Rückblick auf das Projekt und eine Zusammenfassung des Issues der hohen Mitarbeiterfluktuation. Dies sollte als Teil des Projektabschlussberichts berichtet werden und wird auch in den Erfahrungsbericht einfließen. Mit dem Projektabschlussbericht soll überprüft werden, „wie das Projekt im Vergleich zu der Version der Projektleitdokumentation, auf deren Grundlage es genehmigt wurde, abgeschnitten hat“. Siehe 11.5"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P047",
+  "origin": [
+   "PR1-47"
+  ],
+  "topic": "Practice: Fortschritt",
+  "ref": "P2-7_PRCT_3.7.1.a",
+  "group": "PR1-G45",
+  "groupIntro": "Nachstehend sind drei Informationen zum Fortschritt des Projekts aufgeführt.\n\nIn welchem Managementprodukt (A–E) sollten sie erfasst werden? Wählen Sie nur EIN Produkt für jede Information aus. Jedes Produkt kann einmal, mehrmals oder gar nicht verwendet werden.",
+  "scenario": "",
+  "question": "Der Forschungsteammanager, der das Arbeitspaket zur Optionsanalyse erstellt, hat Daten gesammelt, um den Projektmanager über die Fortschritte bei der Optionsanalyse zu informieren.",
+  "items": [],
+  "opts": {
+   "A": "Ausnahmebericht",
+   "B": "Projektlogbuch",
+   "C": "Projektstatusbericht",
+   "D": "Teamstatusbericht",
+   "E": "Projektabschlussbericht"
+  },
+  "answer": "D",
+  "expl": {
+   "A": "Siehe 11.5",
+   "B": "Siehe 11.5",
+   "C": "Siehe 11.5",
+   "D": "Mit einem Teamstatusbericht „wird der Status der Arbeitspaketbeschreibung in einer in der Arbeitspaketbeschreibung festgelegten Häufigkeit an den Projektmanager gemeldet“. Ein Teamstatusbericht wird von einem Teammanager an den Projektmanager übermittelt. Siehe 11.5",
+   "E": "Siehe 11.5"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P048",
+  "origin": [
+   "PR1-48"
+  ],
+  "topic": "Practice: Fortschritt",
+  "ref": "P2-7_PRCT_3.7.2",
+  "scenario": "Das Projekt befindet sich in Phase 1 und die externe Projektleiterin erarbeitet die Steuerungsmittel, die in die Projektleitdokumentation aufgenommen werden sollen. Die externe Projektleiterin hat festgestellt, dass die Reife des Projektmanagements von NowByou gering ist. Daher schlug sie vor, dass der Plan für Phase 2 Einzelheiten darüber enthalten sollte, was Woche für Woche erreicht werden soll. Auf diese Weise werden die Teammanager, die die übergreifenden Anforderungen erfassen und die Analyse der Optionen abschließen, häufiger in Bezug auf den Fortschritt zum Phasenplan berichten.",
+  "question": "Ist dies eine angemessene Anwendung der Practice „Fortschritt“ und warum?",
+  "items": [],
+  "opts": {
+   "A": "Ja, denn die Reife des Projektmanagements der Organisation ist sehr gering, und die Berichterstattung sollte häufiger erfolgen, wenn Teams unerfahren sind",
+   "B": "Ja, denn der Projektmanager sollte mit den Teammanagern den Aufwand, die Kosten und die Zeit für die Lieferung jedes der Arbeitspakete aushandeln",
+   "C": "Nein, denn die Teammanager sollten die Möglichkeit haben, die Arbeiten der Arbeitspakete innerhalb der mit dem Projektmanager vereinbarten Toleranzen zu steuern",
+   "D": "Nein, denn der Projektmanager sollte mit den Teammanagern Toleranzen für jede der sieben Arten von Toleranzen vereinbart haben, um eine Steuerung zu ermöglichen"
+  },
+  "answer": "A",
+  "expl": {
+   "A": "„[...] von einem unerfahrenen Team hingegen würden der Projektmanager oder der Lenkungsausschuss häufigere Berichterstattung anfordern, bis sie sich von der Fähigkeit des Teams überzeugt haben“. Daher „[...] muss der Phasenplan enthalten, was Woche für Woche erreicht werden muss“. Siehe 11.2.4, 11.2.3",
+   "B": "Es ist wahr, dass die Arbeitspaketbeschreibung Folgendes beinhalten sollte: „Ziele und Toleranzen: die zulässigen Abweichungen bei Umfang, Kosten und Zeit für die Planebene“. Sie sollte auch Folgendes enthalten: Vereinbarung: eine Aufzeichnung der Erstgenehmigung und der endgültigen Fertigstellung des Arbeitspakets zwischen dem Projektmanager und dem Teammanager“. Dies erklärt jedoch nicht, warum die Berichterstattung häufiger erfolgen sollte, wenn ein Team noch unerfahren ist. Siehe 7.5",
+   "C": "Der Teammanager ist „[...] zuständig für ein Arbeitspaket, allerdings nur innerhalb der mit dem Projektmanager vereinbarten Arbeitspakettoleranzen“. Dies erklärt jedoch nicht, warum die Berichterstattung häufiger erfolgen sollte, wenn ein Team noch unerfahren ist. Siehe 11.2.1",
+   "D": "Es ist wahr, dass in PRINCE2 Projektmanagement „das Projekt nach dem Ausnahmeprinzip zwischen vier Managementebenen gegen Toleranzen für sieben Leistungsziele gesteuert wird [...]“. Das bedeutet, dass der Projektmanager mit dem Teammanager Toleranzen für das Arbeitspaket aushandeln sollte, obwohl Nutzen- und Qualitätstoleranzen nicht in der „Arbeitspaketbeschreibung“ festgelegt werden. Siehe 11.2.1, Tabelle 11.1"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P049",
+  "origin": [
+   "PR1-49"
+  ],
+  "topic": "Practice: Fortschritt",
+  "ref": "P2-7_PRCT_3.7.2",
+  "scenario": "Das Projekt befindet sich in Phase 1 und Toleranzen müssen definiert werden. Die externe Projektleiterin hält einen Workshop mit dem Kampagnenleiter und anderen Mitgliedern des Lenkungsausschusses ab. Der Lenkungsausschuss muss entscheiden, ob die Lieferung einer qualitativ hochwertigen Kampagne, die mehr Spenden und Bewusstsein generiert, wichtiger ist als eine pünktliche Lieferung.",
+  "question": "Ist diese Entscheidung eine angemessene Anwendung der Practice „Fortschritt“, und warum?",
+  "items": [],
+  "opts": {
+   "A": "Ja, denn der Lenkungsausschuss sollte gemäß „Steuern nach dem Ausnahmeprinzip“ den Fortschritt gegenüber dem Projektplan überwachen",
+   "B": "Ja, denn der Lenkungsausschuss sollte die Einschränkungen priorisieren, um Toleranzen für jede Phase zuzuteilen",
+   "C": "Nein, denn der Projektmanager sollte mit den Teammanagern zusammenarbeiten, um die Einschränkungen zu priorisieren und Arbeitspakettoleranzen festzulegen",
+   "D": "Nein, denn der Projektmanager sollte den erforderlichen Detaillierungsgrad in den Projektplan aufnehmen, um eine Steuerung durch den Lenkungsausschuss zu ermöglichen"
+  },
+  "answer": "B",
+  "expl": {
+   "A": "Es ist wahr, dass in PRINCE2 Projektmanagement „das Projekt nach dem Ausnahmeprinzip zwischen vier Managementebenen gegen Toleranzen für sieben Leistungsziele gesteuert wird [...]“. Dies erklärt jedoch nicht, warum ein Workshop zur Priorisierung von Einschränkungen für das Projekt genutzt werden sollte. Siehe 11.2.1",
+   "B": "„Der Lenkungsausschuss hat auf Projektebene die Befugnis zur Steuerung des Projekts [...] und teilt dem Projektmanager die Toleranzen für jede Phase zu“. Dazu benötigt er Folgendes: „ein entscheidendes Element einer effektiven Planung besteht darin, zu verstehen, welche Einschränkungen Vorrang haben, welche Ansätze verwendet werden sollen und welche Toleranzen für die Steuerung geeignet sind“. Siehe 11.2.1, 7.2.4",
+   "C": "„Der Lenkungsausschuss hat auf Projektebene die Befugnis zur Steuerung des Projekts [...] und teilt dem Projektmanager die Toleranzen für jede Phase zu“. Dazu benötigt er Folgendes: „ein entscheidendes Element einer effektiven Planung besteht darin, zu verstehen, welche Einschränkungen Vorrang haben [...]“. Der Projektmanager sollte innerhalb der Phasentoleranzen arbeiten, die vom Lenkungsausschuss bei der Genehmigung von Arbeitspaketen festgelegt werden. Siehe 11.2.1, 7.2.4",
+   "D": "Es stimmt, dass es „nur möglich ist, den Fortschritt auf der Detailebene der Pläne zu steuern“, und dass „der Lenkungsausschuss auf Projektebene die Befugnis zur Steuerung des Projekts hat [...] und dem Projektmanager die Toleranzen für jede Phase zuteilt“. Dies erklärt jedoch nicht, warum ein Workshop zur Priorisierung von Einschränkungen für das Projekt genutzt werden sollte. Siehe 11.2.3, 11.2.1"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P050",
+  "origin": [
+   "PR1-50"
+  ],
+  "topic": "Prozesse",
+  "ref": "P2-7_PRCT_4.2.1.b",
+  "scenario": "Das Projekt befindet sich in Phase 3. Der Projektmanager hat einen Änderungsantrag erfasst, um die Kampagne über einen zusätzlichen Social-Media-Kanal zu implementieren. Dieser Änderungsantrag führt zu einer Ausnahme auf Phasenebene. Daher hat der Projektmanager einen Ausnahmebericht an den Lenkungsausschuss übermittelt. Der Lenkungsausschuss muss beim Prozess „Lenken eines Projekts“ sicherstellen, dass die Auswirkungen angemessen bewertet wurden, bevor er auf den Ausnahmebericht reagiert.",
+  "question": "Welche Rolle sollte der Projektauftraggeber konsultieren?",
+  "items": [],
+  "opts": {
+   "A": "Benutzervertreter",
+   "B": "Projektsicherung",
+   "C": "Teammanager",
+   "D": "Projektunterstützung"
+  },
+  "answer": "B",
+  "expl": {
+   "A": "Der Benutzervertreter sollte bei der Aktivität „Nach Bedarf Anweisungen geben“ „aus Benutzersicht (R2) verantwortlich sein“. Sie wird nicht „konsultiert“. Siehe Tabelle 14.2",
+   "B": "Im Rahmen der Aktivität „Nach Bedarf Anweisungen geben“ gilt: „Wenn während einer Managementphase eine Ausnahme gemeldet wurde, kann der Lenkungsausschuss vom Projektmanager einen Ausnahmeplan anfordern, den der Lenkungsausschuss genehmigen muss“. Die Projektsicherung sollte im Rahmen der Aktivität „Nach Bedarf Anweisungen geben“ konsultiert werden. Siehe 14.4.3, Tabelle 14.2",
+   "C": "Der Teammanager sollte im Rahmen der Aktivität „Nach Bedarf Anweisungen geben“ „informiert“ werden. Sie wird nicht „konsultiert“. Siehe Tabelle 14.2",
+   "D": "Die Projektunterstützung sollte im Rahmen der Aktivität „Nach Bedarf Anweisungen geben“ „informiert“ werden. Sie wird nicht „konsultiert“. Siehe Tabelle 14.2"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P051",
+  "origin": [
+   "PR1-51"
+  ],
+  "topic": "Prozesse",
+  "ref": "P2-7_PRCT_4.2.1.b",
+  "scenario": "Der Projektmanager erstellt den Plan für die Sammlung der Haupt-Anforderungen und die Optionsanalyse. Der Lenkungsausschuss hat diesen Plan im Rahmen des Prozesses „Lenken eines Projekts“ genehmigt.",
+  "question": "Welche Rolle sollte über diese Entscheidung informiert werden?",
+  "items": [],
+  "opts": {
+   "A": "Lieferantenvertreter",
+   "B": "Projektauftraggeber",
+   "C": "Projektmanager",
+   "D": "Projektsicherung"
+  },
+  "answer": "C",
+  "expl": {
+   "A": "Der Lieferantenvertreter sollte im Rahmen der Aktivität „Phasen- oder Ausnahmeplan freigeben“ „konsultiert“ werden. Siehe Tabelle 14.2",
+   "B": "Der Projektauftraggeber sollte für die Aktivität „Phasen- oder Ausnahmeplan freigeben“ „rechenschaftspflichtig/verantwortlich“ sein. Siehe Tabelle 14.2",
+   "C": "Der Projektmanager sollte im Rahmen der Aktivität „Phasen- oder Ausnahmeplan freigeben“ durch den Lenkungsausschuss „informiert“ werden. Siehe Tabelle 14.2",
+   "D": "Die Projektsicherung sollte vom Lenkungsausschuss im Rahmen der Aktivität „Phasen- oder Ausnahmeplan freigeben“ „konsultiert“ werden. Siehe Tabelle 14.2"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P052",
+  "origin": [
+   "PR1-52"
+  ],
+  "topic": "Prozesse",
+  "ref": "P2-7_PRCT_4.1.2",
+  "scenario": "Das Projekt befindet sich im Prozess „Vorbereiten eines Projekts“. Der neu ernannte Projektmanager tut sich schwer damit, die wichtigsten Produkte des Projekts „Kampagne gegen Diskriminierung“ zu definieren und zu bestimmen, wer sie nutzen wird. Daher hat der Chief Finance Officer dem Projektmanager geraten, ein Mittagessen mit ihm, der Vorsitzenden des Kuratoriums, der Portfolio-Office-Managerin, dem Leiter für Öffentlichkeitsarbeit und Social Media und der Leiterin der Marketingagentur zu organisieren.",
+  "question": "Ist das Mittagessen eine angemessene Anwendung der Aktivität „Business-Case-Entwurf erstellen“ und warum?",
+  "items": [],
+  "opts": {
+   "A": "Ja, denn der Lenkungsausschuss sollte eine Verbindung zur Vorsitzenden des Kuratoriums, d.h. zur Business-Ebene, bereitstellen",
+   "B": "Ja, denn der Projektmanager sollte bei der Erstellung der Projektproduktbeschreibung den Projektauftraggeber, den Benutzervertreter und den Lieferantenvertreter konsultieren",
+   "C": "Nein, da der Projektmanager die Projektproduktbeschreibung mit der Projektsicherung besprechen sollte, bevor er dieses Treffen organisiert",
+   "D": "Nein, denn der Projektmanager sollte in der Aktivität „Business Case-Entwurf erstellen“ nicht die Projektproduktbeschreibung erstellen"
+  },
+  "answer": "B",
+  "expl": {
+   "A": "Ein Ziel des Prozesses „Lenken eines Projekts“, nicht des Prozesses „Vorbereiten eines Projekts“ ist es, sicherzustellen, dass „die Business-Ebene eine Verbindung zum Projekt hat“. Siehe 14.2",
+   "B": "Im Rahmen der Aktivität „Business-Case-Entwurf erstellen“„definiert der Projektmanager in Zusammenarbeit mit dem Benutzervertreter, dem Lieferantenvertreter und dem Projektauftraggeber, was das Projekt liefern soll, und erstellt die Projektproduktbeschreibung [...]“. Siehe 13.4.3",
+   "C": "Die Projektsicherung ist nicht an der Aktivität „Business-Case-Entwurf erstellen“ beteiligt. Siehe 13.4.3, Tabelle 13.2",
+   "D": "Im Rahmen der Aktivität „Business-Case-Entwurf erstellen“„erarbeitet der Projektmanager in Zusammenarbeit mit dem Benutzervertreter, dem Lieferantenvertreter und dem Projektauftraggeber, was das Projekt liefern soll, und erstellt die Projektproduktbeschreibung [...]“. Siehe 13.4.3"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P053",
+  "origin": [
+   "PR1-53"
+  ],
+  "topic": "Prozesse",
+  "ref": "P2-7_PRCT_4.3.1.b",
+  "scenario": "Das Projekt befindet sich im Prozess „Initiieren eines Projekts“. Die externe Projektleiterin hat gemeinsam mit dem Projektteam, einschließlich der Leiterin der Marketingagentur , eine Schätzung des Zeitaufwands und der Kosten für die Definition und Umsetzung der Marketingkampagne erarbeitet. Die externe Projektleiterin hat den vollständigen Business Case mit diesen aktualisierten Zeiten und Kosten sowie den aggregierten Risiken aus dem Projektlogbuch aktualisiert.",
+  "question": "Welche Rolle sollte diese aktualisierten Informationen genehmigen?",
+  "items": [],
+  "opts": {
+   "A": "Business-Ebene",
+   "B": "Projektauftraggeber",
+   "C": "Projektmanager",
+   "D": "Projektsicherung"
+  },
+  "answer": "B",
+  "expl": {
+   "A": "Der Projektauftraggeber sollte für die Aktivität „Vollständigen Business Case erstellen“ „rechenschaftspflichtig“ sein. Die Business-Ebene ist an dieser Aktivität nicht beteiligt. Siehe Tabelle 15.2",
+   "B": "Der Projektauftraggeber sollte für die Aktivität „Vollständigen Business Case erstellen“ „rechenschaftspflichtig“ sein. Das bedeutet, dass der Projektauftraggeber den vollständigen Business Case genehmigen sollte, der nach dem Erstellen des Projektplans mit den überarbeiteten Zeiten und Kosten aktualisiert wurde. Siehe Tabelle 15.2",
+   "C": "Der Projektmanager sollte für die Aktivität „Vollständigen Business Case erstellen“ „verantwortlich“ sein. Dies bedeutet, dass der Projektmanager den vollständigen Business Case zur Genehmigung durch den Projektauftraggeber erstellen sollte. Siehe Tabelle 15.2",
+   "D": "Die Projektsicherung sollte im Rahmen der Aktivität „Vollständigen Business Case erstellen“ „konsultiert“ werden. Dies bedeutet, dass der Projektmanager den vollständigen Business Case in Konsultation mit der Projektsicherung zur Genehmigung durch den Projektauftraggeber erstellen sollte. Siehe Tabelle 15.2"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P054",
+  "origin": [
+   "PR1-54"
+  ],
+  "topic": "Prozesse",
+  "ref": "P2-7_PRCT_4.3.1.a",
+  "scenario": "Das Projekt befindet sich im Prozess „Initiieren eines Projekts“. Die externe Projektleiterin hat ein Treffen mit dem Lenkungsausschuss angefordert. Bei dem Treffen wird die externe Projektleiterin erläutern, wie die Kampagne das Bewusstsein für die Diskriminierung von Randgruppen schärfen und die Markenbekanntheit von NowByou stärken wird, und erklären, was während der Projektinitiierung geschehen ist.",
+  "question": "Während welcher Aktivität des Prozesses „Initiieren eines Projekts“ sollte dieses Treffen stattfinden?",
+  "items": [],
+  "opts": {
+   "A": "Anpassungsanforderungen vereinbaren",
+   "B": "Management-Ansätze vereinbaren",
+   "C": "Projektsteuerungsmittel einrichten",
+   "D": "Projektfreigabe beantragen"
+  },
+  "answer": "D",
+  "expl": {
+   "A": "Bei der Aktivität „Anpassungsanforderungen vereinbaren“ „sollte der Projektmanager PRINCE2 Projektmanagement anpassen, um die internen und externen Faktoren zu berücksichtigen, die die Durchführung des Projekts beeinflussen [...] Wie PRINCE2 Projektmanagement oder das standardisierte Projektmanagement-Framework des Business angewendet und/oder angepasst wird, muss dokumentiert und vereinbart werden“. Siehe 15.4.1",
+   "B": "Bei der Aktivität „Management-Ansätze vereinbaren“ werden „die Management-Ansätze aus den Geschäftsstrategien, Standards oder Practices abgeleitet, die das Projekt erfüllen muss, sowie aus den in der Projektproduktbeschreibung festgehaltenen Qualitäts- und Nachhaltigkeitserwartungen der Benutzer“. Sobald die Ansätze definiert sind, kann mit der Einrichtung der Projektsteuerungsmittel und der Erstellung des Projektplans begonnen werden“. Siehe 15.4.2",
+   "C": "Bei der Aktivität „Projektsteuerungsmittel einrichten“ geht es darum, dass die „Steuerungsebene, die der Lenkungsausschuss nach der Initiierungsphase anfordert, zugestimmt wird und der Mechanismus hierfür eingerichtet wird – ebenso wie die Steuerungsebene, die der Projektmanager für die Steuerung der Arbeit der Teammanager benötigt“. Siehe 15.4.3",
+   "D": "Im Rahmen der Aktivität „Projektfreigabe beantragen“ gilt: „Um den Prozess „Initiieren eines Projekts“, also die Initiierungsphase, abzuschließen, wendet sich der Projektmanager an den Lenkungsausschuss, um die Projektfreigabe zu beantragen“. Der Projektmanager sollte auch „[...] dem Lenkungsausschuss die endgültige Version des Business Case, die Projektleitdokumentation und den Projektplan zur Verfügung stellen“. Siehe 15.4.7"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P055",
+  "origin": [
+   "PR1-55"
+  ],
+  "topic": "Prozesse",
+  "ref": "P2-7_PRCT_4.2.2",
+  "scenario": "Im Rahmen des Prozesses „Lenken eines Projekts“ traf sich der Projektauftraggeber mit dem neu ernannten internen Projektmanager und stimmte zu, dass die Rolle der externen Projektleiterin sein sollte, den internen Projektmanager zu unterstützen. Bei diesem Treffen wurde der interne Projektmanager mündlich darüber informiert, dass der Lenkungsausschuss die Projektinitiierung nach einer kurzen Diskussion am Ende einer Kuratoriumssitzung freigegeben hatte, die zu einem anderen Thema stattgefunden hatte. Daher fuhr der interne Projektmanager mit der Umsetzung des Phasenplans für die Initiierungsphase fort.",
+  "question": "Ist diese mündliche Freigabe des Projektauftraggebers eine angemessene Anwendung der Aktivität „Initiierung freigeben“, und warum?",
+  "items": [],
+  "opts": {
+   "A": "Ja, denn der Projektauftraggeber sollte die Rollen des internen Projektmanagers und der externen Projektleiterin genehmigen, wenn er die Initiierung freigibt",
+   "B": "Ja, denn der Projektauftraggeber sollte die Ressourcen und die Unterstützung bereitstellen, die der interne Projektmanager in der Initiierungsphase benötigt",
+   "C": "Nein, denn der Projektauftraggeber sollte die Anweisung, mit der Initiierungsphase fortzufahren, für den internen Projektmanager dokumentieren",
+   "D": "Nein, denn der Lenkungsausschuss des Projekts sollte eine separate, formelle Sitzung abhalten, um die Initiierungsphase freizugeben"
+  },
+  "answer": "C",
+  "expl": {
+   "A": "Es ist wahr, dass der Lenkungsausschuss im Rahmen der Aktivität „Initiierung freigeben“ „die Projektkurzbeschreibung prüfen und genehmigen“ sollte, was auch die Bestätigung der Ernennungen und Rollen des Projektmanagement-Teams beinhaltet. Die Genehmigung wurde jedoch nicht dokumentiert. Siehe 14.4.1",
+   "B": "Es stimmt, dass der Lenkungsausschuss im Rahmen der Aktivität „Initiierung freigeben“ „den Phasenplan für die Initiierungsphase prüfen und genehmigen“ sollte, der auch die Beschaffung der für die Initiierungsphase erforderlichen Ressourcen beinhaltet. Die Genehmigung wurde jedoch nicht dokumentiert. Siehe 14.4.1",
+   "C": "Die Entscheidung, zur Initiierungsphase überzugehen, kann „ohne eine formelle Sitzung erfolgen, wenn alle Mitglieder eine Zustimmung haben und der Projektmanager eine dokumentierte Anweisung vom Projektauftraggeber erhält, mit der Initiierung fortzufahren“. Siehe 14.4.1",
+   "D": "Die Entscheidung, zur Initiierungsphase überzugehen, „kann entweder mit oder ohne eine formelle Sitzung getroffen werden [...]“. Die Genehmigung wurde jedoch nicht dokumentiert. Siehe 14.4.1"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P056",
+  "origin": [
+   "PR1-56"
+  ],
+  "topic": "Prozesse",
+  "ref": "P2-7_PRCT_4.1.1.b",
+  "scenario": "Das Projekt befindet sich im Prozess „Vorbereiten eines Projekts“. Der Leiter für Öffentlichkeitsarbeit und Social Media wird für die Markenführung, Pressemitteilungen und soziale Medien im Projekt „Kampagne gegen Diskriminierung“ verantwortlich sein. Daher wurde beschlossen, ihn als Lieferantenvertreter zu ernennen.",
+  "question": "Welche Rolle sollte für diese Entscheidung rechenschaftspflichtig sein?",
+  "items": [],
+  "opts": {
+   "A": "Business-Ebene",
+   "B": "Projektauftraggeber",
+   "C": "Projektmanager",
+   "D": "Projektunterstützung"
+  },
+  "answer": "A",
+  "expl": {
+   "A": "Die Business-Ebene sollte für die Aktivität „Projektmanagement-Team ernennen“ „rechenschaftspflichtig“ sein. Bei dieser Aktivität „muss das Projektmanagement-Team die Interessen aller Beteiligten, einschließlich des Business, der Benutzer und der Lieferanten berücksichtigen [...] Wichtig ist neben der oben genannten Befugnis, Verantwortung und dem Wissen auch, dass die Beteiligten in der Lage sind, zusammenzuarbeiten, um ein leistungsfähiges Team zu bilden [...]“. Siehe 13.4.4, Tabelle 13.2",
+   "B": "Der Projektauftraggeber sollte für die Aktivität „Projektmanagement-Team ernennen“ „verantwortlich“ sein. Siehe Tabelle 13.2",
+   "C": "Der Projektmanager ist nicht an der Aktivität „Projektmanagement-Team ernennen“ beteiligt. Siehe Tabelle 13.2",
+   "D": "Die Projektunterstützung ist nicht an der Aktivität „Projektmanagement-Team ernennen“ beteiligt. Siehe Tabelle 13.2"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P057",
+  "origin": [
+   "PR1-57"
+  ],
+  "topic": "Prozesse",
+  "ref": "P2-7_PRCT_4.1.1.b",
+  "scenario": "Das Projekt befindet sich im Prozess „Vorbereiten eines Projekts“, und es wurde beschlossen, einem der Trainees die Rolle des Projektmanagers im Projekt „Kampagne gegen Diskriminierung“ anzubieten. Die externe Projektleiterin wird nun als Mentorin für den Trainee in seiner neuen Rolle bei der Durchführung dieses dreiphasigen Projekts fungieren.",
+  "question": "Welche Rolle sollte für diese Ernennung rechenschaftspflichtig sein?",
+  "items": [],
+  "opts": {
+   "A": "Business-Ebene",
+   "B": "Projektauftraggeber",
+   "C": "Projektsicherung",
+   "D": "Projektunterstützung"
+  },
+  "answer": "A",
+  "expl": {
+   "A": "Die Business-Ebene sollte für die Aktivität „Auftraggeber und Projektmanager ernennen“ „rechenschaftspflichtig“ sein. In dieser Aktivität „ernennt der Projektauftraggeber den Projektmanager und überträgt diesem die alltägliche Abwicklung des Projekts“. Siehe 13.4.1, Tabelle 13.2",
+   "B": "Der Projektauftraggeber sollte für die Aktivität „Projektauftraggeber und Projektmanager ernennen“ „verantwortlich“ sein. Siehe Tabelle 13.2",
+   "C": "Die Projektsicherung ist nicht an der Aktivität „Projektauftraggeber und Projektmanager ernennen“ beteiligt. Siehe Tabelle 13.2",
+   "D": "Die Projektunterstützung ist nicht an der Aktivität „Projektauftraggeber und Projektmanager ernennen“ beteiligt. Siehe Tabelle 13.2"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P058",
+  "origin": [
+   "PR1-58"
+  ],
+  "topic": "Prozesse",
+  "ref": "P2-7_PRCT_4.3.2",
+  "scenario": "NowByou ist sich bewusst, dass das Projekt sehr sensibel und riskant ist. Der Projektauftraggeber möchte das Projekt vertraulich behandeln, um negative Berichterstattung zu vermeiden. Während des Prozesses „Initiieren eines Projekts“ bespricht die externe Projektleiterin das Projekt mit internen Mitarbeitern, die Erfahrung mit der Geheimhaltung von Projekten haben und sich anderer Risiken bei der Arbeit mit Randgruppen bewusst sind. Ihre Erfahrungen in Bezug auf die Geheimhaltung des Projekts sind im vollständigen Business Case enthalten.",
+  "question": "Ist dieser Ansatz eine geeignete Anwendung der Aktivität „Vollständigen Business Case erstellen“ und warum?",
+  "items": [],
+  "opts": {
+   "A": "Ja, denn das kombinierte Risikoprofil sollte zusammen mit der Zeit und den Kosten im vollständigen Business Case berücksichtigt werden",
+   "B": "Ja, denn bei der Erstellung des vollständigen Business Case sollten Erfahrungen aus ähnlichen früheren Projekten berücksichtigt werden",
+   "C": "Nein, denn Risikomaßnahmen im Zusammenhang mit negativer Berichterstattung sollten bei der Entwicklung des Risikomanagement-Ansatzes berücksichtigt werden",
+   "D": "Nein, denn Erfahrungen im Umgang mit Vertraulichkeit sollten bei der Entwicklung des Digital- und Datenmanagement-Ansatzes berücksichtigt werden"
+  },
+  "answer": "D",
+  "expl": {
+   "A": "Es ist wahr, dass im Rahmen der Aktivität „Vollständigen Business Case erstellen“ „der in „Vorbereiten eines Projekts“ erstellte Business-Case-Entwurf aktualisiert werden muss, um den im Projektplan ermittelten Zeit- und Kostenaufwand sowie die aus dem aktualisierten Projektlogbuch ersichtliche Risikosituation zu berücksichtigen“. Die externe Projektleiterin sucht jedoch nach Erfahrungen im Umgang mit Vertraulichkeit, die bei der Erstellung des Digital- und Datenmanagement-Ansatzes berücksichtigt werden sollten, nicht beim Business Case. Siehe 15.4.5",
+   "B": "Es ist wahr, dass im Rahmen der Aktivität „Vollständigen Business Case erstellen“ „der in „Vorbereiten eines Projekts“ erstellte Business-Case-Entwurf aktualisiert werden muss, um den im Projektplan ermittelten Zeit- und Kostenaufwand sowie die aus dem aktualisierten Projektlogbuch ersichtliche Risikosituation zu berücksichtigen“. Dies sollte das Sammeln von „Erfahrungen im Zusammenhang mit der Business-Case-Entwicklung aus ähnlichen früheren Projekten, Business oder externen Organisationen sammeln“ beinhalten. Die Erfahrungen hier beziehen sich jedoch auf den Umgang mit Vertraulichkeit und nicht auf die Entwicklung des Business Case. Siehe 15.4.5",
+   "C": "Im Rahmen der Aktivität „Management-Ansätze vereinbaren“ werden „die Management-Ansätze aus den Geschäftsstrategien, Standards oder Practices abgeleitet, die das Projekt erfüllen muss, sowie aus den in der Projektproduktbeschreibung festgehaltenen Qualitäts- und Nachhaltigkeitserwartungen der Benutzer. Sobald die Ansätze definiert sind, kann mit der Einrichtung der Projektsteuerungsmittel und der Erstellung des Projektplans begonnen werden“. Der Risikomanagement-Ansatz beschreibt die Ziele der Anwendung des Risikomanagements sowie das Verfahren, das angewendet wird. Er umfasst keine spezifischen Risiken. Siehe 15.4.2",
+   "D": "Im Rahmen der Aktivität „Management-Ansätze vereinbaren“ sollte der Projektmanager „Erfahrungen zu Management-Ansätzen aus ähnlichen früheren Projekten, Business und externen Organisationen einholen“. Hier bezieht sich die Erfahrung speziell auf die Vertraulichkeit von Daten während des Projekts. Der Digital- und Datenmanagement-Ansatz sollte im Rahmen dieser Aktivität die Fragen „Wie werden die Daten sicher aufbewahrt?“ und „Welches Maß an Datenschutz ist erforderlich?“ berücksichtigen. Siehe 15.4.2, 11.5"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P059",
+  "origin": [
+   "PR1-59"
+  ],
+  "topic": "Prozesse",
+  "ref": "P2-7_PRCT_4.4.1.a",
+  "scenario": "Das Projekt befindet sich im Prozess „Steuern einer Phase“ in Phase 3. Der Teammanager für die TV-Kampagne hat dem Projektmanager mitgeteilt, dass die Kampagne den in der Arbeitspaketbeschreibung vereinbarten Zeitplan nicht einhalten kann. Aus diesem Grund hat der Projektmanager entschieden, die Kosten- und Zeittoleranzen zu erhöhen, um die Arbeiten innerhalb der Phasentoleranzen abschließen zu können.",
+  "question": "Bei welcher Aktivität des Prozesses „Steuern einer Phase“ sollte der Projektmanager die erhöhten Zeit- und Kostentoleranzen mit dem Teammanager der TV-Kampagne vereinbaren?",
+  "items": [],
+  "opts": {
+   "A": "Arbeitspaket freigeben",
+   "B": "Arbeitspaketstatus bewerten",
+   "C": "Issues und Risiken erfassen",
+   "D": "Korrekturmaßnahmen einleiten"
+  },
+  "answer": "A",
+  "expl": {
+   "A": "„Die Auslöser, die den Projektmanager zur Freigabe von Arbeitspaketen veranlassen, sind folgende Tätigkeiten: [...] Korrekturmaßnahmen: werden als Reaktion auf ein Issue oder ein Risiko ergriffen. In dieser Aktivität werden neue Arbeitspakete freigegeben oder Ergänzungen vorhandener Arbeitspakete genehmigt“. Siehe 16.4.1",
+   "B": "Im Rahmen der Aktivität „Arbeitspaketstatus bewerten“ sollte der Projektmanager „informelle Gespräche mit dem Teammanager führen, um die Beziehung aufrechtzuerhalten [...] und etwaige Issues oder Risiken im Zusammenhang mit seinem Arbeitspaket zu verstehen; Fortschrittsinformationen aus dem Teamstatusbericht für das ausgeführte Arbeitspaket sammeln und überprüfen“. Siehe 16.4.2",
+   "C": "„Issues und Risiken erfassen“ ist die Aktivität, bei der, „bevor eine Entscheidung über das weitere Vorgehen getroffen werden kann, müssen die einzelnen Issues oder Risiken im Projektlogbuch protokolliert und ihre Auswirkungen bewertet werden“. Hier geht es nicht darum, das Issue zu erfassen, sondern darum, mit dem Teammanager erhöhte Kosten- und Zeittoleranzen zu vereinbaren. Siehe 16.4.5",
+   "D": "„Korrekturmaßnahmen einleiten“ ist die Aktivität, bei der der Projektmanager „alle relevanten Informationen über die Abweichung sammelt; mögliche Lösungen für die Abweichung identifiziert und die am besten geeignete Option auswählt; Korrekturmaßnahmen durch Freigabe eines Arbeitspakets auslöst [...]“. Hier hat diese Aktivität bereits stattgefunden und die Aktivität „Arbeitspaket freigeben“ wurde ausgelöst. Siehe 16.4.6"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P060",
+  "origin": [
+   "PR1-60"
+  ],
+  "topic": "Prozesse",
+  "ref": "P2-7_PRCT_4.4.1.c",
+  "scenario": "Das Projekt befindet sich im Prozess „Steuern einer Phase“ in Phase 2. Der Projektmanager muss den Lenkungsausschuss über den Fortschritt informieren, der in den letzten zwei Wochen mit dem Arbeitspaket zur Erfassung der Anforderungen erzielt wurde. Hierfür stellte der Projektmanager Informationen zum Status der Arbeitspakete zur Anforderungserfassung und Optionsanalyse zusammen. Darüber hinaus identifizierte der Projektmanager anhand der Aufzeichnungen im Projektlogbuch, welche Korrekturmaßnahmen in den letzten zwei Wochen ergriffen worden waren.",
+  "question": "Welche Practice wird im Prozess „Steuern einer Phase“ durch den Projektmanager, der diese Maßnahmen durchführt, angewendet?",
+  "items": [],
+  "opts": {
+   "A": "Pläne",
+   "B": "Fortschritt",
+   "C": "Issues",
+   "D": "Qualität"
+  },
+  "answer": "B",
+  "expl": {
+   "A": "Der Prozess „Steuern einer Phase“ wendet die Practice „Pläne“ an, indem „Arbeitspaketbeschreibungen für die Phase werden entwickelt oder aktualisiert. Der Phasenplan und der Projektplan werden aktualisiert“. Siehe Tabelle 16.3",
+   "B": "Der Prozess „Steuern einer Phase“ wendet die Practice „Fortschritt“ an, indem „Projektstatusberichte werden in der für die Projektsteuerung erforderlichen Häufigkeit erstellt und ausgegeben“. „Über Projektstatus berichten“ ist die Aktivität, bei der der Projektmanager „die Informationen aus den Teamstatusberichten, dem Projektlogbuch und allen wesentlichen Überarbeitungen des Phasenplans für den aktuellen Berichtszeitraum zusammenstellen (die Informationen werden aus der Überprüfung des Phasenstatus gewonnen[...]); eine Liste der Korrekturmaßnahmen (wie im Projektlogbuch vermerkt oder aufgezeichnet), die während des Berichtszeitraums durchgeführt wurden, erstellen und den Projektstatusbericht für den aktuellen Berichtszeitraum erstellen sollte“. Siehe Tabelle 16.3, 16.4.8",
+   "C": "Der Prozess „Steuern einer Phase“ wendet die Practice „Issues“ an, indem „der Issuemanagement-Ansatz angewendet wird und seine Anforderungen in die Arbeitspaketbeschreibungen für die Phase aufgenommen werden. Das Issueregister wird mit Details zu neuen Issues und allen erforderlichen oder abgeschlossenen Maßnahmen aktualisiert“. Siehe Tabelle 16.3",
+   "D": "Der Prozess „Steuern einer Phase“ wendet die Practice „Qualität“ an, indem „das Produktregister mit dem Status der Produkte für die Phase aktualisiert wird. Der Qualitätsmanagement-Ansatz wird angewendet und seine Anforderungen werden in die Arbeitspaketbeschreibungen für die Phase aufgenommen. Produktbeschreibungen für die Phase werden entwickelt oder aktualisiert“. Das Qualitätsregister wird mit geplanten oder durchgeführten Qualitätsaktivitäten aktualisiert“. Siehe Tabelle 16.3"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P061",
+  "origin": [
+   "PR1-61"
+  ],
+  "topic": "Prozesse",
+  "ref": "P2-7_PRCT_4.4.2",
+  "scenario": "Während Phase 2 gibt es ein Arbeitspaket für die Evaluierung von Schulungsoptionen für Medienfachleute zum Thema Diskriminierungsbewusstsein zu evaluieren. Der Projektmanager hat im Rahmen des Prozesses „Steuern einer Phase“ einen Teamstatusbericht vom Teammanager erhalten, aus dem hervorgeht, dass das Produkt „Schulungsoptionen“ eine Qualitätsprüfung durchlaufen hat und abgenommen wurde. Die Projektsicherung hat jedoch festgestellt, dass der Leiter für Öffentlichkeitsarbeit und Social Media, der in der Produktbeschreibung als Abnahmeberechtigter angegeben ist, das Produkt noch nicht abgenommen hat. Der Projektmanager hat dem Teammanager mitgeteilt, dass das Produkt nicht abgenommen wurde, und den Teammanager gebeten, diese Situation zu klären.",
+  "question": "Ist diese Aufforderung des Projektmanagers eine angemessene Anwendung der Aktivität „Abgeschlossenes Arbeitspaket entgegennehmen“ und warum?",
+  "items": [],
+  "opts": {
+   "A": "Ja, denn der Projektmanager sollte sicherstellen, dass das Produkt „Schulungsoptionen“ von den richtigen Personen abgenommen wurde",
+   "B": "Ja, denn der Projektmanager sollte die Produkte in jedem Arbeitspaket abnehmen, einschließlich des Produkts mit den „Schulungsoptionen“",
+   "C": "Nein, denn der Projektmanager sollte einen Änderungsantrag für den erforderlichen zusätzlichen Arbeitsaufwand stellen und ihn im Issueregister aufzeichnen",
+   "D": "Nein, denn der Projektmanager sollte die Qualitätsprüfungen als ausreichend betrachten, um die Abnahme zu bestätigen."
+  },
+  "answer": "A",
+  "expl": {
+   "A": "In der Aktivität „Abgeschlossenes Arbeitspaket entgegennehmen“ sollte der Projektmanager „sicherstellen, dass die verschiedenen Produkte, die Bestandteil des Arbeitspakets sind, ordnungsgemäß genehmigt wurden (wie in den Qualitäts- und Nachhaltigkeitsverantwortlichkeiten der jeweiligen Produktbeschreibungen definiert)“. Siehe 16.4.3",
+   "B": "In der Aktivität „Abgeschlossenes Arbeitspaket entgegennehmen“ sollte der Projektmanager „sicherstellen, dass die verschiedenen Produkte, die Bestandteil des Arbeitspakets sind, ordnungsgemäß genehmigt wurden (wie in den Qualitäts- und Nachhaltigkeitsverantwortlichkeiten der jeweiligen Produktbeschreibungen definiert)“. Es ist unwahrscheinlich, dass der Projektmanager der Abnahmeberechtigte für dieses Produkt ist. Siehe 16.4.3",
+   "C": "In der Aktivität „Abgeschlossenes Arbeitspaket entgegennehmen“ sollte der Projektmanager „sicherstellen, dass die verschiedenen Produkte, die Bestandteil des Arbeitspakets sind, ordnungsgemäß genehmigt wurden (wie in den Qualitäts- und Nachhaltigkeitsverantwortlichkeiten der jeweiligen Produktbeschreibungen definiert)“. Dies sollte keinen zusätzlichen Aufwand darstellen, da die Anforderung, die Abnahme durch die Abnahmeberechtigten einzuholen, Teil der Arbeitspaketbeschreibung hätte sein sollen. Siehe 16.4.3",
+   "D": "In der Aktivität „Abgeschlossenes Arbeitspaket entgegennehmen“ sollte der Projektmanager „sicherstellen, dass die verschiedenen Produkte, die Bestandteil des Arbeitspakets sind, ordnungsgemäß genehmigt wurden (wie in den Qualitäts- und Nachhaltigkeitsverantwortlichkeiten der jeweiligen Produktbeschreibungen definiert)“. Daher sind die Qualitätsprüfungen ohne die Abnahme durch die Abnahmeberechtigten im Projekt nicht ausreichend. Siehe 16.4.3"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P062",
+  "origin": [
+   "PR1-62"
+  ],
+  "topic": "Prozesse",
+  "ref": "P2-7_PRCT_4.5.1.b",
+  "scenario": "Das Projekt befindet sich im Prozess „Managen der Produktlieferung“ gegen Ende von Phase 2. Der Teammanager für die Optionsanalyse hat geprüft, ob die Optionsanalyse vom Kampagnenleiter abgenommen wurde, wie in der Produktbeschreibung spezifiziert. Der Teammanager hat den Projektmanager angerufen, um ihm mitzuteilen, dass die Optionsanalyse abgeschlossen ist und dass es zwei Hauptoptionen gibt, zwischen denen der Lenkungsausschuss am Ende der Phase wählen muss. Eine Kopie des Abschlussberichts wurde auch dem Projektmanager zugestellt.",
+  "question": "Welche Rolle sollte der Teammanager auch informieren?",
+  "items": [],
+  "opts": {
+   "A": "Projektauftraggeber",
+   "B": "Projektunterstützung",
+   "C": "Benutzervertreter",
+   "D": "Projektsicherung"
+  },
+  "answer": "B",
+  "expl": {
+   "A": "Der Projektauftraggeber ist an der Aktivität „Abschluss eines Arbeitspakets melden“ nicht beteiligt. Siehe Tabelle 17.2",
+   "B": "Die Projektunterstützung wird in der Aktivität „Abschluss eines Arbeitspakets melden“ über die Fertigstellung des Arbeitspakets „informiert“. Siehe Tabelle 17.2",
+   "C": "Der Benutzervertreter ist nicht an der Aktivität „Abschluss eines Arbeitspakets melden“ beteiligt. Siehe Tabelle 17.2",
+   "D": "Die Projektsicherung wird nicht über die Fertigstellung eines Arbeitspakets „informiert“. Diese Rolle wird in der Aktivität „Abschluss des Arbeitspakets melden“ „konsultiert“. Siehe Tabelle 17.2"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P063",
+  "origin": [
+   "PR1-63"
+  ],
+  "topic": "Prozesse",
+  "ref": "P2-7_PRCT_4.5.1.b",
+  "scenario": "Das Projekt befindet sich im Prozess „Managen der Produktlieferung“ in Phase 3, und es ist zu einer Verzögerung bei der Lieferung der TV-Kampagne gekommen. Der Teammanager benötigt zusätzliche Mittel, um einen weiteren Kameramann einzustellen und die Arbeit rechtzeitig abzuschließen. Der Teammanager ruft den Projektmanager an, um dies zu besprechen.",
+  "question": "Welche Rolle sollte konsultiert werden, um herauszufinden, wie man am besten mit dieser Situation umgeht?",
+  "items": [],
+  "opts": {
+   "A": "Business-Ebene",
+   "B": "Projektauftraggeber",
+   "C": "Projektsicherung",
+   "D": "Projektmanager"
+  },
+  "answer": "C",
+  "expl": {
+   "A": "Die Business-Ebene ist an der Aktivität „Arbeitspaket ausführen“ nicht beteiligt. Siehe Tabelle 17.2",
+   "B": "Der Projektauftraggeber ist an der Aktivität „Arbeitspaket ausführen“ nicht beteiligt. Siehe Tabelle 17.2",
+   "C": "Im Rahmen der Aktivität „Arbeitspaket ausführen“ sollte die Projektsicherung „konsultiert“ werden. In dieser Aktivität sollte der Teammanager „den Projektmanager über neue Issues, Risiken oder Erfahrungen benachrichtigen und alle vom Projektmanager verlangten Maßnahmen ergreifen“. Siehe 17.4.2, Tabelle 17.2",
+   "D": "Der Projektmanager ist im Rahmen der Aktivität „Arbeitspaket ausführen“ „rechenschaftspflichtig“. Siehe Tabelle 17.2"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P064",
+  "origin": [
+   "PR1-64"
+  ],
+  "topic": "Prozesse",
+  "ref": "P2-7_PRCT_4.5.2",
+  "scenario": "Das Projekt befindet sich in Phase 2. In dieser Phase ist es entscheidend, bei der Regierung Lobbyarbeit zu leisten, um den politischen Willen zur Einführung von Änderungen in der Gesetzgebung und den Richtlinien zu fördern. Diese Änderungen sollen NowByou dabei helfen, seine Projektziele zu erreichen. Ein Teammanager hat das Arbeitspaket angenommen und ist darauf hingewiesen worden, dass er alle zwei Wochen über den Fortschritt berichten soll. Nach reiflicher Überlegung hat der Teammanager jedoch Bedenken, dass es Jahre dauern könnte, bis die Gesetzgebung und die Richtlinien geändert werden, sodass der Teammanager das Arbeitspaket möglicherweise nicht im erwarteten Zeitrahmen liefern kann. Der Teammanager hat dies an den Projektmanager berichtet.",
+  "question": "Welche Aussage erklärt, warum dies im Rahmen der Aktivität „Arbeitspaket ausführen“ angemessen ist?",
+  "items": [],
+  "opts": {
+   "A": "Weil der Teammanager die Risiken für den Teamplan bei der Lieferung des Arbeitspakets überprüfen sollte",
+   "B": "Weil der Teammanager mit dem Projektmanager die Anforderungen an die Outputs des Arbeitspakets klären sollte",
+   "C": "Weil der Teammanager dem Projektmanager über den Fortschritt des Arbeitspakets berichten sollte",
+   "D": "Weil der Teammanager Issues über den Projektmanager an den Lenkungsausschuss eskalieren sollte"
+  },
+  "answer": "A",
+  "expl": {
+   "A": "Es ist wahr, dass der Teammanager im Rahmen der Aktivität „Arbeitspaket ausführen“ „den Projektmanager über neue Issues, Risiken oder Erfahrungen informieren und alle vom Projektmanager geforderten Maßnahmen ergreifen“ sollte. Dies ist ein vom Teammanager neu identifiziertes Risiko. Siehe 17.4.2",
+   "B": "Im Rahmen der Aktivität „Arbeitspaket annehmen“ „sollte zwischen dem Projektmanager und dem Teammanager eine Vereinbarung darüber bestehen, was geliefert werden soll, bevor ein Arbeitspaket einem Team zugeteilt wird“. Siehe 17.4.1",
+   "C": "Im Rahmen der Aktivität „Arbeitspaket bewerten“ „sollte der Teammanager den Fortschritt für jeden Zeitraum überprüfen und dem Projektmanager berichten [...]“. Siehe 17.4.3",
+   "D": "Es ist wahr, dass der Teammanager Issues und Risiken an den Projektmanager eskalieren sollte: „Den Projektmanager über alle neuen Issues, Risiken oder Erfahrungen benachrichtigen und alle vom Projektmanager geforderten Maßnahmen ergreifen“. Der Projektmanager sollte jedoch nur dann an den Lenkungsausschuss eskalieren, wenn die Toleranz überschritten wird. Dies ist jedoch eher ein Risiko für die Lieferung als ein Issue. Siehe 17.4.2"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P065",
+  "origin": [
+   "PR1-65"
+  ],
+  "topic": "Prozesse",
+  "ref": "P2-7_PRCT_4.6.1.a",
+  "scenario": "Das Projekt befindet sich am Ende von Phase 2 im Prozess „Managen eines Phasenübergangs“. Der Projektmanager muss die Aktivitäten identifizieren und mit Ressourcen ausstatten, um bewerten zu können, ob die „gelieferte Multi-Channel-Kampagne“ termingerecht und im Kostenrahmen durchgeführt wurde und wann das erhöhte Bewusstsein für diese Art von Diskriminierung als Ergebnis dieser Kampagne bewertet werden kann.",
+  "question": "In welcher Aktivität des Prozesses „Managen eines Phasenübergangs“ sollte der Projektmanager diese Maßnahmen durchführen?",
+  "items": [],
+  "opts": {
+   "A": "Projektplan aktualisieren",
+   "B": "Nächsten Phasenplan erstellen",
+   "C": "Phase bewerten",
+   "D": "Nächste Phase beantragen"
+  },
+  "answer": "B",
+  "expl": {
+   "A": "Im Rahmen der Aktivität „Projektplan aktualisieren“, wird „der Projektplan aktualisiert, um den Fortschritt aus der zu Ende gehenden Phase zu erfassen, Dauer und Kosten aus dem Ausnahmeplan zu prognostizieren oder den Plan für die nächste Phase bereitzustellen. Bei der Aktualisierung des Business Case werden eventuelle Änderungen der Kosten oder Endtermine übernommen [...]“. Siehe 18.4.3",
+   "B": "„Nächsten Phasenplan erstellen“ ist die Aktivität, in der „der Phasenplan für die nächste Phase zum Ende der aktuellen Phase erstellt wird. Die Aktivitäten für den Projektabschluss sollten als Teil des Phasenplans für die letzte Phase geplant werden“. Siehe 18.4.1",
+   "C": "Im Rahmen der Aktivität „Phase bewerten“ erstellt der Projektmanager „einen Phasenabschlussbericht für die aktuelle Phase, in dem die Leistung der Phase unter Verwendung des aktualisierten Business Case, des aktualisierten Projektplans, des aktualisierten Projektlogbuchs und aller aktualisierten Management-Ansätze zusammenfasst“. Siehe 18.4.5",
+   "D": "In der Aktivität „Nächste Phase beantragen“ „setzt sich der Projektmanager mit dem Lenkungsausschuss in Verbindung, um den Abschluss der aktuellen Phase und die Freigabe der nächsten Phase zu beantragen“. Siehe 18.4.6"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P066",
+  "origin": [
+   "PR1-66"
+  ],
+  "topic": "Prozesse",
+  "ref": "P2-7_PRCT_4.6.1.b",
+  "scenario": "Das Projekt befindet sich im Prozess „Managen eines Phasenübergangs“ in Phase 3, und es kam zu einer erheblichen Verzögerung bei der Umsetzung der Kampagne in den sozialen Medien. Daher wird eine Überschreitung der Zeit- und Kostentoleranzen für die Phase prognostiziert. Der Projektmanager hat die Situation dem Lenkungsausschuss gemeldet, und dieser hat den Projektmanager gebeten, die Phase neu zu planen und dabei zusätzliche Zeit und Kosten einzuplanen. Außerdem möchte der Lenkungsausschuss Informationen über den Fortschritt der TV- und Pressekampagne erhalten und erfahren, welche Aufgaben bei der Kampagne in den sozialen Medien noch ausstehen.",
+  "question": "Welche Rolle sollte im Prozess „Managen eines Phasenübergangs“ für die Bereitstellung dieser Informationen über die Kampagnen an den Lenkungsausschuss verantwortlich sein?",
+  "items": [],
+  "opts": {
+   "A": "Projektmanager",
+   "B": "Projektunterstützung",
+   "C": "Projektsicherung",
+   "D": "Teammanager"
+  },
+  "answer": "A",
+  "expl": {
+   "A": "Im Rahmen der Aktivität „Phase bewerten“ sollte der Projektmanager „verantwortlich“ sein. Im Rahmen dieser Aktivität sollte der Projektmanager „einen Phasenabschlussbericht für die aktuelle Phase erstellen, der die Leistung der Phase unter Verwendung des aktualisierten Business Case, des aktualisierten Projektplans, des Projektlogbuchs und aller aktualisierten Management-Ansätze zusammenfasst [...]“. Siehe Tabelle 18.2, 18.4.5",
+   "B": "Die Projektunterstützung sollte im Rahmen der Aktivität „Phase bewerten“ konsultiert werden. Siehe Tabelle 18.2",
+   "C": "Die Projektsicherung sollte im Rahmen der Aktivität „Phase bewerten“ „konsultiert“ werden. Siehe Tabelle 18.2",
+   "D": "Der Teammanager sollte im Rahmen der Aktivität „Phase bewerten“ „konsultiert“ werden. Siehe Tabelle 18.2"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P067",
+  "origin": [
+   "PR1-67"
+  ],
+  "topic": "Prozesse",
+  "ref": "P2-7_PRCT_4.6.2",
+  "scenario": "Das Projekt befindet sich im Prozess „Managen eines Phasenübergangs“ am Ende von Phase 2. Es ist wichtig, dass der Lenkungsausschuss die verschiedenen Optionen versteht, die während der Phase in Betracht gezogen wurden, und warum es sinnvoll ist, in der nächsten Phase wie geplant fortzuführen. Daher schickte der Projektmanager den Phasenabschlussbericht und den Plan für die nächste Phase an den Lenkungsausschuss und berief eine Online-Sitzung mit dem Lenkungsausschuss ein, um die wichtigsten Punkte zu besprechen.",
+  "question": "Ist dies eine angemessene Anwendung der Aktivität „Nächste Phase beantragen“ und warum?",
+  "items": [],
+  "opts": {
+   "A": "Ja, denn der Projektmanager sollte sicherstellen, dass der Lenkungsausschuss darüber informiert ist, dass das Projekt planmäßig voranschreitet und weiterhin gerechtfertigt ist",
+   "B": "Ja, denn der Projektmanager sollte bei der Anwendung des Grundprinzips „Steuern nach dem Ausnahmeprinzip“ informelle Gespräche mit dem Lenkungsausschuss führen",
+   "C": "Nein, denn der Projektmanager sollte dem Lenkungsausschuss die Projektleitdokumentation bereitstellen, um dessen Entscheidungsfindung zu unterstützen",
+   "D": "Nein, denn der Lenkungsausschuss sollte den Prozess „Lenken eines Projekts“ nutzen, um den Phasenabschlussbericht zu überprüfen und die nächste Phase freizugeben"
+  },
+  "answer": "A",
+  "expl": {
+   "A": "Im Rahmen der Aktivität „Nächste Phase beantragen“ sollte der Projektmanager „den Lenkungsausschuss über die Leistung der aktuellen Phase informieren, einen Überblick über die nächste Phase sowie die erforderlichen Personen und Ressourcen geben und die Bereitschaft zum Fortfahren bestätigen. Der Projektmanager sollte auch darlegen, wo es während der Phase Konzessionen für Spezifikationsabweichungen gegeben hat“. Siehe 18.4.6",
+   "B": "Im Rahmen der Aktivität „Nach Bedarf Anweisungen geben“ innerhalb des Prozesses „Lenken eines Projekts“, „die Mitglieder des Lenkungsausschusses müssen jederzeit während eines Projekts formlos Ratschläge geben oder Weisungsanfragen beantworten“. Darüber hinaus „sind effektive Projektsteuerungsmittel unverzichtbare Voraussetzung für das „Steuern nach dem Ausnahmeprinzip“, und die Aktivität „Nächste Phase beantragen“ ist ein Beispiel für ein solches Steuerungsmittel. Es geht nicht darum, informelle Diskussionen mit dem Lenkungsausschuss zuzulassen. Siehe 14.4.3, 15.4.3",
+   "C": "Es ist wahr, dass ein Ziel von „Managen eines Phasenübergangs“ darin besteht, „die Projektleitdokumentation zu überprüfen und gegebenenfalls zu aktualisieren“. Im Rahmen der Aktivität „Nächste Phase beantragen“ sollte der Projektmanager jedoch „den Lenkungsausschuss über die Leistung der aktuellen Phase informieren, einen Überblick über die nächste Phase [...]“. Siehe 18.2, 18.4.6",
+   "D": "Es ist wahr, dass im Prozess „Lenken eines Projekts“ „der Lenkungsausschuss eine Phase freigibt, indem er die Leistung und Ergebnisse der aktuellen Phase überprüft und den Phasenplan für die nächste Phase genehmigt“. Dies wird jedoch durch die Aktivität „Nächste Phase beantragen“ ausgelöst, und diese wurde entsprechend durchgeführt. Siehe 14.4.4, 18.4.6"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P068",
+  "origin": [
+   "PR1-68"
+  ],
+  "topic": "Prozesse",
+  "ref": "P2-7_PRCT_4.7.1.a",
+  "scenario": "Beim Abschließen des Projekts kam der Projektmanager zu der Einschätzung, dass das Team der Marketingagentur bei der Umsetzung der Marketingkampagne hervorragende Arbeit geleistet hat. Daher hob der Projektmanager gegenüber dem Lenkungsausschuss die Leistung des Teammanagers hervor und empfahl, dass NowByou bei zukünftigen Kampagnen eine Zusammenarbeit mit der Agentur anstreben sollte.",
+  "question": "Bei welcher Aktivität des Prozesses „Abschließen eines Projekts“ sollte der Projektmanager dem Lenkungsausschuss diese Empfehlung geben?",
+  "items": [],
+  "opts": {
+   "A": "Planmäßigen Abschluss vorbereiten",
+   "B": "Projektabnahme bestätigen",
+   "C": "Projekt bewerten",
+   "D": "Projektabschluss beantragen"
+  },
+  "answer": "D",
+  "expl": {
+   "A": "Im Rahmen der Aktivität „Planmäßigen Abschluss vorbereiten“ „wird ein Antrag auf Projektabschluss dem Lenkungsausschuss vorgelegt, nachdem der Projektmanager bestätigt hat, dass das Projekt abgeschlossen werden kann“. Darüber hinaus sollte der Projektmanager „sicherstellen, dass alle Projektinformationen gesichert und archiviert werden [...]“. Siehe 19.4.1, 19.4.5",
+   "B": "Im Rahmen der Aktivität „Projektabnahme bestätigen“ „die Projektprodukte müssen vor Projektabschluss an eine Betriebs- und Wartungsumgebung übergeben werden“. Siehe 19.4.3",
+   "C": "Im Rahmen der Aktivität „Projekt bewerten“ kommt Folgendes zur Anwendung: „Erfolgreiche Organisationen lernen aus Erfahrung mit Projekten. Bei der Bewertung des Projekts ist das Ziel, den Erfolg des Projekts zu bewerten [...] Möglicherweise können auch zukünftige Schätzungen präziser werden, wenn man die Schätzungen und die effektiv erzielten Fortschrittsmessgrößen dieses Projekts analysiert und vergleicht“. Hier wird die Erfahrung in Bezug auf die hervorragende Arbeit der Marketingagentur identifiziert, jedoch dem Lenkungsausschuss noch nicht mitgeteilt. Siehe 19.4.4",
+   "D": "Im Kontext der Aktivität „Projektabschluss beantragen“ heißt es: „Um die aktuelle Phase abzuschließen und das Projekt zu beenden, kontaktiert der Projektmanager den Lenkungsausschuss, um den Projektabschluss zu beantragen. Der Projektmanager wird die Bedeutung der Anerkennung des Projekterfolgs betonen und dem Lenkungsausschuss eine Möglichkeit zur Wertschätzung aller Beteiligten empfehlen“. Darüber hinaus sollte der Projektmanager „den Lenkungsausschuss mit einer Zusammenfassung der Projektleistung informieren und die Bereitschaft zum Abschluss bestätigen [...]“. In dieser Aktivität sollte der Projektmanager dem Lenkungsausschuss die Empfehlung aussprechen, den Teammanager in zukünftigen Projekten einzusetzen. Siehe 19.4.5"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P069",
+  "origin": [
+   "PR1-69"
+  ],
+  "topic": "Prozesse",
+  "ref": "P2-7_PRCT_4.7.1.c",
+  "scenario": "In den Phasen 2 und 3 ernannte die Marketingagentur ein Team, das mit dem Leiter für Öffentlichkeitsarbeit und Social Media an der TV- und Radiowerbung arbeiten soll. Beim Abschließen des Projekts prüfte der Projektmanager, ob diese Produkte abgeschlossen worden waren.",
+  "question": "Welche Practice wird bei dem Prozess „Abschließen eines Projekts“ angewendet?",
+  "items": [],
+  "opts": {
+   "A": "Business Case",
+   "B": "Organisation",
+   "C": "Fortschritt",
+   "D": "Qualität"
+  },
+  "answer": "D",
+  "expl": {
+   "A": "Die Practice „Business Case“ wird durch den Prozess „Abschließen eines Projekts“ angewendet, indem „die Projektleistung am Ende des Projekts bewertet und der Business Case aktualisiert wird, um die tatsächlichen Kosten und den Nutzen sowie eine Prognose des noch zu realisierenden Nutzens widerzuspiegeln“. Siehe Tabelle 19.3",
+   "B": "Die Practice „Organisation“ wird durch den Prozess „Abschließen eines Projekts“ angewendet, indem „die Leistung des Projektteams sowie dessen Gesundheit und Wohlbefinden werden überprüft, um Input zu gewinnen, der in die Lessons Learned und den Projektabschlussbericht einfließen kann. Der Kommunikationsmanagement-Ansatz, der Change-Management-Ansatz und der kommerzielle Management-Ansatz werden hinsichtlich aller Anforderungen im Zusammenhang mit dem Projektabschluss überprüft, z. B. wer benachrichtigt werden muss“. Siehe Tabelle 19.3",
+   "C": "Die Practice „Fortschritt“ wird im Rahmen des Prozesses „Abschließen eines Projekts“ angewendet, indem „der Digital- und Datenmanagementansatz wird auf etwaige Anforderungen im Zusammenhang mit dem Projektabschluss überprüft, z. B. wie und wo Projektdaten archiviert oder verwendet werden. Der Projektabschlussbericht wird erstellt und verteilt. Das Projekttagebuch und die Erfahrungsliste werden geschlossen“. Siehe Tabelle 19.3",
+   "D": "Die Practice „Qualität“ wird durch den Prozess „Abschließen eines Projekts“ angewendet, indem „das Produktregister überprüft wird, um zu bestätigen, dass die erforderlichen Produkte für die letzte Phase geliefert wurden, und um Input für die Lessons Learned sowie den Projektabschlussbericht zu liefern. Das Produktregister wird geschlossen.“ Der Zweck des Produktregisters besteht darin, „alle für einen Plan erforderlichen Produkte sowie deren Status aufzulisten“. Siehe Tabelle 19.3, 8.5"
+  },
+  "rationale": ""
+ },
+ {
+  "id": "P070",
+  "origin": [
+   "PR1-70"
+  ],
+  "topic": "Prozesse",
+  "ref": "P2-7_PRCT_4.7.2",
+  "scenario": "Das Projekt befindet sich in Phase 3, und die Multi-Channel-Kampagne wurde pünktlich und im Budgetrahmen durchgeführt, so dass das Projekt nun abgeschlossen werden kann. Beim Abschließen des Projekts stellte der Projektmanager anhand mehrerer Einträge in der Erfahrungsliste fest, dass er das Projekt ohne die laufende Beratung durch die externe Projektleiterin nicht hätte abschließen können. Daher hielt der Projektmanager die Empfehlung fest, bei künftigen Projekten auf die Unterstützung eines Projektmanagers mit Erfahrung im gemeinnützigen Sektor zurückzugreifen, um die Erfolgswahrscheinlichkeit zu erhöhen.",
+  "question": "Bei welcher Aktivität des Prozesses „Abschließen eines Projekts“ sollte diese Empfehlung festgehalten werden und warum?",
+  "items": [],
+  "opts": {
+   "A": "„Planmäßigen Abschluss vorbereiten“, denn der Projektmanager sollte bestätigen, dass das Projekt abgeschlossen werden kann, und das Projektlogbuch schließen",
+   "B": "„Planmäßigen Abschluss vorbereiten“, denn der Projektmanager sollte die Projektinformationen sichern und archivieren",
+   "C": "„Projekt bewerten“, denn der Projektmanager sollte den Erfahrungsbericht unter Verwendung und Überprüfung des Projektlogbuchs erstellen",
+   "D": "„Projekt bewerten“, denn der Projektmanager sollte die tatsächlichen Fortschritts-Kennzahlen mit den ursprünglichen Schätzungen vergleichen"
+  },
+  "answer": "C",
+  "expl": {
+   "A": "„Ein Antrag auf Projektabschluss wird dem Lenkungsausschuss vorgelegt, nachdem der Projektmanager bestätigt hat, dass das Projekt abgeschlossen werden kann.“ Die Aktivität „Planmäßigen Abschluss vorbereiten“ sollte „das Projektlogbuch schließen“. Die Aktivität „Projekt bewerten“ sollte jedoch verwendet werden, da diese Aktivität „das Projektlogbuch überprüfen sollte, um Erfahrungen zu identifizieren, die auf zukünftige Projekte angewendet werden können, und diese in den Erfahrungsbericht aufnehmen sollte [...]“. Siehe 19.4.1, 19.4.5, 19.4.4",
+   "B": "Die Aktivität „Planmäßigen Abschluss vorbereiten“ sollte „sicherstellen, dass alle Projektinformationen gesichert und archiviert werden [...]“. Die Aktivität „Projekt bewerten“ sollte jedoch verwendet werden, da diese Aktivität „das Projektlogbuch überprüfen sollte, um Erfahrungen zu identifizieren, die auf zukünftige Projekte angewendet werden können, und diese in den Erfahrungsbericht aufnehmen sollte [...]“. Siehe 19.4.5, 19.4.4",
+   "C": "Die Aktivität „Projekt bewerten“ sollte „das Projektlogbuch auf Erfahrungen überprüfen, die auf zukünftige Projekte angewendet werden können, und diese in Abstimmung mit dem Projektmanagement-Team in den Erfahrungsbericht aufnehmen“. Siehe 19.4.4",
+   "D": "Die Aktivität „Projekt bewerten“ identifiziert, ob „möglicherweise können auch zukünftige Schätzungen präziser werden, wenn man die Schätzungen und die effektiv erzielten Fortschrittsmessgrößen dieses Projekts analysiert und vergleicht“. Dies erklärt jedoch nicht, warum der Projektmanager das Issueregister überprüft und eine Erfahrung identifiziert hat. Siehe 19.4.4"
+  },
+  "rationale": ""
+ }
+]

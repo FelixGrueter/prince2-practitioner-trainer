@@ -1,0 +1,124 @@
+{
+ "title": "Szenario 4: NowByou",
+ "source": "PRINCE2® 7 Practitioner Szenario-Büchlein, Version 1.1.1 (gilt für Musterprüfung 1 und 2)",
+ "exams": [
+  "PR1"
+ ],
+ "intro": [
+  {
+   "text": "NowByou ist eine gemeinnützige Organisation, die mit lokalen Gemeinschaften zusammenarbeitet, um jegliche Form von Diskriminierung zu beseitigen und durch gezielte lokale Interventionen das internationale Menschenrechtssystem voranzubringen."
+  },
+  {
+   "text": "NowByou bildet, leitet und stattet Netzwerk- und Selbsthilfegruppen aus, in denen alle, die Diskriminierung erfahren haben, ihre Erfahrungen und Gedanken in einem sicheren und stärkenden Umfeld teilen können. Darüber hinaus gehört NowByou zu den wenigen Nichtregierungsorganisationen (NGOs) im Land, die eng mit der Polizei zusammenarbeiten, um gemeinsam Kampagnen zu entwickeln, die die Meldung diskriminierender Vorfälle bei den Behörden fördern."
+  },
+  {
+   "text": "Aktuelle Studien haben gezeigt, dass die Diskriminierung marginalisierter Gruppen, insbesondere von Obdachlosen und Flüchtlingen, mit besorgniserregender Geschwindigkeit zunimmt. Die Zunahme der Diskriminierung hat NowByou zu der Überzeugung veranlasst, dass eine neue sechsmonatige Kampagne erforderlich ist, um dieses Issue anzugehen."
+  },
+  {
+   "text": "NowByou hat beschlossen, die Kampagne als Projekt durchzuführen, um sowohl das Bewusstsein für diese Art von Diskriminierung zu schärfen als auch ihre eigene Markenbekanntheit zu stärken (da NowByou in hohem Maße auf den guten Willen der Spender und die finanzielle Unterstützung von Partnern angewiesen ist)."
+  },
+  {
+   "text": "Der Reifegrad des Projektmanagements in der Organisation ist sehr gering, es gibt keine standardisierten Prozesse oder Vorlagen. Aus diesem Grund hat NowByou eine professionelle Projektleiterin kontaktiert, die über nachweisliche Erfolge im gemeinnützigen Sektor verfügt und für Folgendes verantwortlich sein wird:",
+   "list": [
+    "Erarbeitung der ersten Projektmanagement-Dokumentation",
+    "Beratung und Coaching des NowByou-Kampagnenleiters, der das Projekt sponsert",
+    "Mentoring der Person, die zum Projektmanager ernannt werden soll",
+    "Beratung des Projektteams hinsichtlich der Nutzung verschiedener Medien (TV, Presse und soziale Netzwerke) für dieses und zukünftige Projekte."
+   ]
+  },
+  {
+   "text": "Es gibt eine grobe Übersicht über das Projekt, die jedoch noch bestätigt werden muss, da die Vorgespräche zum Projekt weiterhin laufen."
+  },
+  {
+   "heading": "Phase 1 (Initiierung)",
+   "list": [
+    "Business Case",
+    "Projektleitdokumentation"
+   ]
+  },
+  {
+   "heading": "Phase 2",
+   "list": [
+    "Sammeln der Haupt-Anforderungen an die Kampagne",
+    "Optionsanalyse"
+   ]
+  },
+  {
+   "heading": "Phase 3",
+   "list": [
+    "Implementierung der gewählten Option(en)",
+    "Abschluss."
+   ]
+  },
+  {
+   "text": "Der Haupt-Output des Projekts wird die Umsetzung einer Multi-Channel-Kampagne sein."
+  }
+ ],
+ "extraTitle": "Zusätzliche Informationen – Rollen",
+ "roles": [
+  {
+   "name": "Vorsitzende des Kuratoriums",
+   "text": "Als gemeinnützige Organisation gibt es ein Kuratorium, das die Aufsicht über die Organisation führt. Die Vorsitzende des Kuratoriums ist das Mitglied des Parlaments für das Gebiet, in dem NowByou seinen Hauptsitz hat."
+  },
+  {
+   "name": "Chief Executive Officer (CEO)",
+   "text": "Die Chief Executive Officer (CEO) von NowByou war eine der Gründerinnen von NowByou und ist seit dem Bestehen des Unternehmens CEO. Sie verfügt über große Erfahrung im gemeinnützigen Sektor und ist Leiterin einer Reihe anderer Wohltätigkeitsorganisationen."
+  },
+  {
+   "name": "Chief Finance Officer (CFO)",
+   "text": "Die Chief Finance Officer (CFO) von NowByou wurde vor 6 Monaten ernannt und hat sich bei Spendern und Partnern sehr aktiv für die Verbesserung der finanziellen Lage der Organisation eingesetzt. Sie war zuvor als leitende Angestellte bei einer großen Bank tätig und möchte gute Portfolio- und Projektmanagement-Praktiken bei NowByou einführen."
+  },
+  {
+   "name": "Leiter der Abteilung Fundraising",
+   "text": "Der Leiter der Abteilung Fundraising, der der CFO unterstellt ist, arbeitete zuvor in einer Organisation mit guten Praktiken im Portfolio-, Programm- und Projektmanagement. Er trug dazu bei, dass die Einstellung der externen professionellen Projektleiterin sowie die Einrichtung eines Portfolio-Offices bei NowByou genehmigt wurden. Diese Rolle ist PRINCE2-qualifiziert."
+  },
+  {
+   "name": "Fundraising-Manager",
+   "text": "Der Fundraising-Manager berichtet an den Leiter der Abteilung Fundraising Er kam vor 10 Jahren zu NowByou und war zuvor in den Abteilungen für Personalwesen und Kampagnen tätig. Er hat seinen Vorgesetzten gefragt, ob er in PRINCE2 geschult werden kann."
+  },
+  {
+   "name": "Personalleiterin",
+   "text": "Die Personalleiterin ist dafür verantwortlich, sicherzustellen, dass die Arbeitsbedingungen und -konditionen angemessen und marktüblich sind, um hochqualifizierte Mitarbeitende und Freiwillige zu gewinnen und zu binden. Sie ist dafür verantwortlich, sicherzustellen, dass alle NowByou-Mitarbeitenden, Freiwilligen und Auftragnehmer für die Arbeit mit ihren schutzbedürftigen Klienten entsprechend überprüft und zugelassen wurden."
+  },
+  {
+   "name": "Kampagnenleiter",
+   "text": "Der NowByou-Kampagnenleiter ist vor kurzem zu NowByou gekommen, nachdem er zuvor als leitender Marketing-Manager bei einem kommerziellen Unternehmen für die Herstellung von Babynahrung tätig war, wo er erfolgreich ein Team für die Einführung neuer Produkte geleitet hat. Er trägt die Gesamtverantwortung für alle Kampagnen von NowByou. Dies ist seine erste Ernennung auf Führungsebene."
+  },
+  {
+   "name": "Portfolio-Office-Managerin",
+   "text": "Eine Portfolio-Office-Managerin, die zuvor als leitende Verwaltungsangestellte bei NowByou tätig war, wurde ernannt, um das Portfolio-Office aufzubauen und mit der externen Projektleiterin zusammenzuarbeiten, um eine initiale Projektmanagement-Dokumentation und die ersten Prozesse zu entwickeln und umzusetzen. Dies ist eine bedeutende Beförderung für sie, und sie hofft, dass sie in Zukunft für das Linienmanagement der Projektmitarbeitenden bei NowByou verantwortlich sein wird."
+  },
+  {
+   "name": "Externe Projektleiterin",
+   "text": "Die externe Projektleiterin hat mit vielen NGOs in der ganzen Welt zusammengearbeitet und ihnen erfolgreich beim Management und der Lieferung von Projekten geholfen. Dieser Vertrag umfasst zunächst 50% ihrer Zeit, dieser Anteil wird jedoch erwartungsgemäß nach den ersten drei Monaten auf 25 % sinken. Sie war an der Auswahl und Ernennung der Portfolio-Office-Managerin beteiligt."
+  },
+  {
+   "name": "Verbindungsbeamter der Polizei",
+   "text": "Der Verbindungsbeamte der Polizei kam vor fünf Jahren zu NowByou, nachdem er seine erfolgreiche Karriere bei der nationalen Polizei als Chefinspektor beendet hatte. Er hat bei früheren Initiativen eng mit der Personalleiterin zusammengearbeitet und etabliert nun eine enge berufliche Beziehung zum neuen Kampagnenleiter."
+  },
+  {
+   "name": "Trainees",
+   "text": "Die Personalleiterin hat vor zwei Jahren ein Programm für Trainees ins Leben gerufen. Die ersten vier Trainees werden in zwei Monaten ihr zweijähriges Programm abschließen, und es muss entschieden werden, ob ihnen eine weiterführende Position bei NowByou angeboten wird. Alle haben ein PRINCE2-Training absolviert."
+  },
+  {
+   "name": "Vorsitzender der Benutzergruppe",
+   "text": "NowByou hat eine Benutzergruppe mit interessierten Parteien aus lokalen Gemeinschaften, Netzwerken, Obdachlosen- und Flüchtlingsgruppen gegründet. Der Vorsitzende dieser Gruppe ist vor kurzem in den Ruhestand getreten und möchte dieser neuen Kampagne jede erdenkliche Unterstützung bereitstellen."
+  },
+  {
+   "name": "Polizeipräsidentin",
+   "text": "Die Polizeipräsidentin, die zum Mitglied des Kuratoriums ernannt wurde. Sie hat ihre Unterstützung für die neue Kampagne zum Ausdruck gebracht, da sie sich Sorgen macht, dass Mitglieder der Obdachlosen- und Flüchtlingsgemeinschaften Opfer von Verbrechen werden."
+  },
+  {
+   "name": "Leiter für Öffentlichkeitsarbeit und Social Media",
+   "text": "Leiter für Öffentlichkeitsarbeit und Social Media ist dem Kampagnenleiter unterstellt und ist verantwortlich für Markenführung, Pressemitteilungen und soziale Medien. In der Abteilung arbeiten drei Vollzeitmitarbeiter."
+  },
+  {
+   "name": "Leiterin der IT-Abteilung",
+   "text": "Die Leiterin der IT-Abteilung managt die gesamten IT-Ressourcen und die Infrastruktur von NowByou. Die IT-Abteilung verfügt über sechs Fachkräfte."
+  },
+  {
+   "name": "Leiterin der Marketingagentur",
+   "text": "NowByou arbeitet mit einer kommerziellen Marketingagentur, CharityM, zusammen, die mit dem Leiter für Öffentlichkeitsarbeit und Social Media bei der Entwicklung und Platzierung von Werbung bei Fernseh- und Radiosendern zusammenarbeitet."
+  }
+ ]
+}
