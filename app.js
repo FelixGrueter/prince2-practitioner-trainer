@@ -18,10 +18,10 @@ const minutesFor = n => Math.round(n * SECONDS_PER_QUESTION / 60);
 const DEFAULT_SETTINGS = {
   mode: 'exam',                              // 'exam' = Reale Prüfung, 'training' = Trainieren
   exam: EXAMS[0].code,
-  count: 20,
+  count: 20,                                 // Fragen im Training; 0 = „Alle“ (alle Fragen der Auswahl)
   examOpts: { sim: true, shuffle: false },   // Reale Prüfung: Simulation standardmäßig an, Mischen aus
   scenDesk: false,                           // Szenario-Seitenleiste am Desktop beim Start einer Prüfung geöffnet
-  trainingOpts: { sim: false, source: 'all' },  // Trainieren: immer gemischt; Fragenquelle siehe SOURCES
+  trainingOpts: { sim: false, source: 'all', topics: [] },  // Trainieren: immer gemischt; Quelle siehe SOURCES; topics leer = alle Themen
 };
 /* Fragenquellen im Training (Fehler = zuletzt falsch beantwortet, Markiert = beim letzten Vorkommen markiert) */
 const SOURCES = [
@@ -37,6 +37,8 @@ function loadSettings(){
     // Abwärtskompatibel: bis 15.10.2026 gab es nur den Schalter „errorsOnly“
     if(!(s.trainingOpts && s.trainingOpts.source)) t.source = s.trainingOpts && s.trainingOpts.errorsOnly ? 'errors' : 'all';
     if(!SOURCES.some(x => x.id === t.source)) t.source = 'all';
+    if(!Array.isArray(t.topics)) t.topics = [];          // Abwärtskompatibel: Einstellungen vor dem 20.10.2026 ohne Themenauswahl
+    if(s.count !== undefined && s.count !== 0 && !COUNTS.includes(s.count)) s.count = DEFAULT_SETTINGS.count;
     delete t.errorsOnly;
     return { ...DEFAULT_SETTINGS, ...s, examOpts: { ...DEFAULT_SETTINGS.examOpts, ...(s.examOpts || {}) }, trainingOpts: t };
   } catch(e) { return structuredClone(DEFAULT_SETTINGS); }
@@ -164,13 +166,13 @@ function newSession(){
   } else {
     sim = settings.trainingOpts.sim; shuffle = true;
     const src = SOURCES.find(x => x.id === settings.trainingOpts.source) || SOURCES[0];
-    const st = questionStatus(), pool = sourcePool(src.id, st), inPool = new Set(pool.map(q => q.id));
-    // Blöcke nur komplett; bei Fehler-/Markiert-Training wird die betroffene Teilfrage gekennzeichnet
-    items = pickUnits(unitsFrom(pool), settings.count).flat().map(q => ({
+    const st = questionStatus(), pool = byTopics(sourcePool(src.id, st)), inPool = new Set(pool.map(q => q.id));
+    // Blöcke nur komplett (jeder Block gehört ganz zu einem Thema); bei Fehler-/Markiert-Training wird die betroffene Teilfrage gekennzeichnet
+    items = pickUnits(unitsFrom(pool), wantedCount()).flat().map(q => ({
       q, perm: q.group ? keysOf(q) : shuffled(keysOf(q)),
       focus: src.id !== 'all' && q.group && inPool.has(q.id) ? [st.wrong[q.id] && 'zuletzt falsch', st.flagged[q.id] && 'markiert'].filter(Boolean).join(' · ') : '',
     }));
-    title = `${src.title} · ${items.length} Frage${items.length === 1 ? '' : 'n'}`;
+    title = `${src.title}${topicTitle(chosenTopics())} · ${items.length} Frage${items.length === 1 ? '' : 'n'}`;
   }
   return { mode: settings.mode, exam: settings.mode === 'exam' ? settings.exam : null, title, sim, shuffle, items,
            answers: {}, flags: new Set(), elapsed: 0,
@@ -301,6 +303,13 @@ function sourcePool(source, st = questionStatus()){
   return CATALOG;
 }
 function errorPool(){ return sourcePool('errors'); }
+/* Themenbereiche in Katalogreihenfolge (= Reihenfolge der Abschnitte in der Prüfung) */
+const topicList = () => [...new Set(CATALOG.map(q => q.topic).filter(Boolean))];
+/* Gewählte Themen; unbekannte (z. B. nach Katalogänderung) werden ignoriert, leer = alle */
+const chosenTopics = () => settings.trainingOpts.topics.filter(t => topicList().includes(t));
+const byTopics = (qs, topics = chosenTopics()) => topics.length ? qs.filter(q => topics.includes(q.topic)) : qs;
+const wantedCount = () => settings.count || Infinity;     // 0 = „Alle“
+const topicTitle = topics => !topics.length ? '' : topics.length === 1 ? ` · ${topics[0].replace(/^Practice: /, '')}` : ` · ${topics.length} Themen`;
 function review(pos){ state.view = 'exam'; state.reviewMode = true; state.pos = pos; render(); window.scrollTo(0, 0); }
 function score(){ const s = state.session; return s.items.filter(it => isRight(it.q, s.answers[it.q.id])).length; }
 
@@ -440,7 +449,7 @@ function render(){
 function updateChrome(){
   const s = state.session;
   examLabel.textContent = state.view !== 'start' && s ? s.title
-    : settings.mode === 'exam' ? `Reale Prüfung · ${examOf(settings.exam).title}` : `Trainieren · ${settings.count} Fragen`;
+    : settings.mode === 'exam' ? `Reale Prüfung · ${examOf(settings.exam).title}` : `Trainieren${topicTitle(chosenTopics())} · ${state.startN ?? settings.count} Fragen`;
   if(state.view === 'progress') examLabel.textContent = 'Lernfortschritt';
   footSource.textContent = SOURCE_NOTE;
   // Während einer laufenden Bearbeitung kein Wechsel in den Lernfortschritt (sonst ginge die Sitzung verloren)
@@ -462,10 +471,15 @@ function viewStart(){
   const isExam = settings.mode === 'exam';
   const opts = isExam ? settings.examOpts : settings.trainingOpts;
   const st = ready ? questionStatus() : { wrong: {}, flagged: {} };
-  const poolSize = Object.fromEntries(SOURCES.map(x => [x.id, ready ? sourcePool(x.id, st).length : 0]));
+  const topicsSel = ready ? chosenTopics() : [];
+  // Zahlen der Quellen beziehen sich auf die gewählten Themen; Zahlen der Themen auf die gewählte Quelle
+  const poolSize = Object.fromEntries(SOURCES.map(x => [x.id, ready ? byTopics(sourcePool(x.id, st), topicsSel).length : 0]));
   const src = SOURCES.find(x => x.id === settings.trainingOpts.source) || SOURCES[0];
   const examSize = code => CATALOG.filter(q => q.origin.some(o => o.startsWith(code + '-'))).length;
-  const n = isExam ? examSize(settings.exam) : ready ? unitTotal(unitsFrom(sourcePool(src.id, st)), settings.count) : 0;
+  const srcPool = ready ? sourcePool(src.id, st) : [];
+  const n = isExam ? examSize(settings.exam) : ready ? unitTotal(unitsFrom(byTopics(srcPool, topicsSel)), wantedCount()) : 0;
+  state.startN = n;                                    // für die Kopfzeile (updateChrome)
+  const topicCount = Object.fromEntries((ready ? topicList() : []).map(t => [t, srcPool.filter(q => q.topic === t).length]));
   const canStart = ready && n > 0;
   const ex = examOf(settings.exam);
 
@@ -487,8 +501,12 @@ function viewStart(){
             <span class="badge ${e.official ? 'official' : ''}">${e.official ? 'mit Begründungen' : 'nur Lösungen'}</span></span>
         </label>`).join('');
 
-  const countButtons = COUNTS.map(c => `
-          <label class="seg-opt"><input type="radio" name="count" value="${c}" ${c === settings.count ? 'checked' : ''}><span>${c}</span></label>`).join('');
+  const countButtons = [...COUNTS, 0].map(c => `
+          <label class="seg-opt"><input type="radio" name="count" value="${c}" ${c === settings.count ? 'checked' : ''}><span>${c || 'Alle'}</span></label>`).join('');
+  const topicButtons = `
+          <label class="seg-opt"><input type="checkbox" name="topicAll" ${topicsSel.length ? '' : 'checked'}><span>Alle Themen<small>${srcPool.length}</small></span></label>` +
+    Object.entries(topicCount).map(([t, c]) => `
+          <label class="seg-opt"><input type="checkbox" name="topic" value="${esc(t)}" ${topicsSel.includes(t) ? 'checked' : ''} ${!c && !topicsSel.includes(t) ? 'disabled' : ''}><span>${esc(t.replace(/^Practice: /, ''))}<small>${c}</small></span></label>`).join('');
 
   const topics = {};
   if(isExam) CATALOG.filter(q => q.origin.some(o => o.startsWith(settings.exam + '-')))
@@ -496,15 +514,16 @@ function viewStart(){
 
   const timeText = opts.sim ? `${minutesFor(n)} min` : 'Stoppuhr';
   // Fehler-/Markiert-Training: Teilfragen von Zuordnungsblöcken ziehen ihren ganzen Block mit
-  const plusBlocks = ready && src.id !== 'all' && unitsFrom(sourcePool(src.id, st)).flat().length > poolSize[src.id] ? ', ergänzt um die übrigen Teilfragen ihrer Zuordnungsblöcke' : '';
+  const topicPhrase = !topicsSel.length ? '' : topicsSel.length === 1 ? ` im Themenbereich „${esc(topicsSel[0])}“` : ` in ${topicsSel.length} Themenbereichen`;
+  const plusBlocks = topicPhrase + (ready && src.id !== 'all' && unitsFrom(byTopics(srcPool, topicsSel)).flat().length > poolSize[src.id] ? ', ergänzt um die übrigen Teilfragen ihrer Zuordnungsblöcke' : '');
   const lead = isExam
     ? `${ex.title}: ${n} Fragen ${settings.examOpts.shuffle ? 'in zufälliger Reihenfolge, Antworten gemischt' : 'in Originalreihenfolge'}. ${ex.official
         ? 'Mit offizieller Begründung zu jeder Antwortoption und Referenz ins PRINCE2-Handbuch.'
         : 'Für diese Prüfung liegen nur die Lösungen vor, keine Begründungen.'}`
-    : src.id === 'errors' ? `${n} zufällige Fragen aus deinen ${poolSize.errors} Fehlerfragen (zuletzt falsch beantwortet)${plusBlocks}. Fragen und Antwortoptionen werden jedes Mal neu gemischt.`
-    : src.id === 'flagged' ? `${n} zufällige Fragen aus deinen ${poolSize.flagged} markierten Fragen${plusBlocks}. Fragen und Antwortoptionen werden jedes Mal neu gemischt.`
+    : src.id === 'errors' ? `${n} zufällige Frage${n === 1 ? '' : 'n'} aus ${poolSize.errors === 1 ? 'deiner 1 Fehlerfrage' : `deinen ${poolSize.errors} Fehlerfragen`} (zuletzt falsch beantwortet)${plusBlocks}. Fragen und Antwortoptionen werden jedes Mal neu gemischt.`
+    : src.id === 'flagged' ? `${n} zufällige Frage${n === 1 ? '' : 'n'} aus ${poolSize.flagged === 1 ? 'deiner 1 markierten Frage' : `deinen ${poolSize.flagged} markierten Fragen`}${plusBlocks}. Fragen und Antwortoptionen werden jedes Mal neu gemischt.`
     : src.id === 'both' ? `${n} zufällige Fragen aus ${poolSize.both} Fehler- und markierten Fragen${plusBlocks}. Fragen und Antwortoptionen werden jedes Mal neu gemischt.`
-    : `${n} zufällige Fragen aus dem Gesamtkatalog, ohne Wiederholung. Fragen und Antwortoptionen werden jedes Mal neu gemischt. Begründungen gibt es, wo die Quelle sie liefert.`;
+    : `${settings.count ? `${n} zufällige Fragen` : `Alle ${n} Fragen`} aus ${topicsSel.length ? (topicsSel.length === 1 ? `dem Themenbereich „${esc(topicsSel[0])}“` : `${topicsSel.length} Themenbereichen`) : 'dem Gesamtkatalog'}, ${settings.count ? 'ohne Wiederholung' : 'in zufälliger Reihenfolge'}. Fragen und Antwortoptionen werden jedes Mal neu gemischt. Begründungen gibt es, wo die Quelle sie liefert.`;
   const blockNote = GROUPS && Object.keys(GROUPS).length ? ' Zuordnungsblöcke (3 Teilfragen mit gemeinsamer Optionsliste) werden immer vollständig gezogen; ihre Optionen bleiben in Originalreihenfolge.' : '';
 
   return `
@@ -523,14 +542,19 @@ function viewStart(){
       </fieldset>` : `
       <fieldset class="picker">
         <legend>2 · Mit wie vielen Fragen möchtest du üben?</legend>
-        <div class="seg" role="radiogroup">${countButtons}</div>
+        <div class="seg cnt" role="radiogroup">${countButtons}</div>
+      </fieldset>
+      <fieldset class="picker">
+        <legend>Welche Themenbereiche?</legend>
+        <div class="seg topic" role="group" aria-label="Themenbereiche (Mehrfachauswahl)">${topicButtons}</div>
+        <p class="time-note">Mehrfachauswahl möglich. Ohne Auswahl wird aus allen Themen geübt.</p>
       </fieldset>
       <fieldset class="picker">
         <legend>Aus welchen Fragen?</legend>
         <div class="seg src" role="radiogroup">${SOURCES.map(x => `
           <label class="seg-opt"><input type="radio" name="source" value="${x.id}" ${x.id === src.id ? 'checked' : ''} ${x.id !== 'all' && !poolSize[x.id] && x.id !== src.id ? 'disabled' : ''}><span>${x.label}<small>${poolSize[x.id]}</small></span></label>`).join('')}
         </div>
-        ${src.id !== 'all' && n < settings.count ? `<p class="time-note">${poolSize[src.id] ? `Es gibt nur ${poolSize[src.id]} passende Fragen${n !== poolSize[src.id] ? ` (mit vollständigen Zuordnungsblöcken ${n})` : ''} – die Übung wird entsprechend kürzer.` : 'Dafür gibt es noch keine Fragen. Fehlerfragen entstehen aus falsch beantworteten Fragen, markierte über „Markieren“ während einer Prüfung oder Übung.'}</p>` : ''}
+        ${(src.id !== 'all' || topicsSel.length) && settings.count && n < settings.count ? `<p class="time-note">${poolSize[src.id] ? `Es gibt nur ${poolSize[src.id]} passende Fragen${n !== poolSize[src.id] ? ` (mit vollständigen Zuordnungsblöcken ${n})` : ''} – die Übung wird entsprechend kürzer.` : 'Dafür gibt es noch keine Fragen. Fehlerfragen entstehen aus falsch beantworteten Fragen, markierte über „Markieren“ während einer Prüfung oder Übung.'}</p>` : ''}
       </fieldset>`}
       <p class="lead">${lead}${isExam ? '' : blockNote}</p>
       <div class="facts">
@@ -553,7 +577,7 @@ function viewStart(){
         ? `Zeit: Countdown ${minutesFor(n)} Minuten, danach wird automatisch abgegeben.`
         : 'Zeit: Stoppuhr läuft mit, kein Zeitlimit.'}</p>
       <div class="nav" style="margin-top:var(--space-5)">
-        <button class="btn primary" id="startBtn" style="width:100%;justify-content:center" ${canStart ? '' : 'disabled'}>${isExam ? `${esc(ex.title)} starten` : `${src.title} · ${n} Frage${n === 1 ? '' : 'n'} starten`}</button>
+        <button class="btn primary" id="startBtn" style="width:100%;justify-content:center" ${canStart ? '' : 'disabled'}>${isExam ? `${esc(ex.title)} starten` : `${src.title}${esc(topicTitle(topicsSel))} · ${n} Frage${n === 1 ? '' : 'n'} starten`}</button>
       </div>
       ${state.loading ? '<p class="load-note">Fragenkatalog wird geladen …</p>' : ''}
       ${state.loadError ? `<p class="load-note err">${esc(state.loadError)}</p>` : ''}
@@ -878,19 +902,25 @@ function importHistory(file){
 /* ---------- Bindings ---------- */
 function bind(){
   const $ = id => document.getElementById(id);
+  const $c = (name, fn) => document.querySelectorAll(`input[name="${name}"]`).forEach(fn);
   const change = (fn, focusSel) => e => { fn(e); saveSettings(); render(); const el = focusSel && document.querySelector(focusSel); el && el.focus(); };
   document.querySelectorAll('input[name="mode"]').forEach(r => r.onchange = change(() => settings.mode = r.value, `input[name="mode"][value="${r.value}"]`));
   document.querySelectorAll('input[name="exam"]').forEach(r => r.onchange = change(() => settings.exam = r.value, `input[name="exam"][value="${r.value}"]`));
   document.querySelectorAll('input[name="count"]').forEach(r => r.onchange = change(() => settings.count = Number(r.value), `input[name="count"][value="${r.value}"]`));
   $('optSim') && ($('optSim').onchange = change(e => (settings.mode === 'exam' ? settings.examOpts : settings.trainingOpts).sim = e.target.checked, '#optSim'));
   $('optShuffle') && ($('optShuffle').onchange = change(e => settings.examOpts.shuffle = e.target.checked, '#optShuffle'));
+  document.querySelectorAll('input[name="topic"]').forEach(r => r.onchange = change(() => {
+    const t = new Set(chosenTopics()); r.checked ? t.add(r.value) : t.delete(r.value);
+    settings.trainingOpts.topics = topicList().filter(x => t.has(x));
+  }, `input[name="topic"][value="${CSS.escape(r.value)}"]`));
+  $c('topicAll', r => r.onchange = change(() => settings.trainingOpts.topics = [], 'input[name="topicAll"]'));
   document.querySelectorAll('input[name="source"]').forEach(r => r.onchange = change(() => settings.trainingOpts.source = r.value, `input[name="source"][value="${r.value}"]`));
   $('reportBtn') && ($('reportBtn').onclick = () => downloadReport(state.session));
   $('backToProgress') && ($('backToProgress').onclick = showProgress);
   document.querySelectorAll('[data-run]').forEach(b => b.onclick = () => openRun(b.dataset.run));
   document.querySelectorAll('[data-run-report]').forEach(b => b.onclick = () => { const run = HISTORY.find(r => r.id === b.dataset.runReport); run && downloadReport(sessionFromRun(run)); });
   document.querySelectorAll('[data-pfilter]').forEach(b => b.onchange = () => { progressFilter[b.name] = b.value; render(); });
-  document.querySelectorAll('[data-train]').forEach(b => b.onclick = () => { settings.mode = 'training'; settings.trainingOpts.source = b.dataset.train; saveSettings(); state.view = 'start'; render(); window.scrollTo(0, 0); });
+  document.querySelectorAll('[data-train]').forEach(b => b.onclick = () => { settings.mode = 'training'; settings.trainingOpts.source = b.dataset.train; settings.trainingOpts.topics = []; saveSettings(); state.view = 'start'; render(); window.scrollTo(0, 0); });
   $('exportBtn') && ($('exportBtn').onclick = exportHistory);
   $('importBtn') && ($('importBtn').onclick = () => $('importFile').click());
   $('importFile') && ($('importFile').onchange = e => importHistory(e.target.files[0]));
