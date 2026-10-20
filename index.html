@@ -317,6 +317,16 @@ footer{max-width:1100px;margin:0 auto;padding:var(--space-6) var(--space-5);font
 .seg.small{display:inline-grid;grid-auto-flow:column;grid-template-columns:none;gap:var(--space-1)}
 .seg.small .seg-opt span{height:36px;padding:0 var(--space-3);font-weight:600;font-size:var(--text-xs)}
 .facts.four{grid-template-columns:repeat(4,1fr);margin-bottom:0}
+.facts.five{grid-template-columns:repeat(5,1fr);margin-bottom:0}
+.fact{position:relative}
+/* „?“ oben rechts in der Kachel; Abstand zum Rand wie das Kachel-Padding (oben etwas weniger, optisch auf Höhe der Zahl) */
+.tip{position:static}
+.tip-btn{position:absolute;top:var(--space-3);right:var(--space-3);width:20px;height:20px;border-radius:999px;border:1px solid var(--border);background:var(--surface-2);color:var(--text-muted);font-size:11px;font-weight:700;line-height:1;display:inline-grid;place-items:center;cursor:help;padding:0}
+.tip-btn:hover,.tip.open .tip-btn{border-color:var(--accent);color:var(--accent)}
+.fact:has(.tip) b{padding-right:var(--space-6)}
+.tip-text{display:none;position:absolute;left:var(--space-2);right:var(--space-2);top:calc(100% - var(--space-2));z-index:5;padding:var(--space-3);border-radius:var(--radius-sm);background:var(--text);color:var(--surface);font-size:var(--text-xs);line-height:1.45;box-shadow:0 8px 24px oklch(0% 0 0/.18);text-align:left}
+.fact span.tip-text{color:var(--surface)}
+.tip:hover .tip-text,.tip-btn:focus-visible + .tip-text,.tip.open .tip-text{display:block}
 .chart{width:100%;height:auto;display:block;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius)}
 .chart .grid{stroke:var(--border);stroke-width:1}
 .chart .axis{fill:var(--text-muted);font-size:11px;font-family:var(--font)}
@@ -342,6 +352,7 @@ footer{max-width:1100px;margin:0 auto;padding:var(--space-6) var(--space-5);font
 .card.empty,.card.backup{margin-top:var(--space-6)}
 .card.backup .nav{margin-top:var(--space-4)}
 @media (max-width:900px){
+  .facts.five{grid-template-columns:repeat(3,1fr)}
   .scen-panel{width:100%;left:0;border-left:0;box-shadow:none}
   body.scen-open{padding-right:0;overflow:hidden}
   .hero{grid-template-columns:1fr}
@@ -361,6 +372,8 @@ footer{max-width:1100px;margin:0 auto;padding:var(--space-6) var(--space-5);font
   .seg.cnt{grid-template-columns:repeat(4,1fr)}
   .seg.topic{grid-template-columns:repeat(2,1fr)}
   .facts.four{grid-template-columns:repeat(2,1fr)}
+  .facts.five{grid-template-columns:repeat(2,1fr)}
+  .facts.five .fact:last-child{grid-column:1/-1}
   .nav-btn span{display:none}
   .run-actions{width:100%}
   .run-actions .btn{flex:1;justify-content:center}
@@ -397,7 +410,7 @@ footer{max-width:1100px;margin:0 auto;padding:var(--space-6) var(--space-5);font
 <footer><span id="footSource"></span> PRINCE2® ist eine eingetragene Marke von PeopleCert. Diese interaktive Umsetzung dient ausschließlich dem persönlichen Lernen.</footer>
 
 <!-- Versionsparameter bei jeder Änderung an config.js bzw. app.js erhöhen: neue index.html lädt garantiert die passenden Dateien -->
-<script src="config.js?v=3"></script>
-<script src="app.js?v=3"></script>
+<script src="config.js?v=4"></script>
+<script src="app.js?v=4"></script>
 </body>
 </html>

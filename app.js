@@ -793,6 +793,9 @@ function progressChart(runs){
   </div>`;
 }
 
+/* Kleines „?“ mit Erklärung: erscheint beim Darüberfahren/Fokus (CSS) und beim Antippen (Klasse .open, siehe bind) */
+const tip = (id, label, text) => `<span class="tip"><button type="button" class="tip-btn" aria-label="Erklärung: ${esc(label)}" aria-expanded="false" aria-describedby="${id}" data-tip>?</button><span class="tip-text" role="tooltip" id="${id}">${esc(text)}</span></span>`;
+
 function viewProgress(){
   const notice = state.notice; state.notice = null;
   const backup = `<div class="card backup">
@@ -818,6 +821,11 @@ function viewProgress(){
   const runs = [...HISTORY].sort(byDate).filter(r =>
     (progressFilter.pmode === 'all' || r.mode === progressFilter.pmode) && (progressFilter.psim === 'all' || r.sim));
   const avg = runs.length ? Math.round(runs.reduce((a, r) => a + runPct(r), 0) / runs.length) : 0;
+  // Quote der beantworteten Fragen: gewichtet über alle Antworten der gefilterten Durchläufe (offene Fragen ausgeschlossen),
+  // damit ein kurzes Training nicht so viel zählt wie eine ganze Prüfung. „Bestanden“ und „Ø richtig“ bleiben bei der
+  // Prüfungsregel (offen = falsch).
+  const answeredAll = runs.flatMap(r => r.items.filter(x => x.a && BY_ID[x.id]));
+  const answeredOk = answeredAll.filter(x => isRight(BY_ID[x.id], x.a)).length;
   const passedN = runs.filter(runPassed).length;
   const seen = new Set(HISTORY.flatMap(r => r.items.filter(x => x.a).map(x => x.id)));
   const qst = questionStatus();
@@ -842,9 +850,12 @@ function viewProgress(){
     ${seg('pmode', progressFilter.pmode, [['all', 'Alle'], ['exam', 'Reale Prüfung'], ['training', 'Training']])}
     ${seg('psim', progressFilter.psim, [['all', 'Mit und ohne Simulation'], ['sim', 'Nur Simulation']])}
   </div>
-  <div class="facts four">
+  <div class="facts five">
     <div class="fact"><b>${runs.length}</b><span>Durchläufe</span></div>
-    <div class="fact"><b>${runs.length ? avg + ' %' : '–'}</b><span>Ø richtig</span></div>
+    <div class="fact"><b>${runs.length ? `Ø ${avg} %` : '–'}</b><span>(Prüfungswertung)${tip('tipExam', 'Prüfungswertung',
+      `Durchschnitt der Ergebnisse aller angezeigten Durchläufe. Unbeantwortete Fragen zählen als falsch – wie in der echten Prüfung. Danach richtet sich auch „bestanden“.`)}</span></div>
+    <div class="fact"><b>${answeredAll.length ? `Ø ${Math.round(answeredOk / answeredAll.length * 100)} %` : '–'}</b><span>(Trainingswertung)${tip('tipTrain', 'Trainingswertung',
+      `Anteil richtiger Antworten an allen beantworteten Fragen: ${answeredOk} von ${answeredAll.length}. Unbeantwortete Fragen bleiben außen vor – das zeigt den reinen Wissensstand, unabhängig von der Zeit.`)}</span></div>
     <div class="fact"><b>${passedN} / ${runs.length}</b><span>bestanden</span></div>
     <div class="fact"><b>${seen.size} / ${CATALOG.length}</b><span>Katalogfragen bearbeitet</span></div>
   </div>
@@ -932,6 +943,11 @@ function bind(){
   document.querySelectorAll('[data-go]').forEach(b => b.onclick = () => go(Number(b.dataset.go)));
   document.querySelectorAll('[data-flag]').forEach(b => b.onclick = toggleFlag);
   document.querySelectorAll('[data-scen]').forEach(b => b.onclick = () => setScen(!state.scenOpen));
+  document.querySelectorAll('[data-tip]').forEach(b => b.onclick = e => {
+    e.stopPropagation();
+    const open = !b.parentElement.classList.contains('open');
+    closeTips(); b.parentElement.classList.toggle('open', open); b.setAttribute('aria-expanded', open);
+  });
   document.querySelectorAll('[data-finish]').forEach(b => b.onclick = askFinish);
   document.querySelectorAll('[data-back]').forEach(b => b.onclick = () => { state.view = 'result'; render(); window.scrollTo(0, 0); });
   document.querySelectorAll('[data-review]').forEach(b => b.onclick = () => review(Number(b.dataset.review)));
@@ -943,6 +959,11 @@ function bind(){
   $('modalCancel') && ($('modalCancel').onclick = () => { state.modal = null; render(); });
   $('modalOk') && ($('modalOk').onclick = finish);
 }
+
+/* Offene Erklärungen schließen: Klick daneben oder Esc */
+function closeTips(){ document.querySelectorAll('.tip.open').forEach(t => { t.classList.remove('open'); t.querySelector('[data-tip]').setAttribute('aria-expanded', 'false'); }); }
+document.addEventListener('click', closeTips);
+document.addEventListener('keydown', e => { if(e.key === 'Escape') closeTips(); });
 
 /* Tastatur: A–F wählen (angezeigte Buchstaben der aktuellen Frage), Pfeile navigieren, Esc schließt das Szenario */
 document.addEventListener('keydown', e => {
