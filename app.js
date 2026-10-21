@@ -176,6 +176,7 @@ function newSession(){
   }
   return { mode: settings.mode, exam: settings.mode === 'exam' ? settings.exam : null, title, sim, shuffle, items,
            answers: {}, flags: new Set(), elapsed: 0,
+           pending: {},     // ohne Simulation: ausgewählt, aber noch nicht bestätigt (zählt als offen, wird nicht gespeichert)
            limit: sim ? Math.round(items.length * SECONDS_PER_QUESTION) : 0,   // 0 = Stoppuhr ohne Limit
            timeout: false };
 }
@@ -234,11 +235,20 @@ function start(){
   setScen(isDesktop() && settings.scenDesk, false);
 }
 function current(){ return state.session.items[state.pos]; }
+/* Simulation: Klick = Antwort (jederzeit änderbar, Feedback erst nach Abgabe).
+   Ohne Simulation: Klick = nur Auswahl (frei wechselbar); erst „Bestätigen“ wertet und zeigt die Begründung. */
 function choose(letter){
-  const s = state.session, item = current();
+  const s = state.session, item = current(), key = item.perm[LETTERS.indexOf(letter)];
   if(state.reviewMode) return;
-  if(s.answers[item.q.id] && !s.sim) return;     // ohne Simulation bleibt die erste Antwort stehen
-  s.answers[item.q.id] = item.perm[LETTERS.indexOf(letter)];
+  if(s.sim){ s.answers[item.q.id] = key; render(); return; }
+  if(s.answers[item.q.id]) return;               // bestätigte Antwort bleibt stehen
+  s.pending[item.q.id] = key;
+  render();
+}
+function confirmAnswer(){
+  const s = state.session, id = current().q.id;
+  if(state.reviewMode || s.sim || s.answers[id] || !s.pending[id]) return;
+  s.answers[id] = s.pending[id]; delete s.pending[id];
   render();
 }
 function go(pos){ state.pos = Math.max(0, Math.min(state.session.items.length - 1, pos)); render(); window.scrollTo({top: 0, behavior: 'smooth'}); }
@@ -598,6 +608,8 @@ function viewExam(){
   const hidden = s.sim && !state.reviewMode;           // Simulation: Lösung erst nach Abgabe
   const reveal = !hidden && (chosen || state.reviewMode);
   const locked = state.reviewMode || (chosen && !s.sim);
+  const awaiting = !s.sim && !state.reviewMode && !chosen;   // ohne Simulation: Frage noch nicht bestätigt
+  const picked = awaiting ? s.pending?.[q.id] : null;       // aktuelle, unbestätigte Auswahl
   const noun = s.mode === 'exam' ? 'Prüfung' : 'Übung';
 
   const options = item.perm.map((key, i) => {
@@ -605,11 +617,13 @@ function viewExam(){
     let cls = 'opt', tag = '';
     if(hidden){
       if(key === chosen){ cls += ' selected'; tag = 'Deine Antwort'; }
+    } else if(awaiting){
+      if(key === picked){ cls += ' selected'; tag = 'Ausgewählt'; }
     } else if(reveal){
       if(isRight(q, key)){ cls += ' correct'; tag = 'Richtige Antwort'; }
       else if(key === chosen){ cls += ' wrong'; tag = 'Deine Antwort'; }
     }
-    return `<button class="${cls}" data-choose="${L}" ${locked ? 'disabled' : ''} aria-pressed="${chosen === key}">
+    return `<button class="${cls}" data-choose="${L}" ${locked ? 'disabled' : ''} aria-pressed="${(chosen || picked) === key}">
       <span class="letter">${L}</span><span>${esc(q.opts[key])}</span>${tag ? `<span class="tag">${tag}</span>` : ''}
     </button>`;
   }).join('');
@@ -648,10 +662,11 @@ function viewExam(){
   const navBar = where => `<div class="nav ${where}">
         <button class="btn" data-nav="-1" ${state.pos === 0 ? 'disabled' : ''}>← Zurück</button>
         <button class="btn ${flagged ? 'flagged' : ''}" data-flag>${flagged ? '⚑ Markiert' : '⚐ Markieren'}</button>
+        ${awaiting ? `<button class="btn primary" data-confirm ${picked ? '' : 'disabled'} title="Antwort werten (Enter)">Bestätigen</button>` : ''}
         <span class="spacer"></span>
         ${state.reviewMode ? `<button class="btn" data-back>Zur Auswertung</button>` : ''}
         ${state.pos < total - 1
-          ? `<button class="btn primary" data-nav="1">Weiter →</button>`
+          ? (awaiting ? `<button class="btn" data-nav="1">Überspringen →</button>` : `<button class="btn primary" data-nav="1">Weiter →</button>`)
           : (state.reviewMode ? '' : `<button class="btn primary" data-finish>${noun} abgeben</button>`)}
       </div>`;
 
@@ -942,6 +957,7 @@ function bind(){
   document.querySelectorAll('[data-nav]').forEach(b => b.onclick = () => go(state.pos + Number(b.dataset.nav)));
   document.querySelectorAll('[data-go]').forEach(b => b.onclick = () => go(Number(b.dataset.go)));
   document.querySelectorAll('[data-flag]').forEach(b => b.onclick = toggleFlag);
+  document.querySelectorAll('[data-confirm]').forEach(b => b.onclick = confirmAnswer);
   document.querySelectorAll('[data-scen]').forEach(b => b.onclick = () => setScen(!state.scenOpen));
   document.querySelectorAll('[data-tip]').forEach(b => b.onclick = e => {
     e.stopPropagation();
@@ -965,7 +981,7 @@ function closeTips(){ document.querySelectorAll('.tip.open').forEach(t => { t.cl
 document.addEventListener('click', closeTips);
 document.addEventListener('keydown', e => { if(e.key === 'Escape') closeTips(); });
 
-/* Tastatur: A–F wählen (angezeigte Buchstaben der aktuellen Frage), Pfeile navigieren, Esc schließt das Szenario */
+/* Tastatur: A–F wählen (angezeigte Buchstaben der aktuellen Frage), Enter bestätigt (ohne Simulation), Pfeile navigieren, Esc schließt das Szenario */
 document.addEventListener('keydown', e => {
   if(state.view !== 'exam' || state.modal) return;
   if(e.target.closest && e.target.closest('input, textarea')) return;
@@ -973,6 +989,7 @@ document.addEventListener('keydown', e => {
   if(e.metaKey || e.ctrlKey || e.altKey) return;
   const k = e.key.toUpperCase();
   if(LETTERS.slice(0, current().perm.length).includes(k)) choose(k);
+  else if(e.key === 'Enter' && !state.session.sim && !state.reviewMode && state.session.pending?.[current().q.id]){ e.preventDefault(); confirmAnswer(); }
   else if(e.key === 'ArrowRight') go(state.pos + 1);
   else if(e.key === 'ArrowLeft') go(state.pos - 1);
 });
