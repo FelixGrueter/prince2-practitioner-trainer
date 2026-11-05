@@ -21,9 +21,7 @@
 <meta name="theme-color" content="#29bca3">
 <!-- Passwortgeschützt: nicht in Suchmaschinen aufnehmen (Link-Vorschau oben funktioniert trotzdem) -->
 <meta name="robots" content="noindex, nofollow">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="fonts/fonts.css">
 <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16.png">
@@ -694,7 +692,7 @@ header{background:color-mix(in srgb,var(--bg) 92%,transparent)}
 <script>
 (() => {
   // Versionsparameter bei jeder Änderung an config.js bzw. app.js erhöhen: neue index.html lädt garantiert die passenden Dateien
-  const V = '?v=53', KEY = 'p2p-unlock', LOCK = 'p2p-gate', TRIES = 3, LOCK_MS = 24 * 3600 * 1000;
+  const V = '?v=54', KEY = 'p2p-unlock', LOCK = 'p2p-gate', TRIES = 3, LOCK_MS = 24 * 3600 * 1000;
   const $ = id => document.getElementById(id), form = $('gateForm'), err = $('gateErr'), btn = $('gateBtn');
   const rest = [...document.querySelectorAll('body > header, body > main, body > aside, body > footer')];
   rest.forEach(e => e.inert = true);

@@ -1,0 +1,3 @@
+Schriften in diesem Ordner: Figtree und Montserrat (Google Fonts).
+Lizenz: SIL Open Font License, Version 1.1 – https://openfontlicense.org
+Bezugsquelle: Google Fonts (fonts.googleapis.com), lokal abgelegt, damit keine Verbindung zu Google nötig ist.

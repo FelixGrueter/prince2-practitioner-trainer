@@ -1166,7 +1166,7 @@ function viewProgress(){
       <span class="run-main"><b>${esc(r.title)}</b>
         <small>${fmtDate(r.date)} · ${r.score}/${r.total} richtig · ${runPassed(r) ? 'bestanden' : 'nicht bestanden'} · ${fmt(r.elapsed)} min${r.sim ? ' · Simulation' : ''}${r.timeout ? ' · Zeit abgelaufen' : ''}</small></span>
       ${r.items.some(x => BY_ID[x.id])
-        ? `<span class="run-actions"><button class="btn" data-run="${r.id}">Ansehen</button><button class="btn" data-run-report="${r.id}" aria-label="Bericht herunterladen">⤓ Bericht</button></span>`
+        ? `<span class="run-actions"><button class="btn" data-run="${esc(r.id)}">Ansehen</button><button class="btn" data-run-report="${esc(r.id)}" aria-label="Bericht herunterladen">⤓ Bericht</button></span>`
         : `<small class="run-actions">Fragen nicht mehr im Katalog<br>(ersetzte Fassung)</small>`}
     </div>`).join('')}</div>
 
@@ -1215,6 +1215,19 @@ function saveBackup(){
   }
   download(name, json, 'application/json'); done();
 }
+/* Importierte Durchläufe prüfen: nur erwartete Typen übernehmen, damit eine manipulierte Datei nichts einschleusen kann (Protokoll, Befund 1) */
+const SAFE_ID = /^[a-z0-9]{1,40}$/i;
+function cleanRun(r){
+  if(!r || typeof r !== 'object' || typeof r.id !== 'string' || !SAFE_ID.test(r.id) || typeof r.date !== 'string' || !Array.isArray(r.items)) return null;
+  const nonNeg = v => Number.isFinite(v) && v >= 0;
+  if(!Number.isInteger(r.total) || r.total <= 0 || !Number.isInteger(r.score) || r.score < 0 || r.score > r.total) return null;
+  if(!nonNeg(r.elapsed) || (r.limit != null && !nonNeg(r.limit))) return null;
+  const items = r.items.filter(x => x && typeof x.id === 'string' && typeof x.perm === 'string' && (x.a == null || typeof x.a === 'string'))
+    .map(x => ({ id: x.id, perm: x.perm, a: x.a ?? null, f: x.f ? 1 : 0 }));
+  return { id: r.id, date: r.date, mode: String(r.mode ?? ''), exam: typeof r.exam === 'string' ? r.exam : null, title: String(r.title ?? ''),
+    sim: !!r.sim, shuffle: !!r.shuffle, limit: r.limit ?? null, elapsed: r.elapsed, timeout: !!r.timeout,
+    total: r.total, score: r.score, items };
+}
 function loadBackup(file){
   if(!file) return;
   let restore = null;
@@ -1224,7 +1237,7 @@ function loadBackup(file){
     if(!Array.isArray(data) && data.app && data.app !== CFG.appId) throw new Error(`Datei stammt aus „${data.app}“, nicht aus dieser App`);
     const runs = Array.isArray(data) ? data : data.runs;
     if(!Array.isArray(runs)) throw new Error('keine Durchläufe gefunden');
-    const valid = runs.filter(r => r && typeof r.id === 'string' && typeof r.date === 'string' && Array.isArray(r.items) && r.total > 0);
+    const valid = runs.map(cleanRun).filter(Boolean);
     const known = new Set(HISTORY.map(r => r.id));
     const fresh = valid.filter(r => !known.has(r.id));
     HISTORY = [...HISTORY, ...fresh];
